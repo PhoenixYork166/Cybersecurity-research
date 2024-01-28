@@ -17,8 +17,10 @@
 ## Please ONLY run these scripts on your victims, NOT your good selves...
 ##
 ## Best Practices:
-## Launching these with encrypted SSH tunnels / cmd.exe to encapsulate PowerShell on your victims
-## Thus, no one can trace => find out what the fuck you did to them...
+## Launching these shit with encrypted SSH tunnels
+## Encapsulate these maliacious payloads using cmd.exe => Powershell.exe -command "maliciousPayload1 && maliciousPayload2"
+## Grab an Ansible Tower => Enumerate a user for Privilege Escalation => using "commands" to bypass artifactory code screening
+## Thus, no one can easily trace what the heck you did to them
 ##
 ## If you persist doing these crazy shit without formal permissions
 ## I hope you do NOT get caught...
