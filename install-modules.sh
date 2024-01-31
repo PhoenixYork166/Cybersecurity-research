@@ -20,6 +20,7 @@ modules=(
     'scapy'
     'idlex'
     'ipcalc'
+    'auto-py-to-exe'
 )
 
 for module in ${modules[@]};
