@@ -3,7 +3,8 @@
 ![V for vendetta](https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg)
 
 ## !!!! This repo does NOT encourage unethical hacktivism !!!!!!
-##
+## !!!! My Cybersecurity Mentor Jimmy did NOT teach me this !!!!
+## 
 ## This repo is for learning & professional development purposes
 ## 
 ## Rule 1:
