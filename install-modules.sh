@@ -16,6 +16,7 @@ modules=(
     'scipy'
     'scapy'
     'idlex'
+    'ipcalc'
 )
 
 for module in ${modules[@]};
