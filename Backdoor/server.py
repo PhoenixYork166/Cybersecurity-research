@@ -10,7 +10,7 @@ def reliable_send(data):
     target.send(json_data.encode())
 
 def reliable_recv():
-    # Pre
+    # Preparing to store json_data as bytes
     json_data = b''
     # To allow us run Backdoor until out of bytes
     # Instead of just 1024 bytes

