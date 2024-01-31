@@ -22,7 +22,7 @@
 ##
 ## Best Practices:
 ## Approach 1
-## Find a way to disable targets' Windows Virus & thread protection
+## Find a way to disable targets' Windows Virus & threat protection
 ##
 ## Convert .py to .exe
 ## git clone https://github.com/brentvollebregt/auto-py-to-exe.git
@@ -49,11 +49,11 @@
 ## Thus, no one can easily trace what the heck you did to them
 ##
 ## If you persist doing these crazy shit without formal permissions
-## I hope you do NOT get caught & go to jail...
+## I hope you do NOT get caught & NOT go to jail...
 ##
 ## Do NOT blame this repository owner
 ## This repository owner NEVER suggests hacktivism
-## This repository owner suggests continuous learning & defending by mimincking why & how malicious hackers portrait their skills
+## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portray their supreme skills
 ##
 ## ============================================
 ## Usage
