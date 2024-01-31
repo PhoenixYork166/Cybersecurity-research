@@ -56,6 +56,16 @@
 ## 
 ## ============================================
 ## Ransomware:
+##
+## On Victim's machine => Disable Virus & threat protection
+## Edit settings => Disable all
+## 
+## Or you may research the theory on how files' metadata hash is
+## used in anti-virus scanning virus & 
+## Create your own way to bypass Anti-virus e.g. Checkpoint ;)
+## https://usa.kaspersky.com/resource-center/threats/combating-antivirus
+##
+##
 ## cd Unethical-Hacking-Tools &&
 ## Edit the listening server IP in server.py in line 11 
 ## to your attacker machine IP
