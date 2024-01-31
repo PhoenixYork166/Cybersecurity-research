@@ -20,8 +20,8 @@
 ## Best Practices:
 ## Launching these shit using encrypted SSH tunnels
 ## 
-## Encapsulate these maliacious payloads on Windows/ Liux using: 
-## 
+## Encapsulate these maliacious payloads on Windows/ Linux using: 
+## Fileless malicious payloads
 ## Windows => open cmd.exe:
 ## cmd terminal type:
 ## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4"
