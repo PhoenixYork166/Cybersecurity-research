@@ -11,6 +11,8 @@ modules=(
     'pytest-cov'
     'selenium'
     'retry'
+    'requests'
+    'psutil'
     'metplotlib'
     'scikit-learn'
     'jedi'

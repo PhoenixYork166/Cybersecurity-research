@@ -6,9 +6,10 @@ from string import ascii_lowercase
 
 # Create TCP socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+IP_ADDRESS = '127.0.0.1'
 port = 1337
 # Listen on localhost port 1337
-s.bind(("127.0.0.1", port))
+s.bind((IP_ADDRESS, port))
 
 # Queue up to 5 requests
 s.listen(5)
