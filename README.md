@@ -41,10 +41,13 @@
 ## This repository owner NEVER suggests hacktivism
 ## This repository owner suggests continuous learning & defending by mimincking why & how malicious hackers portrait their skills
 ##
+## ============================================
 ## Usage
 ## Ransomware:
 ## cd Unethical-Hacking-Tools &&
-## Edit the listening server IP to your attacker machine IP
+## Edit the listening server IP in server.py in line 11 
+## to your attacker machine IP
+## 
 ## Run the server.py to start listening
 ## python ./Ransomware/server.py;
 ##
@@ -60,6 +63,8 @@
 ## to decrypt the locked files
 ##
 ## You may change the path for encryption where the encryption script runs at
+##
+## ============================================
 ##
 ## Never store this kind of stuff on your/your victims PCs
 ## Otherwise, you go to jail...
