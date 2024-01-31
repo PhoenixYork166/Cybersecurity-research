@@ -1,5 +1,6 @@
 #!/bin/bash
 modules=(
+    'bs4'
     'all_packages'
     'colorama'
     'docopt'

