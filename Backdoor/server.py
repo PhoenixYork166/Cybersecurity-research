@@ -63,7 +63,7 @@ def server():
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # Binding to a port
-    IP_ADDRESS = '127.0.0.1'
+    IP_ADDRESS = '192.168.31.138'
     port = 54321
     print(f'Binding port: {port}...\n')
     s.bind((IP_ADDRESS, port))

