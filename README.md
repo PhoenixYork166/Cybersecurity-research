@@ -21,25 +21,14 @@
 ## Please ONLY run these scripts on your victims, NOT your good selves...
 ##
 ## Best Practices:
-## Approach 1
-## Find a way to disable targets' Windows Virus & thread protection
-##
-## Convert .py to .exe
-## git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-## python ./auto-py-to-exe/run.py
-##
-## Use your creativity to make these crazy stuff useable
-##
-## OR
-##
-## Use pyinstaller to convert .py to .exe
-## python -m pip install pyinstaller --user root;
+## Use Python compiler cx_Freeze
 ## 
-## Compiling a single .py file:
-## python -m pyinstaller single.py;
+## Installing cx_Freeze
+## python -m pip install cx_Freeze --user IGS;
 ##
-## Compiling a lib
-## python -m pyinstaller main.py --onefile;
+## Compiling a single .py file:
+## python -m cx_Freeze single.py;
+##
 ##
 ## Approach 2
 ## Launching these shit using encrypted SSH tunnels
