@@ -1,13 +1,16 @@
 #!/bin/bash
 
 # -L
-nameList='/usr/share/wordlists/metasploit/namelist.txt';
+#nameList='/usr/share/wordlists/metasploit/namelist.txt';
+nameList='/usr/share/brutex/wordlists/namelist.txt';
+#nameList='/usr/share/dnsrecon/namelist.txt';
+#nameList='/usr/share/sniper/plugins/BruteX/wordlists/namelist.txt';
 
 # -P
-#wordList='/usr/share/wordlists/rockyou.txt';
-#wordList='/usr/share/brutex/wordlists/namelist.txt';
-#wordList='/usr/share/dnsrecon/namelist.txt';
-wordList='/usr/share/sniper/plugins/BruteX/wordlists/namelist.txt';
+wordList='/usr/share/wordlists/rockyou.txt';
+#nameList='/usr/share/brutex/wordlists/namelist.txt';
+#nameList='/usr/share/dnsrecon/namelist.txt';
+#nameList='/usr/share/sniper/plugins/BruteX/wordlists/namelist.txt';
 
 # sudo password
 #read -p "Enter sudo password: " -r -s sudo_passwd;
