@@ -21,6 +21,7 @@
 ## Please ONLY run these scripts on your victims, NOT your good selves...
 ##
 ## Best Practices for compiling malware to .exe:
+## Approach 1:
 ## Use Python compiler cx_Freeze
 ## Reside the .exe & .dll to your targets
 ## Gain persistency using Registry keys in Windows
@@ -73,7 +74,7 @@
 ##
 ## Do NOT blame this repository owner
 ## This repository owner NEVER suggests hacktivism
-## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portrait their skills
+## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portray their skills
 ##
 ## ============================================
 ## Usage
