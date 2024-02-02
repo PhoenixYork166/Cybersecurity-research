@@ -33,7 +33,7 @@
 ##
 ## Approach 2
 ## Use Python compiler pyinstaller
-## python -m pyinstall single.py --onefile --noconsole;
+## python -m pyinstaller single.py --onefile --noconsole;
 ## Reside the only .exe to your targets
 ## Gain persistency using Registry keys in Windows
 ##
