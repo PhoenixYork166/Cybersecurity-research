@@ -6,7 +6,7 @@
 # Max. sessions = 100 for a 16CPU +　16GB RAM VM
 
 # You may try out this Multiplexer on a super-computer :D
-script='./1n3Sniper.sh';
+script='./hping3.sh';
 
 # Trial & Error tested
 # maximum of 100 sessions can be handled by a 16 CPU + 16GB RAM VM
