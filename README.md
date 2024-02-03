@@ -80,7 +80,17 @@
 ## 
 ## Windows => open cmd.exe:
 ## cmd terminal type:
-## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4"
+## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
+##
+## Hands-on example
+## Please try:
+## open cmd.exe
+## powershell.exe -windowStyle hidden -command "$telnet = test-netConnection -computerName 127.0.0.1 -port 8080; $telnet | Out-File -FilePath .\telnet.txt -Encoding utf8;"
+## 
+## To verify whether telnet.txt comes up
+## ls | findstr telnet
+##
+## You see? This Fileless technique can even run Telnet without enabling Telnet on your Windows ;)
 ##
 ## Linux:
 ## Bash terminal:
