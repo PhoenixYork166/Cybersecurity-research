@@ -124,7 +124,10 @@
 ## Edit the namelists & wordlists used for hydra
 ## Edit the namelists & wordlists used for 1N3/Sn1per
 ## 
-## Multiplexing your Brute-forcing scripts using TMUX
+# Multiplexer = A Mux serves as an Amplifier to condense your fire-power
+## TMUX = A Mux to multiplex your single Brute-forcing script into 100 terminals of concurrent bash sessions to run the single Bash script :D
+![Multiplexer](https://www.electrical4u.com/wp-content/uploads/What-is-a-Multiplexer.png)
+## 
 ## Edit scripts path & session number for concurrent attacks
 ## in fire-superiority-hydra.sh && fire-superiority-sniper.sh
 ## 
