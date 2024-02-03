@@ -8,7 +8,7 @@
 ## The Purposes
 ## I'm working as an IT user of a Web Application Firewall in my company
 ![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
-## I have formal permissions and associated priviledge to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
+## I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
 ## 
 ## If you're also undertaking such obligations to test a Web App Firewall, please enjoy the learning process! :D
 ## Cuz this experience is invaluable :D
