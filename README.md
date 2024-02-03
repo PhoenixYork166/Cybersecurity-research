@@ -134,7 +134,7 @@
 ## once at a given time to avoid crashing your Kali Linux
 ## Aim well & make it count ;)
 ## 
-## ================== Python ====================
+## ======== Python
 ## Usage
 ## Python Dependencies
 ## bash install-modules.sh
@@ -147,8 +147,7 @@
 ## Backdoor Server:
 ## Use your creativity to host server.py in somewhere safe ;)
 ## 
-## ============================================
-## Ransomware:
+## ======== Ransomware:
 ##
 ## On Victim's machine => Disable Virus & threat protection
 ## Edit settings => Disable all
