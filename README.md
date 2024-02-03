@@ -21,7 +21,14 @@
 ## Please ONLY run these scripts on your victims, NOT your good selves...
 ##
 ## Best Practices for compiling malware to .exe:
-## Use Python compiler cx_Freeze
+##
+## Approach 1 Use Python compiler pyinstaller
+## python -m pyinstall single.py --onefile --noconsole;
+## Reside the only .exe to your targets
+## Gain persistency using Registry keys in Windows
+##
+##
+## Approach 2 Use Python compiler cx_Freeze
 ## Reside the .exe & .dll to your targets
 ## Gain persistency using Registry keys in Windows
 ## 
@@ -31,11 +38,6 @@
 ## Compiling a single .py file:
 ## python -m cx_Freeze single.py;
 ##
-## Approach 2
-## Use Python compiler pyinstaller
-## python -m pyinstall single.py --onefile --noconsole;
-## Reside the only .exe to your targets
-## Gain persistency using Registry keys in Windows
 ##
 ## Approach 3
 ## Fileless hacking
@@ -51,7 +53,7 @@
 ## Bash terminal:
 ## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
 ## python ./virus.py &&
-## rm -rf tempDir/virus.py
+## rm -rf ./virus.py
 ## 
 ## Approach 4
 ## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "commands" entry to bypass artifactory code screening with using a playbook
@@ -64,7 +66,7 @@
 ## Bash terminal:
 ## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
 ## python ./virus.py &&
-## rm -rf tempDir/virus.py
+## rm -rf ./virus.py
 ##
 ## Thus, no one can easily trace what the heck you did to them
 ##
@@ -75,9 +77,43 @@
 ## This repository owner NEVER suggests hacktivism
 ## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portrait their skills
 ##
-## ============================================
+## ================= Bash ===================
 ## Usage
-## Dependencies
+## Install Kali Linux
+## https://www.kali.org/
+## If you have a Networking background
+## Download => Virtual Machines
+## Select your Virtualization environment
+## VMware / VirtualBox / Hyper-V
+## Get ISO images 
+## https://www.kali.org/get-kali/#kali-installer-images
+##
+## If you have a Programming background
+## get Containers (Docker/LXC/LXD) 
+## https://www.kali.org/get-kali/#kali-containers
+## apt update && apt -y install kali-linux-headless
+## apt update && apt -y install kali-linux-large
+## docker pull kalilinux/kali-rolling
+##
+## ================== Kali Linux ================
+## Upon fresh installation of an ISO image on VMware
+## You need to update && upgrade Kali repository
+##
+## Step 1 Update expired Kali keys on base-build image
+## sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;
+## 
+## Step 2 Update Kali.org Repository to start using HTTPS
+## sudo vim /etc/apt/sources.list;
+## 
+## Step 3 APT update & upgrade
+## sudo apt update && apt -y upgrade;
+## 
+## Step 4 Clean up APT after updating & upgrading to Kali repo
+## sudo apt autoremove -y;
+## 
+## ================== Python ====================
+## Usage
+## Python Dependencies
 ## bash install-modules.sh
 ##
 ## ============================================
