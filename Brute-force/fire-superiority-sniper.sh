@@ -12,6 +12,32 @@ script='./1n3Sniper.sh';
 # maximum of 100 sessions can be handled by a 16 CPU + 16GB RAM VM
 sessions=100;
 
+# Asynchronous / Concurrent HTTP requests flooding
+# 5 Flooding synchronously
+# Flood 1
+for ((i=0; i<$sessions; i++));
+do
+    tmux new-session -d -s "session${i}" "bash ${script}";
+done
+
+# Flood 2
+for ((i=0; i<$sessions; i++));
+do
+    tmux new-session -d -s "session${i}" "bash ${script}";
+done
+
+# Flood 3
+for ((i=0; i<$sessions; i++));
+do
+    tmux new-session -d -s "session${i}" "bash ${script}";
+done
+
+# Flood 4
+for ((i=0; i<$sessions; i++));
+do
+    tmux new-session -d -s "session${i}" "bash ${script}";
+done
+# Flood 5
 for ((i=0; i<$sessions; i++));
 do
     tmux new-session -d -s "session${i}" "bash ${script}";
