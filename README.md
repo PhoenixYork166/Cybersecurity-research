@@ -111,7 +111,10 @@
 ## Step 4 Clean up APT after updating & upgrading to Kali repo
 ## sudo apt autoremove -y;
 ## 
-## ================== Bash   ====================
+## ================== Brute-forcing + Concurrent DoS using Bash  ====================
+![The Other Side of the Sea](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
+https://lotuscomic.com/wp-content/uploads/2022/03/%E6%B5%B7%E7%9A%84%E5%8F%A6%E4%B8%80%E7%AB%AF.jpg
+![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
 ## Use Bash scripts in ./Malware-Dev/Brute-force
 ## Install apt dependencies
 ## chmod +x ./install.sh && bash install.sh;
