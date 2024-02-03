@@ -112,7 +112,7 @@
 ## sudo apt autoremove -y;
 ## 
 ## ================== Brute-forcing + Concurrent DoS using Bash  ====================
-![The Other Side of the Sea](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
+![The Other Side of the Sea](https://pic2.zhimg.com/v2-bbc4bed3cdbd6caa3f2e2979a5c1e401_b.jpg)
 ##
 ![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
 ## Use Bash scripts in ./Malware-Dev/Brute-force
