@@ -125,6 +125,12 @@
 ## Edit scripts path & session number for concurrent attacks
 ## in fire-superiority-hydra.sh && fire-superiority-sniper.sh
 ## 
+## Best Practices
+## You should only do
+## bash fire-superiorty-hydra.sh
+## once at a given time to avoid crashing your Kali Linux
+## Aim well & make it count ;)
+## 
 ## ================== Python ====================
 ## Usage
 ## Python Dependencies
