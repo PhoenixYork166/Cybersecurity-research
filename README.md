@@ -38,15 +38,24 @@
 ## Best Practices for compiling malware to .exe:
 ![Python compilers](https://cdn.educba.com/academy/wp-content/uploads/2019/06/python-compilers.jpg)
 ## 
-## Approach 1 Use Python compiler pyinstaller
+## Approach 1 
+## Use Python compiler pyinstaller
+![pyinstaller](https://i.ytimg.com/vi/bubZ5Cxaybg/maxresdefault.jpg)
 ## python -m pyinstall single.py --onefile --noconsole;
 ## Reside the only .exe to your targets
 ## Gain persistency using Registry keys in Windows
+## in your python code
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
 ##
 ## Approach 2 Use Python compiler cx_Freeze
-## Reside the .exe & .dll to your targets
+![cx_Freeze compiler](https://i.ytimg.com/vi/HVigruKph74/maxresdefault.jpg)
+## This cx_Freeze compiler compiles .py files
+## to 2 .dll and 1 .exe files
+## 
+## Reside the .exe & .dll to your targets by whatever creative means you can imagine
+## 
 ## Gain persistency using Registry keys in Windows
+## using Python code
 ## 
 ## Installing cx_Freeze
 ## python -m pip install cx_Freeze --user IGS;
@@ -55,12 +64,20 @@
 ## python -m cx_Freeze single.py;
 ##
 ##
-## Approach 3
-## Fileless hacking
-## Launching all these crazy shit using encrypted SSH tunnels
+## Approach 3 - Fileless hacking
+## Launching all these crazy shit using PowerShell Fileless hacking techniques
+![PS Fileless Hacking](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
+![PS Fileless Hacking](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
+![Fileless Hacking](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
+## Fileless hacking with Bash via encrypted SSH tunnels using similar techniques as PowerShell
+## The Phantom attacks
+![Phantom attacks](https://i.ytimg.com/vi/xZtPFCHip0Y/maxresdefault.jpg)
+## Encapsulated maliacious payloads on Windows/ Linux using: 
+## To bypass PowerShell Execution-Policy & PS-Remoting settings :D
+![Bypass PS Exec Policy](https://www.top-password.com/blog/wp-content/uploads/2018/09/Set-ExecutionPolicy.png)
+## As most of us are using Win10/11 in 2024 :D
+## PowerShell becomes the default runtime on our Windows :D
 ## 
-## Encapsulate these maliacious payloads on Windows/ Linux using: 
-## Fileless malicious payloads
 ## Windows => open cmd.exe:
 ## cmd terminal type:
 ## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4"
