@@ -10,6 +10,7 @@
 ![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
 ## I have formal permissions and associated priviledge to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
 ## 
+## A Web Application Firewall looks like:
 ![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
 ## Thus, I have the obligation & rights to proof such a WAF is effective
 ##
