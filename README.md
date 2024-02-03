@@ -10,6 +10,9 @@
 ![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
 ## I have formal permissions and associated priviledge to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
 ## 
+## If you're also undertaking such obligations to test a Web App Firewall, please enjoy the learning process! :D
+## Cuz this experience is invaluable :D
+## 
 ## A Web Application Firewall looks like:
 ![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
 ## Thus, I have the obligation & rights to proof such a WAF is effective
@@ -20,7 +23,6 @@
 ##
 ## If you do NOT follow rules below, YOU GO TO JAIL ;)
 ![Jail](https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/Can-You-Go-to-Jail-for-Debt_-1400x700-1.jpg.optimal.jpg)
-## If you're also undertaking obligations and enjoying the associated priviledge to launch Cyber attacks on a Web Application Firewall provided by your company, then congrats ;)
 ##
 ## Rule 1:
 ## Ask your victims for permissions before doing any of these
