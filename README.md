@@ -77,7 +77,7 @@
 ## This repository owner NEVER suggests hacktivism
 ## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portrait their skills
 ##
-## ================= Bash ===================
+## ================= Usage ===================
 ## Usage
 ## Install Kali Linux
 ## https://www.kali.org/
@@ -110,6 +110,20 @@
 ## 
 ## Step 4 Clean up APT after updating & upgrading to Kali repo
 ## sudo apt autoremove -y;
+## 
+## ================== Bash   ====================
+## Use Bash scripts in ./Malware-Dev/Brute-force
+## Install apt dependencies
+## chmod +x ./install.sh && bash install.sh;
+## 
+## Brute-forcing with Hydra
+## Edit hydra.sh OR 1n3sniper.sh
+## Edit the namelists & wordlists used for hydra
+## Edit the namelists & wordlists used for 1N3/Sn1per
+## 
+## Multiplexing your Brute-forcing scripts using TMUX
+## Edit scripts path & session number for concurrent attacks
+## in fire-superiority-hydra.sh && fire-superiority-sniper.sh
 ## 
 ## ================== Python ====================
 ## Usage
