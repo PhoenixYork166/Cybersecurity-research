@@ -148,7 +148,7 @@
 ## Use your creativity to host server.py in somewhere safe ;)
 ## 
 ## ======== Ransomware:
-##
+![V](https://www.eyeforfilm.co.uk/images/newsite/V_for_Vendetta_600.jpg)
 ## On Victim's machine => Disable Virus & threat protection
 ## Edit settings => Disable all
 ## 
