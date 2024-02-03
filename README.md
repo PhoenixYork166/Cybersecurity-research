@@ -112,7 +112,7 @@
 ## sudo apt autoremove -y;
 ## 
 ## ======== Brute-forcing + Concurrent DoS using Bash
-![The Other Side of the Sea](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
+![AOT](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
 ##
 ![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
 ## Use Bash scripts in ./Malware-Dev/Brute-force
@@ -128,6 +128,19 @@
 ## TMUX = A Mux to multiplex your single Brute-forcing script into 100 terminals of concurrent bash sessions to run the single Bash script :D
 ![Multiplexer](https://www.electrical4u.com/wp-content/uploads/What-is-a-Multiplexer.png)
 ## 
+## Namelists & Wordlists
+## Making larger namelists & wordlists:
+
+# list path
+## namelist='/usr/share/dnsrecon/namelist.txt';
+## get list content
+## content=$(cat $namelist);
+
+## echo same list content to the same list itself to make a longer attack list
+## echo $content >> $namelist;
+## 
+# To check whether the list has grown
+## ls -la /usr/share/dnsrecon | grep namelist.txt;
 ## Edit scripts path & session number for concurrent attacks
 ## in fire-superiority-hydra.sh && fire-superiority-sniper.sh
 ## 
