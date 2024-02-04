@@ -102,12 +102,14 @@
 ## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening with using a playbook
 ![Hacking w/ Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/_images/ad-hoc-commands-inventory-run-command.png)
 ## Send Fileless malicious payloads
-## ARGUMENTS type:
+## Modules => Select win_command
+## ARGUMENTS:
 ## powershell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
 ##
 ## Hands-on example
 ## Please try:
-## in ARGUMENTS entry tab:
+## modules: select win_cmd
+## in ARGUMENTS:
 ## powershell.exe -windowStyle hidden -command "$telnet = test-netConnection -computerName 127.0.0.1 -port 8080; $telnet | Out-File -FilePath C:\temp\telnet.txt -Encoding utf8;"
 ##
 ## Verify by Ansible "ARGUMENTS" tab:
