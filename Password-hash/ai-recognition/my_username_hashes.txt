@@ -1,0 +1,6 @@
+testing:$2a$10$uCj0y2KZpwXjUnwxiV7WsuUxVLIle3oBPk/kICu6N4pJdufN.pRdW
+peter:$2a$10$jChx3v6cfjpAzi/AEmSg.ew2bTvT64KV59Ojt4kWvWEL7YBlVnvOW
+testone:$2a$10$2jvItRy3u42yOiYhtCWWYOtH0c75DuyB6RkbHcKptTlmp9n/P6IYm
+hello2:$2a$10$yfRN1HGyo.zgOQ9tcdRT2uDMD731DhgAppVWr5AB0utbhbCNL8VQS
+test:$2a$10$8BAtz2XhFXdzpHF56qz.X.8/0M988O3pc6EKb3C17PvnBdNQrqjJO
+password:$2a$10$kRHGf4qhy2SjjpDr6G5Aa.oe4YH76W/4dbw09/2db/0CDbv29JqTK
