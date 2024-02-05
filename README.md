@@ -126,7 +126,7 @@
 ##
 ## Do NOT blame this repository owner
 ## This repository owner NEVER suggests hacktivism
-## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portrait their skills
+## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portray their skills
 ##
 ## ======= Knowledge Pre-requisites
 ## Networking knowledge TCP/IP Illustrated vol.1
