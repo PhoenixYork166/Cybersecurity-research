@@ -1,0 +1,2 @@
+SHA512 https://sha512.online/
+MD5 https://www.md5hashgenerator.com/
