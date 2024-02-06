@@ -2,7 +2,8 @@
 
 # -L
 #nameList='/usr/share/wordlists/metasploit/namelist.txt';
-nameList='/usr/share/brutex/wordlists/namelist.txt';
+#nameList='/usr/share/brutex/wordlists/namelist.txt';
+nameList='/usr/share/wordlists/rockyou.txt';
 #nameList='/usr/share/dnsrecon/namelist.txt';
 #nameList='/usr/share/sniper/plugins/BruteX/wordlists/namelist.txt';
 

