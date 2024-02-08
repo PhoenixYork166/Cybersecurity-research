@@ -55,4 +55,5 @@ def main():
 
 # Check if the script is being run as the main program
 if __name__ == "__main__":
-    main()
+    while True:
+        main()

