@@ -20,25 +20,3 @@ do
     tmux new-session -d -s "session${i}" "bash ${script}";
 done
 
-# Flood 2
-for ((i=0; i<$sessions; i++));
-do
-    tmux new-session -d -s "session${i}" "bash ${script}";
-done
-
-# Flood 3
-for ((i=0; i<$sessions; i++));
-do
-    tmux new-session -d -s "session${i}" "bash ${script}";
-done
-
-# Flood 4
-for ((i=0; i<$sessions; i++));
-do
-    tmux new-session -d -s "session${i}" "bash ${script}";
-done
-# Flood 5
-for ((i=0; i<$sessions; i++));
-do
-    tmux new-session -d -s "session${i}" "bash ${script}";
-done

