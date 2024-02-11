@@ -126,6 +126,7 @@ https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ## This technique is extremely useful to wear your black hat in a strict Enterprise environment ;)
 ## NOT many in-house Cybersecurity professionals have to know-how to catch you ;)
 ![Catch me if you can ;)](https://cdn.theasc.com/Catch-Me-If-You-Can-Featured.jpg)
+![Leonardo](https://i.pinimg.com/564x/a8/7b/87/a87b8795a17bf841cba6e7dca959a4c5.jpg)
 ## 
 ## Hands-on example
 ## Please try:
