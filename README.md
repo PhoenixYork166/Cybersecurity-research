@@ -147,7 +147,7 @@ https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
 ## Exploit DevOps' laziness will necessarily give you an extra edge as a Black Hat
 ## 
-## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening with using a playbook
+## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening without using a god-damned .yml playbook
 ![Hacking w/ Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/_images/ad-hoc-commands-inventory-run-command.png)
 ##
 ## Send Fileless malicious payloads using Ansible Tower
