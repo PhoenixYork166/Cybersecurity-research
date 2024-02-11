@@ -67,6 +67,8 @@ https://www.youtube.com/watch?v=CW0Mf9qGBOc&t=117s
 ![SPT attack](https://cdn.networklessons.com/wp-content/uploads/2014/10/spanning-tree-mitm.png)
 ## Theory
 https://www.youtube.com/watch?v=japdEY1UKe4
+## Journals
+https://notes.networklessons.com/stp-root-bridge-selection
 ## 
 ## TCP Syn flooding illustrated
 ![Sync Flood](https://purplesec.us/wp-content/uploads/2019/07/SNY-attack-cyber-attack.png)
