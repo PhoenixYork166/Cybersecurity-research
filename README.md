@@ -98,19 +98,26 @@ https://www.youtube.com/watch?v=6vg5JlQhHgo
 ![PS Fileless Hacking](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
 ![PS Fileless Hacking](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
 ![Fileless Hacking](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
-## Fileless hacking with Bash via encrypted SSH tunnels using similar techniques as PowerShell
+##
+## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
+## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
+![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
+## 
 ## The Phantom attacks
 ![Phantom attacks](https://i.ytimg.com/vi/xZtPFCHip0Y/maxresdefault.jpg)
-## Encapsulated maliacious payloads on Windows/ Linux using: 
-## To bypass PowerShell Execution-Policy & PS-Remoting settings :D
+## Encapsulated maliacious payloads on Windows/ Linux: 
+## Traditionally, you'll need to change Execution Policy in Powershell on a Windows computer
 ![Bypass PS Exec Policy](https://www.top-password.com/blog/wp-content/uploads/2018/09/Set-ExecutionPolicy.png)
+## Yet, we can somehow bypass this Execution Policy settings using just cmd.exe to run:
+## PowerShell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
+## This bypasses PowerShell Execution-Policy & PS-Remoting settings :D
+## 
 ## As most of us are using Win10/11 in 2024 :D
 ## PowerShell becomes the default runtime on our Windows :D
+## This technique is extremely useful to wear your black hat in a strict Enterprise environment ;)
+## NOT many in-house Cybersecurity professionals have to know-how to catch you ;)
+![Catch me if you can ;)](https://cdn.theasc.com/Catch-Me-If-You-Can-Featured.jpg)
 ## 
-## Windows => open cmd.exe:
-## cmd terminal type:
-## Powershell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
-##
 ## Hands-on example
 ## Please try:
 ## open cmd.exe
@@ -126,8 +133,9 @@ https://www.youtube.com/watch?v=6vg5JlQhHgo
 ## printf "import time, rotatescreen as rs\npd = rs.get_primary_display()\nangle_list = [0, 90, 180, 270, 90, 180, 90, 270]\nwhile True:\n\tfor i in range(5):\n\t\tfor x in angle_list:\n\t\t\tpd.rotate_to(x)\n\t\t\ttime.sleep(0.5)" > virus.py &&
 ## python ./virus.py &&
 ## rm -rf ./virus.py
-## 
-## Part4 - DevOps tools exploitations
+##
+## =========================================
+## Part5 - DevOps tools exploitations
 ## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening with using a playbook
 ![Hacking w/ Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/_images/ad-hoc-commands-inventory-run-command.png)
 ##
