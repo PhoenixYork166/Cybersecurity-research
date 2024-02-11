@@ -113,6 +113,10 @@ https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
 ## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
+## Hands-on Tutorial
+## Pre-requisites:
+## An AWS EC2 Linux with Public port forwarding & GatewayPorts open
+https://www.youtube.com/watch?v=Wp7boqm3Xts&t=870s
 ## 
 ## The Phantom attacks
 ![Phantom attacks](https://i.ytimg.com/vi/xZtPFCHip0Y/maxresdefault.jpg)
