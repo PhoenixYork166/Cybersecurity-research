@@ -34,6 +34,17 @@
 ## Do NOT get addicted to these crazy shit
 ##
 ## Please ONLY run these scripts on your victims, NOT your good selves...
+## 
+## Part 0 - Protections
+## If you're really challenging some Authoritativeness
+## using your hacking skills, well good luck out there ;)
+## Self-protections techniques might save your life ;)
+![V for vendetta](https://i.ytimg.com/vi/sSX5sJLrKq0/maxresdefault.jpg)
+## 
+## Proxychains
+##
+##
+##
 ## Part 1 - Network based attacks OSI Layer 2-4
 ## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
@@ -75,8 +86,7 @@
 ## Compiling a single .py file:
 ## python -m cx_Freeze single.py;
 ##
-##
-## Approach 3 - Fileless hacking
+## Part3 - Fileless hacking
 ## Launching all these crazy shit using PowerShell Fileless hacking techniques
 ![PS Fileless Hacking](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
 ![PS Fileless Hacking](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
@@ -110,10 +120,11 @@
 ## python ./virus.py &&
 ## rm -rf ./virus.py
 ## 
-## Approach 4
+## Part4 - DevOps tools exploitations
 ## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening with using a playbook
 ![Hacking w/ Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/_images/ad-hoc-commands-inventory-run-command.png)
-## Send Fileless malicious payloads
+##
+## Send Fileless malicious payloads using Ansible Tower
 ## Modules => Select win_command
 ## ARGUMENTS:
 ## powershell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
@@ -150,9 +161,8 @@
 ## Programming knowledge:
 ## OOP, Python, Bash, regex, HTTP, Socket 
 ## 
-## ================= Usage ===================
-## Usage
-## Install Kali Linux
+## ======== Your powerful fire arms 
+## 1. Kali Linux
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
 ## If you have a Networking background
@@ -228,24 +238,34 @@
 ## once at a given time to avoid crashing your Kali Linux
 ## Aim well & make it count ;)
 ## 
-## ======== Python Malware
+## ======== Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
 ## Usage
 ## Install Python Dependencies
 ## bash ./Malware-Dev/install-modules.sh
 ##
-## ============================================
+## ====== Python based malware
 ## Backdoor
 ![Backdoor](https://blogs.juniper.net/wp-content/uploads/2022/12/SEC-220694_DIGITAL_Threat-Labs-ESXi-backdoor-anchor_2000x1116-1024x571.png)
 ## Victims' machines:
-## Use your creativity to find the way to run code in reverse_shell.py
+## You will need to get your victims to connect to your network
+## e.g. Wireguard VPN 
+![Wireguard](https://www.zenarmor.com/docs/assets/images/1-f429b46a671cf6531fc5c99dd6fe302c.png)
+## You victims will be able to connect to your network as Backdoor client only
+## 
+## Use your creativity to find the way to make victims run vpn -> run code in reverse_shell.py
 ##
 ## Backdoor Server:
 ## Use your creativity to host server.py in somewhere safe ;)
-## 
-## ======== Ransomware:
+## May be some hackers' playground like OVH Cloud, with Indian Cloud servers hosted in India Data Centers? :D
+![OVH Cloud](https://us.ovhcloud.com/sites/default/files/styles/large_screens_1x/public/2023-02/why-ovhcloud-icon-infographic-2018.png)
+## ======== Python based Ransomware:
 ![Ransomware](https://thepythoncode.com/media/articles/make-a-ransomware-in-python.jpg)
+## Ransomware & Backdoor can only be used when victims connect to your server network locally using VPN
+## 
+## These attacks do NOT operate in WAN
+## 
 ## On Victim's machine => Disable Virus & threat protection
 ## Edit settings => Disable all
 ## 
