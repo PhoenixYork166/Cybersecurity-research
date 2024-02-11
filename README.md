@@ -136,6 +136,17 @@ https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
 ## =========================================
 ## Part5 - DevOps tools exploitations
+## Remember that, DevOps are always LAZY :D
+## DevOps operating in an Enterprise environment are essentially working with large numbers of networks, environments and OS
+## 
+## DevOps do NOT have the brain-throughput to remember every single god damned long+multi-factored password
+##
+## DevOps store frequently used passwords as Credential instances
+![Ansible Tower saved credentials](https://netapp.io/wp-content/uploads/2019/01/Screen-Shot-2019-01-25-at-11.33.30-AM-1024x618.png)
+## in Ansible Towers, or use notepad to store all the passwords, then rush through every automation task running on Ansible Towers
+##
+## Exploit DevOps' laziness will necessarily give you an extra edge as a Black Hat
+## 
 ## Grab an Ansible Tower => Enumerate a user with careless saved password for Privilege Escalation => using "ARGUMENTS" entry to bypass artifactory code screening with using a playbook
 ![Hacking w/ Ansible](https://docs.ansible.com/ansible-tower/latest/html/userguide/_images/ad-hoc-commands-inventory-run-command.png)
 ##
