@@ -42,8 +42,15 @@
 ![V for vendetta](https://i.ytimg.com/vi/sSX5sJLrKq0/maxresdefault.jpg)
 ## 
 ## Proxychains
-##
-##
+## This will change your Public IP using a number of proxy servers
+![Proxychains](https://i.ytimg.com/vi/jqrd9Ba3VOc/maxresdefault.jpg)
+![Proxychains output ](https://www.oreilly.com/api/v2/epubs/9781787121829/files/assets/7fdf7841-d065-43bf-a44f-d22132efe27e.png)
+![Proxychains config](https://linuxhint.com/wp-content/uploads/2023/09/word-image-373292-3.png)
+## 
+## TOR
+![TOR](https://www.blackmoreops.com/wp-content/uploads/2013/12/Installing-Tor-in-Kali-Linux-blackMORE-Ops-2.jpg)
+## Tutorial
+https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
 ## Part 1 - Network based attacks OSI Layer 2-4
 ## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
