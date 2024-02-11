@@ -34,7 +34,19 @@
 ## Do NOT get addicted to these crazy shit
 ##
 ## Please ONLY run these scripts on your victims, NOT your good selves...
+## Part 1 - Network based attacks OSI Layer 2-4
+## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
+![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 ##
+## Arp-spoofing illustrated
+![ARP spoofing](https://www.okta.com/sites/default/files/media/image/2021-04/ARPPoisoningSpoofing.png)
+## 
+## Spanning Tree Protocol attack illustrated
+![SPT attack](https://cdn.networklessons.com/wp-content/uploads/2014/10/spanning-tree-mitm.png)
+## TCP Syn flooding illustrated
+![Sync Flood](https://purplesec.us/wp-content/uploads/2019/07/SNY-attack-cyber-attack.png)
+##
+## Part 2 - Malware based attacks
 ## Best Practices for compiling malware to .exe:
 ![Python compilers](https://cdn.educba.com/academy/wp-content/uploads/2019/06/python-compilers.jpg)
 ## 
