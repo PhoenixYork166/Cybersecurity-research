@@ -79,7 +79,7 @@ https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ## Best Practices for compiling malware to .exe:
 ![Python compilers](https://cdn.educba.com/academy/wp-content/uploads/2019/06/python-compilers.jpg)
 ## 
-## Approach 1 
+## Approach:
 ## Use Python compiler pyinstaller
 ![pyinstaller](https://i.ytimg.com/vi/bubZ5Cxaybg/maxresdefault.jpg)
 ## python -m pyinstall single.py --onefile --noconsole;
@@ -87,22 +87,6 @@ https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ## Gain persistency using Registry keys in Windows
 ## in your python code
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
-##
-## Approach 2 Use Python compiler cx_Freeze
-![cx_Freeze compiler](https://i.ytimg.com/vi/HVigruKph74/maxresdefault.jpg)
-## This cx_Freeze compiler compiles .py files
-## to 2 .dll and 1 .exe files
-## 
-## Reside the .exe & .dll to your targets by whatever creative means you can imagine
-## 
-## Gain persistency using Registry keys in Windows
-## using Python code
-## 
-## Installing cx_Freeze
-## python -m pip install cx_Freeze --user IGS;
-##
-## Compiling a single .py file:
-## python -m cx_Freeze single.py;
 ##
 ## Part3 - Fileless hacking
 ## Launching all these crazy shit using PowerShell Fileless hacking techniques
