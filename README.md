@@ -46,6 +46,8 @@
 ![Proxychains](https://i.ytimg.com/vi/jqrd9Ba3VOc/maxresdefault.jpg)
 ![Proxychains output ](https://www.oreilly.com/api/v2/epubs/9781787121829/files/assets/7fdf7841-d065-43bf-a44f-d22132efe27e.png)
 ![Proxychains config](https://linuxhint.com/wp-content/uploads/2023/09/word-image-373292-3.png)
+## Tutorial
+https://www.youtube.com/watch?v=KWwOU1z5E8E&t=657s
 ## 
 ## TOR
 ![TOR](https://www.blackmoreops.com/wp-content/uploads/2013/12/Installing-Tor-in-Kali-Linux-blackMORE-Ops-2.jpg)
@@ -58,11 +60,18 @@ https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
 ## Arp-spoofing illustrated
 ![ARP spoofing](https://www.okta.com/sites/default/files/media/image/2021-04/ARPPoisoningSpoofing.png)
+## Tutorial
+https://www.youtube.com/watch?v=CW0Mf9qGBOc&t=117s
 ## 
 ## Spanning Tree Protocol attack illustrated
 ![SPT attack](https://cdn.networklessons.com/wp-content/uploads/2014/10/spanning-tree-mitm.png)
+## Theory
+https://www.youtube.com/watch?v=japdEY1UKe4
+## 
 ## TCP Syn flooding illustrated
 ![Sync Flood](https://purplesec.us/wp-content/uploads/2019/07/SNY-attack-cyber-attack.png)
+## Theory explained
+https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ##
 ## Part 2 - Malware based attacks
 ## Best Practices for compiling malware to .exe:
