@@ -52,25 +52,25 @@ https://www.youtube.com/watch?v=6vg5JlQhHgo
 # Part 1 - Network based attacks OSI Layer 2-4
 We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
-Arp-spoofing illustrated
+## Arp-spoofing illustrated
 ![ARP spoofing](https://www.okta.com/sites/default/files/media/image/2021-04/ARPPoisoningSpoofing.png)
-Tutorial
-https://www.youtube.com/watch?v=CW0Mf9qGBOc&t=117s
+## Tutorial
+## https://www.youtube.com/watch?v=CW0Mf9qGBOc&t=117s
 
-Spanning Tree Protocol attack illustrated
+## Spanning Tree Protocol attack illustrated
 ![SPT attack](https://cdn.networklessons.com/wp-content/uploads/2014/10/spanning-tree-mitm.png)
-Theory
-https://www.youtube.com/watch?v=japdEY1UKe4
-Journals
-https://notes.networklessons.com/stp-root-bridge-selection
+## Theory
+## https://www.youtube.com/watch?v=japdEY1UKe4
+## Journals
+## https://notes.networklessons.com/stp-root-bridge-selection
 
-TCP Syn flooding illustrated
+## TCP Syn flooding illustrated
 ![Sync Flood](https://purplesec.us/wp-content/uploads/2019/07/SNY-attack-cyber-attack.png)
-Theory explained
-https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
+## Theory explained
+## https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ##
 # Part 2 - Malware based attacks
-Best Practices for compiling malware to .exe:
+## Best Practices for compiling malware to .exe:
 ![Python compilers](https://cdn.educba.com/academy/wp-content/uploads/2019/06/python-compilers.jpg)
 ##
 ## Approach:
@@ -93,9 +93,9 @@ Best Practices for compiling malware to .exe:
 ## SSH Tunneling Hands-on Tutorial 1
 ## Pre-requisites:
 ## An AWS EC2 Linux with Public port forwarding & GatewayPorts open
-https://www.youtube.com/watch?v=Wp7boqm3Xts&t=870s
-SSH Tunneling Tutorial 2
-https://www.youtube.com/watch?v=pk5OF8XZSFM
+## https://www.youtube.com/watch?v=Wp7boqm3Xts&t=870s
+## SSH Tunneling Tutorial 2
+## https://www.youtube.com/watch?v=pk5OF8XZSFM
 
 # The Phantom attacks
 ![Phantom attacks](https://i.ytimg.com/vi/xZtPFCHip0Y/maxresdefault.jpg)
@@ -206,7 +206,7 @@ https://www.kali.org/
 ## sudo apt autoremove -y;
 ##
 # 2. Bash scripts
-Brute-forcing + Concurrent DoS using Bash
+## Brute-forcing + Concurrent DoS using Bash
 ![AOT](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
 ![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
 ## Use Bash scripts in ./Malware-Dev/Brute-force
@@ -243,9 +243,9 @@ Brute-forcing + Concurrent DoS using Bash
 # Part 6 - Malware
 ## 1. Backdoor
 ![Backdoor](https://blogs.juniper.net/wp-content/uploads/2022/12/SEC-220694_DIGITAL_Threat-Labs-ESXi-backdoor-anchor_2000x1116-1024x571.png)
-Victims' machines:
-You will need to get your victims to connect to your network
-e.g. Wireguard VPN 
+## Victims' machines:
+## You will need to get your victims to connect to your network
+## e.g. Wireguard VPN 
 ![Wireguard](https://www.zenarmor.com/docs/assets/images/1-f429b46a671cf6531fc5c99dd6fe302c.png)
 ## You victims will be able to connect to your network as Backdoor client only
 
