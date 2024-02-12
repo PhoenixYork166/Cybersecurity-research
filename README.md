@@ -4,9 +4,9 @@
 # Disclaimer
 ## *** This repo does NOT encourage unethical hacktivism ***
 # Knowledge Pre-requisites
-## Networking knowledge: TCP/IP Illustrated vol.1 (CCNA-CCNP)
-## Network programming:Cisco DevNet associates level
-## Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
+## 1. Networking knowledge: TCP/IP Illustrated vol.1 (CCNA-CCNP)
+## 2. Network programming: Cisco DevNet associates level
+## 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
 ##
 # Usage
 ## git clone https://github.com/berlinlee-phoenix/Malicious-Dev.git
