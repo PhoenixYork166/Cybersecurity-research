@@ -27,20 +27,18 @@
 ## This repo is for learning & professional development purposes
 ## If you do NOT follow rules below, YOU GO TO JAIL ;)
 ![Jail](https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/Can-You-Go-to-Jail-for-Debt_-1400x700-1.jpg.optimal.jpg)
-Rule 1:
-Ask your victims for permissions before doing any of these
-Rule 2:
-Do NOT launch these shit without black & white permissions
-
-Rule 3:
-Please ONLY run these scripts on your victims, NOT your good selves...
+## Rule 1:
+## Ask your victims for permissions before doing any of these
+## Rule 2:
+## Do NOT launch any of these without permissions
+## Rule 3:
+## Please ONLY run these scripts on your victims, NOT your good selves...
 ##
 # Part 0 - Protections
-If you're really challenging some Authoritativeness
-using your hacking skills, well good luck out there ;)
-Self-protections techniques might save your life ;)
+## If you're really challenging some Authoritativeness using your hacking skills, well good luck out there ;)
+## Self-protections techniques might save your life ;)
 ![V for vendetta](https://i.ytimg.com/vi/sSX5sJLrKq0/maxresdefault.jpg)
-
+## 
 ## Proxychains
 ## This will change your Public IP using a number of proxy servers
 ![Proxychains](https://i.ytimg.com/vi/jqrd9Ba3VOc/maxresdefault.jpg)
