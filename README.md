@@ -5,7 +5,7 @@
 ## *** This repo does NOT encourage unethical hacktivism ***
 # Knowledge Pre-requisites
 ## 1. Networking knowledge: TCP/IP Illustrated vol.1 (CCNA-CCNP)
-## 2. Network programming: Cisco DevNet associates level
+## 2. Network programming: Cisco DevNet associate level
 ## 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
 ##
 # Usage
