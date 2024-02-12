@@ -69,7 +69,7 @@ We'll be using Python Scapy module for Network sniffing, packets manipulations, 
 ## Theory explained
 ## https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ##
-# Part 2 - Malware based attacks
+# Part 2 - Compiling Python scripts .py => .exe
 ## Best Practices for compiling malware to .exe:
 ![Python compilers](https://cdn.educba.com/academy/wp-content/uploads/2019/06/python-compilers.jpg)
 ##
