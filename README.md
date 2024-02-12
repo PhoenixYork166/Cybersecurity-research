@@ -3,6 +3,11 @@
 ![V for vendetta](https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg)
 # Disclaimer
 ## *** This repo does NOT encourage unethical hacktivism ***
+# Knowledge Pre-requisites
+## Networking knowledge: TCP/IP Illustrated vol.1 (CCNA-CCNP)
+## Network programming:Cisco DevNet associates level
+## Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
+##
 # Usage
 ## git clone https://github.com/berlinlee-phoenix/Malicious-Dev.git
 ##
@@ -91,6 +96,10 @@ We'll be using Python Scapy module for Network sniffing, packets manipulations, 
 ## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
 ## SSH Tunneling Hands-on Tutorial 1
+## Hands-on
+## Read illustrated guide from:
+## ./Bypass-Firewall-SSH-Tunneling/Bypassing IGS Fortinet Firewall port 443.docx
+##
 ## Pre-requisites:
 ## An AWS EC2 Linux with Public port forwarding & GatewayPorts open
 ## https://www.youtube.com/watch?v=Wp7boqm3Xts&t=870s
@@ -164,11 +173,6 @@ We'll be using Python Scapy module for Network sniffing, packets manipulations, 
 ## Do NOT blame this repository owner
 ## This repository owner NEVER suggests hacktivism
 ## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portray their skills
-##
-# Knowledge Pre-requisites
-## Networking knowledge: TCP/IP Illustrated vol.1 (CCNA-CCNP)
-## Network programming:Cisco DevNet associates level
-## Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
 ##
 # Part 5 - Re-engineering Tools using Powerfull firearms
 # Let's rock :D
