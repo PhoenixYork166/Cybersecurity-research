@@ -3,6 +3,11 @@ fileCompile='./client.py';
 build='./build';
 spec='./client.spec';
 
+echo "Removing existing ./dist/*.exe";
+rm -rf ./dist;
+rm -rf ./build;
+rm -rf ./client.spec;
+
 python -m pyinstaller ${fileCompile} --onefile --noconsole;
 
 if [[ ${?} -eq 0 ]];
