@@ -113,13 +113,13 @@ def download_image(file_name):
     # If timeout is NOT set, sometimes program will get stuck
     s.settimeout(1)
     # Receive data from multiple chunks
-    chunk = s.recv(1024)
+    chunk = s.recv(4096)
     # As long as there's something in chunk variable
     while chunk:
         # Writing the chunk into file
         f.write(chunk)
         try:
-            chunk = s.recv(1024)
+            chunk = s.recv(4096)
         # If there's any errors => reached End of file
         except socket.timeout as e:
             break
