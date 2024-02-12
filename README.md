@@ -293,18 +293,7 @@ https://www.youtube.com/watch?v=pk5OF8XZSFM
 ## Ransomware & Backdoor can only be used when victims connect to your server network locally using VPN
 ## 
 ## These attacks do NOT operate in WAN
-## 
-## On Victim's machine => Disable Virus & threat protection
-## Edit settings => Disable all
-## 
-## Or you may research the theory on how files' metadata hash is
-## used in anti-virus scanning virus & 
-## Create your own way to bypass Anti-virus e.g. Checkpoint ;)
-![Anti-virus](https://i.ytimg.com/vi/uP7IE7xxR40/mqdefault.jpg)
-## Read theory about bypassing files' metadata hash scanning
-![Metadata hash](https://cdn.cliqz.com/wp-content/uploads/2017/05/twitter-hashtag-datenschutz1600x1000-uai-1440x900.jpg)
-## https://usa.kaspersky.com/resource-center/threats/combating-antivirus
-##
+## Start using
 ## cd ./Malware-Dev &&
 ## Edit the listening server IP_ADDRESS in server.py in line 11 
 ## Edit the listening port 

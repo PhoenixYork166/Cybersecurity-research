@@ -36,7 +36,7 @@ def reliable_recv():
         except ValueError as e:
             # When we receive ValueError from execution
             # We continue the execution
-            print(f'Error occurred: {e}\nContinuing...')
+            #print(f'Error occurred: {e}\nContinuing...')
             continue
         
 def connection():

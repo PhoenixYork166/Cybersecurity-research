@@ -82,6 +82,13 @@ def target_communication():
         # 'cd' command works in client
         elif command[:3] == 'cd ':
             # From 3rd CHAR till the end
+            # Print present working directory after 'cd'
+            # For Linux 
+            try:
+                os.system('pwd')
+            # For Windows
+            except ValueError as e:
+                os.system('dir')
             pass
         # Executing 'clear' on Server
         elif command == 'clear':
