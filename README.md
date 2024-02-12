@@ -200,8 +200,11 @@ https://www.kali.org/
 ##
 ## Step 2 Update Kali.org Repository to start using HTTPS
 ## sudo vim /etc/apt/sources.list;
-##
-## Step 3 APT update & upgrade
+## Add these lines:
+## deb https://http.kali.org/kali kali-rolling main non-free contrib
+## deb-src https://http.kali.org/kali kali-rolling main non-free contrib
+## :wq
+## APT update & upgrade
 ## sudo apt update && apt -y upgrade;
 ##
 ## Step 4 Clean up APT after updating & upgrading to Kali repo
