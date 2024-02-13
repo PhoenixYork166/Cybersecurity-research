@@ -3,10 +3,21 @@
 ![V for vendetta](https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg)
 # Disclaimer
 ## *** This repo does NOT encourage unethical hacktivism ***
+## 
 # Knowledge Pre-requisites
-## 1. Networking knowledge: TCP/IP Illustrated vol.1 (CCNA-CCNP)
-## 2. Network programming: Cisco DevNet associate level
-## 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
+## 
+# 1. Networking knowledge: 
+## TCP/IP Illustrated vol.1
+![TCP/IP Illustrated vol.1 ](https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg)
+## TCP/IP Illustrated vol.2 - The Implementation
+![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
+## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
+![TCP/IP Illustrated vol.3 ](https://m.media-amazon.com/images/I/71sp1Hsa9LL._AC_UF1000,1000_QL80_.jpg)
+## 
+# 2. Network programming: Cisco DevNet associate level
+![Cisco DevNet associate](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
+##
+# 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
 ##
 # Usage
 ## git clone https://github.com/berlinlee-phoenix/Malicious-Dev.git
@@ -22,11 +33,14 @@
 ### A Web Application Firewall looks like:
 ![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
 
-### My Cybersecurity Mentor Jimmy did NOT teach me Black Hat ;)
+### My Cybersecurity Mentor Jimmy did NOT teach me any of these Black Hat technologies ;)
 ###
 ## This repo is for learning & professional development purposes
-## If you do NOT follow rules below, YOU GO TO JAIL ;)
+##
+## If you do NOT follow rules below, YOU absolutely GO TO JAIL ;)
 ![Jail](https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/Can-You-Go-to-Jail-for-Debt_-1400x700-1.jpg.optimal.jpg)
+## Rule 0:
+## Set up your own lab as your hacking ground, do NOT perform any hacking on the Internet
 ## Rule 1:
 ## Ask your victims for permissions before doing any of these
 ## Rule 2:
@@ -52,6 +66,10 @@ https://www.youtube.com/watch?v=KWwOU1z5E8E&t=657s
 Tutorial
 https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
+# Part 0 - Internet Attack on Titans
+## See ./BGP-DoS/destroying the Internet.docx
+## Watch the youtube tutorial & understand all concepts
+## 
 # Part 1 - Network based attacks OSI Layer 2-4
 We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
