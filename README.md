@@ -286,9 +286,25 @@ https://www.kali.org/
 ## Install Python Dependencies
 ## bash ./Malware-Dev/install-modules.sh
 ##
+# 5. Python multiprocessing modules
+## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes)
+## Multi-processing != Multi-threaded
+## FREE Tutorial
+# Python multi-processing
+## https://www.youtube.com/watch?v=fKl2JW_qrso&list=PLdbtMgV1x_BiBTh_JwYpzramnhzOLgXvx&pp=gAQBiAQB
+##
+# Python 
+## If you're looking forward to further enhance the DDoS firepower => Go for Docker Swarm + Golang/Erlang/Rust programming languages :D
 # Part 6 - Malware
 ## 1. Backdoor
 ![Backdoor](https://blogs.juniper.net/wp-content/uploads/2022/12/SEC-220694_DIGITAL_Threat-Labs-ESXi-backdoor-anchor_2000x1116-1024x571.png)
+## FREE Tutorials
+# 1. Python networking
+## https://www.youtube.com/watch?v=3UOyky9sEQY&list=PLdbtMgV1x_BiFtjWTuylQbz8cF77F5bQA&pp=gAQBiAQB
+##
+# 2. Python Socket
+## https://www.youtube.com/watch?v=xA7qrXwXUlg&list=PLdbtMgV1x_BinAQ6F7FEaVEE0B7TP1NGS&pp=gAQBiAQB
+## 
 ## Victims' machines:
 ## You will need to get your victims to connect to your network
 ## e.g. Wireguard VPN 
@@ -311,7 +327,10 @@ https://www.kali.org/
 
 # 2. Ransomware:
 ![Ransomware](https://thepythoncode.com/media/articles/make-a-ransomware-in-python.jpg)
-## Ransomware & Backdoor can only be used when victims connect to your server network locally using VPN
+## FREE Tutorial
+## https://www.youtube.com/watch?v=bEA8HI_I5bQ&list=PLdbtMgV1x_BgL1Zns9Nx3f8qG_IRU8G4A&index=24&pp=gAQBiAQB
+##
+# Ransomware & Backdoor can only be used when victims connect to your server network locally using VPN
 ##
 ## These attacks do NOT operate in WAN
 ## Start using
