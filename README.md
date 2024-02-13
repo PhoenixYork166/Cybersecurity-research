@@ -7,6 +7,8 @@
 # Knowledge Pre-requisites
 ## 
 # 1. Networking knowledge: 
+## CCNP
+![CCNP](https://noblinkyblinkycom.files.wordpress.com/2020/07/ccnp_enterprise_large.png)
 ## TCP/IP Illustrated vol.1
 ![TCP/IP Illustrated vol.1 ](https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg)
 ## TCP/IP Illustrated vol.2 - The Implementation
@@ -58,20 +60,21 @@
 ![Proxychains](https://i.ytimg.com/vi/jqrd9Ba3VOc/maxresdefault.jpg)
 ![Proxychains output ](https://www.oreilly.com/api/v2/epubs/9781787121829/files/assets/7fdf7841-d065-43bf-a44f-d22132efe27e.png)
 ![Proxychains config](https://linuxhint.com/wp-content/uploads/2023/09/word-image-373292-3.png)
-Tutorial
-https://www.youtube.com/watch?v=KWwOU1z5E8E&t=657s
+## Tutorial
+## https://www.youtube.com/watch?v=KWwOU1z5E8E&t=657s
 
 ## TOR
 ![TOR](https://www.blackmoreops.com/wp-content/uploads/2013/12/Installing-Tor-in-Kali-Linux-blackMORE-Ops-2.jpg)
-Tutorial
-https://www.youtube.com/watch?v=6vg5JlQhHgo
+## Tutorial
+## https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
 # Part 0 - Internet Attack on Titans
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
+![BGP](https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_09_Copy-of-What-is-37.jpg)
 ## 
-# Part 1 - Network based attacks OSI Layer 2-4
-We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
+# Part 1 - Intra Network based attacks OSI Layer 2-4
+## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 ## Arp-spoofing illustrated
 ![ARP spoofing](https://www.okta.com/sites/default/files/media/image/2021-04/ARPPoisoningSpoofing.png)
