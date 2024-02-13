@@ -207,7 +207,7 @@
 ## This repository owner NEVER suggests hacktivism
 ## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portray their skills
 ##
-# Part 5 - Re-engineering Tools using Powerfull firearms
+# Part 5 - Re-engineering Tools using Powerful network arms
 # Let's rock :D
 ![V](https://www.eyeforfilm.co.uk/images/newsite/V_for_Vendetta_600.jpg)
 ## 1. Kali Linux
