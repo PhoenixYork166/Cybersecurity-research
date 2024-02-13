@@ -213,20 +213,26 @@
 ## 1. Kali Linux
 https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
-## If you have a Networking background
+##
+# If you have a Networking background
 ## Download => Virtual Machines
 ## Select your Virtualization environment
 ## VMware / VirtualBox / Hyper-V
 ## Get ISO images 
 ## https://www.kali.org/get-kali/#kali-installer-images
-## If you have a Programming background
+##
+# If you have a Programming background
 ## get Containers (Docker/LXC/LXD) 
 ![Containers](https://linuxways.net/wp-content/uploads/2021/11/What-is-the-Difference-Between-LXC-LXD-and-Docker-Containers.jpg)
 ## https://www.kali.org/get-kali/#kali-containers
 ## apt update && apt -y install kali-linux-headless
 ## apt update && apt -y install kali-linux-large
 ## docker pull kalilinux/kali-rolling
-
+##
+# If you have both Networking & Programming background:
+## You ARE GONNA go on a RAMPAGE!! :D
+## Just do whatever you want :D
+##
 # Kali Liux VM
 ## Upon fresh installation of an ISO image on VMware
 ## You need to update && upgrade Kali repository
