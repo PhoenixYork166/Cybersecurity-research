@@ -27,7 +27,9 @@
 ## 
 # 2. Network programming: Cisco DevNet associate level
 ![Cisco DevNet associate](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
-##
+## FREE knowledge
+## https://ptgmedia.pearsoncmg.com/images/9780137370443/samplepages/9780137370443_Sample.pdf
+## 
 # 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
 ## FREE knowledge
 ## https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
