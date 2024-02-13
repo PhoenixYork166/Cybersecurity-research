@@ -305,6 +305,8 @@ https://www.kali.org/
 # 2. Python Socket
 ## https://www.youtube.com/watch?v=xA7qrXwXUlg&list=PLdbtMgV1x_BinAQ6F7FEaVEE0B7TP1NGS&pp=gAQBiAQB
 ## 
+## https://www.youtube.com/watch?v=3QiPPX-KeSc&list=PLdbtMgV1x_BgL1Zns9Nx3f8qG_IRU8G4A&index=26&t=16s&pp=gAQBiAQB
+##
 ## Victims' machines:
 ## You will need to get your victims to connect to your network
 ## e.g. Wireguard VPN 
