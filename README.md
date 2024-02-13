@@ -71,7 +71,7 @@
 # Part 0 - Internet Attack on Titans
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
-![BGP](https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_09_Copy-of-What-is-37.jpg)
+![BGP](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3184/images/yTC6GxXZS5CBS2JKntUj_Blog_Thumbnails.001.jpeg)
 ## 
 # Part 1 - Intra Network based attacks OSI Layer 2-4
 ## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
