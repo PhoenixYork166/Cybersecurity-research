@@ -1,6 +1,6 @@
 #import scapy
 from scapy.all import *
-
+from scapy.all import Ether, ARP
 # Forging the broadcast addr
 broadcast = Ether(dst='ff:ff:ff:ff:ff:ff')
 # Browsing falsified Ethernet broadcast addr
