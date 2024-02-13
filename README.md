@@ -6,15 +6,24 @@
 ## 
 # Knowledge Pre-requisites
 ## 
-# 1. Networking knowledge: 
-## CCNP
+# 1. Networking knowledge either: 
+## CCNP (Costly & NOT compulsory)
 ![CCNP](https://noblinkyblinkycom.files.wordpress.com/2020/07/ccnp_enterprise_large.png)
+## OR
+## FREE knowledge from .pdf e-books below :D
+## 
+## Reading & understanding all concepts
 ## TCP/IP Illustrated vol.1
 ![TCP/IP Illustrated vol.1 ](https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg)
+## http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf
+##
 ## TCP/IP Illustrated vol.2 - The Implementation
 ![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
+## https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf
+## 
 ## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
 ![TCP/IP Illustrated vol.3 ](https://m.media-amazon.com/images/I/71sp1Hsa9LL._AC_UF1000,1000_QL80_.jpg)
+## https://doc.lagout.org/network/TCP-IP%20Illustrated%20Vol.3.pdf
 ## 
 # 2. Network programming: Cisco DevNet associate level
 ![Cisco DevNet associate](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
