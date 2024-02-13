@@ -114,6 +114,10 @@
 ## Use Python compiler pyinstaller
 ![pyinstaller](https://i.ytimg.com/vi/bubZ5Cxaybg/maxresdefault.jpg)
 ## python -m pyinstaller single.py --onefile --noconsole;
+##
+## FREE tutorial
+## https://www.youtube.com/watch?v=bqNvkAfTvIc&list=PLdbtMgV1x_BgL1Zns9Nx3f8qG_IRU8G4A&index=25&pp=gAQBiAQB
+## 
 ## Reside the only .exe to your targets
 ## Gain persistency using Registry keys in Windows in your python code
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
