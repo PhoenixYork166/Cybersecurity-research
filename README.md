@@ -127,7 +127,8 @@
 ![PS Fileless Hacking](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
 ![PS Fileless Hacking](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
 ![Fileless Hacking](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
-
+# Fileless malicius payloads cannot be detected by neither IDS/IPS/SIEM cuz all malicious code/payloads are executed on victims' machines using legitimate built-in tools e.g. cmd.exe powershell.exe bash on machines memory level without being written to hard drive/physical disks at all ;)
+##
 ## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
 ## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
@@ -147,15 +148,20 @@
 ## Encapsulated maliacious payloads on Windows/ Linux: 
 ## Traditionally, you'll need to change Execution Policy in Powershell on a Windows computer
 ![Bypass PS Exec Policy](https://www.top-password.com/blog/wp-content/uploads/2018/09/Set-ExecutionPolicy.png)
-## Yet, we can somehow bypass this Execution Policy settings using just cmd.exe to run:
+## Yet, we can somehow bypass this PowerShell Execution Policy settings using just cmd.exe to run:
 ## PowerShell.exe -windowStyle hidden -command "line1; line2; line3; line4;"
 ## This bypasses PowerShell Execution-Policy & PS-Remoting settings :D
-
+##
+# if you try cmd.exe:
+## Powershell.exe -windowStyle hidden -command "echo from scapy.all import * > ./scapy.py; echo pythonCodeLine2 >> ./scapy.py;...; python ./scapy.py; delete ./scapy.py;"
+## All of these 3 layers of encapsulated code/payloads are even harder to detect...
+## The cybersecurity forensics experts would have to go deep-dive in volatile memory research over & over again in finding the culprits ;)
+## 
 ## As most of us are using Win10/11 in 2024 :D
 ## PowerShell becomes the default runtime on our Windows :D
 ## This technique is extremely useful to wear your black hat in a strict Enterprise environment ;)
 ## Like fucking Mxxgax Stxxlxy or Jxxxxy Clxx
-## NOT many in-house Cybersecurity professionals have to know-how to catch you ;)
+## NOT many in-house Cybersecurity professionals have to know-how/forensics skills to catch you ;)
 ![Catch me if you can ;)](https://cdn.theasc.com/Catch-Me-If-You-Can-Featured.jpg)
 ![Leonardo](https://i.pinimg.com/564x/a8/7b/87/a87b8795a17bf841cba6e7dca959a4c5.jpg)
 
