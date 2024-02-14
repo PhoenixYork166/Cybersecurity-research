@@ -214,7 +214,7 @@
 ##
 # Part 5 - Re-engineering Tools using Powerful network arms
 # Let's rock :D
-![V for vendetta Ideas are Bullet-proof](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
+![V for vendetta Ideas are Bullet-proof](https://64.media.tumblr.com/37f207f4c98f836b6873b4a2c0857e2a/5b179c62492fa995-9b/s540x810/fdbf90e281a8866fa9afbd14d29d86eaa39c9f02.gif)
 ##
 ![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
 ##
