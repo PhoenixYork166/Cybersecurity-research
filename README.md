@@ -67,7 +67,7 @@
 # Part 0 - Protections
 ## If you're really challenging some Authoritativeness using your hacking skills, well good luck out there ;)
 ## Self-protections techniques might save your life ;)
-![V for vendetta](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
+![V for vendetta](https://j.gifs.com/y42DJE.gif)
 ## 
 ## Proxychains
 ## This will change your Public IP using a number of proxy servers
