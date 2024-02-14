@@ -66,7 +66,7 @@
 # Part 0 - Protections
 ## If you're really challenging some Authoritativeness using your hacking skills, well good luck out there ;)
 ## Self-protections techniques might save your life ;)
-![V for vendetta](https://i.ytimg.com/vi/sSX5sJLrKq0/maxresdefault.jpg)
+![V for vendetta](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
 ## 
 ## Proxychains
 ## This will change your Public IP using a number of proxy servers
@@ -213,7 +213,9 @@
 ##
 # Part 5 - Re-engineering Tools using Powerful network arms
 # Let's rock :D
-![V](https://www.eyeforfilm.co.uk/images/newsite/V_for_Vendetta_600.jpg)
+![V for vendetta](https://i.pinimg.com/originals/38/81/b9/3881b9c14a065532c54a0e8f701c6f86.gif)
+![V for vendetta](https://i.makeagif.com/media/7-17-2016/pbeCKJ.gif)
+![V for vendetta](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
 ## 1. Kali Linux
 https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
