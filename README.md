@@ -94,8 +94,11 @@
 ![V for vendetta god-like](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
 ##
 # Kasm
-## This is our Primary tier DDoS platform to launch multiple Docker Kali Linux
 ![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
+## Kasm = A browser-based Container Streaming platform
+![Kasm Container Streaming](https://miro.medium.com/v2/resize:fit:1400/1*c31jE549mSuDgNPpFRjXGQ.png)
+##
+## This is our Primary DDoS platform to launch multiple Docker Kali Linux
 # Docker Compose
 ## If you prefer writing your own .yml :D
 ![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
