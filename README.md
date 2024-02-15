@@ -24,11 +24,14 @@
 ## https://doc.lagout.org/network/TCP-IP%20Illustrated%20Vol.3.pdf
 ## OR
 ## CCNP (Costly & NOT compulsory)
+## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
 ![CCNP](https://noblinkyblinkycom.files.wordpress.com/2020/07/ccnp_enterprise_large.png)
 ##
-# 2. Network programming: Cisco DevNet
+# 2. Network programming: 
+## Cisco DevNet
 ![Cisco DevNet](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
-## FREE knowledge
+## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
+## FREE knowledge FREE Download :D
 ## https://ptgmedia.pearsoncmg.com/images/9780137370443/samplepages/9780137370443_Sample.pdf
 ## 
 # 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
