@@ -112,7 +112,7 @@
 ##
 ## Using Kasm
 ## I'm a lazy guy, I do NOT wanna write any .yml ;)
-![Lazy](https://cdn3.vectorstock.com/i/1000x1000/39/97/lazy-animal-is-programming-on-laptop-vector-41443997.jpg)
+![Lazy](https://media.tenor.com/dRS4cAaAU5EAAAAM/megumin-konosuba.gif)
 ##
 ## Kasm official download .tar.gz has a bug in ./install.sh
 ## Use the debugged ./Docker-compose/install.sh in here instead
@@ -163,7 +163,7 @@
 ![Bash](https://blog.facialix.com/wp-content/uploads/2021/08/3930400_0bea.jpg)
 ## Recon, Brute-forcing & Denial of Service using Bash scripts only
 ## For instance, we wanna do some Brute-forcing
-## Use Bash scripts in ./Malware-Dev/Brute-force
+## Use Bash scripts in ./Brute-force
 ## Install apt dependencies
 ## chmod +x ./install.sh && bash install.sh;
 ##
@@ -196,7 +196,11 @@
 ![Black Hat Go](https://m.media-amazon.com/images/I/81k+Ajmu4fL._AC_UF1000,1000_QL80_.jpg)
 ## https://github.com/google/gopacket
 ## 
-## If you're really a crazy Red Team developer with a thirst of fire-power :O
+## If you're really a crazy Red Team developer with a thirst of absolute fire-superiority to DDoS your targets :O
+![Oh No](https://tukuimg.bdstatic.com/scrop/b6e769b92640ac9d813f5c86e6156e32.gif)
+![Avada Vedavra](https://i.gifer.com/A4yu.gif)
+![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
+![My Railgun](https://31.media.tumblr.com/95805eb5b84a264b6a2cef62fc54d42c/tumblr_mqta92HN4n1r5db25o1_500.gif)
 ## Go for Rust concurrent programming :D
 ![Rust](https://mir-s3-cdn-cf.behance.net/project_modules/disp/fe36cc42774743.57ee5f329fae6.gif)
 # 6. Using Kali built-in powerful Attack Tools :D
