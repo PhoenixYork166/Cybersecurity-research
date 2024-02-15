@@ -117,7 +117,7 @@
 ## Kasm official download .tar.gz has a bug in ./install.sh
 ## Use the debugged ./Docker-compose/install.sh in here instead
 ##
-# Part 2 - Introducing the components of our Powerful cyber arms :D
+# Part 2 - Introducing the components of our powerful Cyber Arms :D
 # 1. Kali Linux
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
