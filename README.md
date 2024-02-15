@@ -262,7 +262,7 @@
 ## Gain persistency using Registry keys in Windows in your python code
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
 ##
-## Part5 - Powershell Fileless hacking techniques
+# Part 5 - Powershell Fileless hacking techniques
 ## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
 ![PS Fileless Hacking](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
 ![PS Fileless Hacking](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
@@ -282,7 +282,7 @@
 ## SSH Tunneling Tutorial 2
 ## https://www.youtube.com/watch?v=pk5OF8XZSFM
 
-# Part6 - The Phantom Fileless attacks on any platforms
+# Part 6 - The Phantom Fileless attacks on any platforms
 ![Phantom attacks](https://i.ytimg.com/vi/xZtPFCHip0Y/maxresdefault.jpg)
 ## Encapsulated maliacious payloads on Windows/ Linux: 
 ## Traditionally, you'll need to change Execution Policy in Powershell on a Windows computer
@@ -314,7 +314,7 @@
 ## python ./virus.py &&
 ## rm -rf ./virus.py
 ##
-# Part7 - DevOps tools exploitations
+# Part 7 - DevOps tools exploitations
 ## Remember that, DevOps are always LAZY :D
 ## DevOps operating in an Enterprise environment are essentially working with large numbers of networks, environments and OS
 ##
