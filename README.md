@@ -206,6 +206,7 @@
 ##
 # 
 # 7. Tmux = A Multiplexer that allows you to run your Bash scripts using 100+ terminals at the same time, when performing DoS using a single Kali VM
+![TMUX](https://raw.githubusercontent.com/tedsluis/tmux.conf/master/tmux_screenshot.gif)
 ##
 ## Multiplexer = A Mux serves as a layer of Amplifier to condense your fire-power
 ## TMUX = A Mux to multiplex your single Brute-forcing script into 100+ terminals of concurrent bash sessions to run the single Bash script :D
