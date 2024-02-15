@@ -82,12 +82,150 @@
 ## Tutorial
 ## https://www.youtube.com/watch?v=6vg5JlQhHgo
 ##
-# Part 0 - Internet Attack on Titans
+# Part 1 - Our Full-fleged Attacks platform
+# Let's rock :D
+![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
+![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
+##
+![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
+##
+![V for vendetta rampage](https://i.makeagif.com/media/7-17-2016/pbeCKJ.gif)
+##
+![V for vendetta god-like](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
+##
+# Kasm
+## This is our Primary tier DDoS platform to launch multiple Docker Kali Linux
+![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
+# Docker Compose
+## If you prefer writing your own .yml :D
+![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
+## With Kasm / Docker-compose, we have our fire-superiority :D
+![Fire-superiority](https://image.shutterstock.com/image-photo/launch-military-missiles-rocket-artillery-260nw-2246138253.jpg)
+![AOT](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
+![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
+##
+## Using Kasm
+## I'm a lazy guy, I do NOT wanna write any .yml ;)
+![Lazy](https://cdn3.vectorstock.com/i/1000x1000/39/97/lazy-animal-is-programming-on-laptop-vector-41443997.jpg)
+##
+## Kasm official download .tar.gz has a bug in ./install.sh
+## Use the debugged ./Docker-compose/install.sh in here instead
+##
+# Part 2 - Introducing the components of our Powerful cyber arms :D
+# 1. Kali Linux
+## https://www.kali.org/
+![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
+##
+# If you have a Networking background
+## Download => Virtual Machines
+## Select your Virtualization environment
+## VMware / VirtualBox / Hyper-V
+## Get ISO images 
+## https://www.kali.org/get-kali/#kali-installer-images
+##
+# If you have a Programming background
+## get Containers (Docker/LXC/LXD) 
+![Containers](https://linuxways.net/wp-content/uploads/2021/11/What-is-the-Difference-Between-LXC-LXD-and-Docker-Containers.jpg)
+## https://www.kali.org/get-kali/#kali-containers
+## apt update && apt -y install kali-linux-headless
+## apt update && apt -y install kali-linux-large
+## docker pull kalilinux/kali-rolling
+##
+# If you have both Networking & Programming background:
+## OMG! You ARE GONNA go on a RAMPAGE!! :D
+## Just do whatever you want :D
+##
+# Kali Linux VM
+## Upon fresh installation of an ISO image on VMware
+## You need to update && upgrade Kali repository
+## Step 1 Update expired Kali keys on base-build image
+## sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;
+##
+## Step 2 Update Kali.org Repository to start using HTTPS
+## sudo vim /etc/apt/sources.list;
+## Add these lines:
+## deb https://http.kali.org/kali kali-rolling main non-free contrib
+## deb-src https://http.kali.org/kali kali-rolling main non-free contrib
+## :wq
+## APT update & upgrade
+## sudo apt update && apt -y upgrade;
+##
+## Step 4 Clean up APT after updating & upgrading to Kali repo
+## sudo apt autoremove -y;
+##
+# 2. Bash scripts
+![Bash](https://blog.facialix.com/wp-content/uploads/2021/08/3930400_0bea.jpg)
+## Recon, Brute-forcing & Denial of Service using Bash scripts only
+## For instance, we wanna do some Brute-forcing
+## Use Bash scripts in ./Malware-Dev/Brute-force
+## Install apt dependencies
+## chmod +x ./install.sh && bash install.sh;
+##
+# 3. Python
+![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
+![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
+## Usage
+## Install Python Dependencies
+## bash ./Malware-Dev/install-modules.sh
+##
+# 4. Python Forensics - The Scapy module
+![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
+## Tutorials 
+## https://www.youtube.com/watch?v=YKxKnVE5FaE&list=PLhfrWIlLOoKOc3z424rgsej5P5AP8yNKR
+##
+# 5. Python multi-processing module
+![Python Multi-processing](https://i.ytimg.com/vi/CRJOQtaRT_8/sddefault.jpg)
+![Python Multi-processing](https://miro.medium.com/v2/resize:fit:1400/1*3UHj7DLOsHLIdt2YiOoZ3w.gif)
+## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes)
+## Multi-processing != Multi-threaded
+## FREE Tutorial
+# Python multi-processing
+## https://www.youtube.com/watch?v=fKl2JW_qrso&list=PLdbtMgV1x_BiBTh_JwYpzramnhzOLgXvx&pp=gAQBiAQB
+##
+# Python 
+## If you're looking forward to further enhance the DDoS firepower => 
+# Use Golang :D
+![Golang](https://www.freecodecamp.org/news/content/images/2021/10/golang.png)
+# gopacket module :D 
+![Black Hat Go](https://m.media-amazon.com/images/I/81k+Ajmu4fL._AC_UF1000,1000_QL80_.jpg)
+## https://github.com/google/gopacket
+## 
+## If you're really a crazy Red Team developer with a thirst of fire-power :O
+## Go for Rust concurrent programming :D
+![Rust](https://mir-s3-cdn-cf.behance.net/project_modules/disp/fe36cc42774743.57ee5f329fae6.gif)
+# 6. Using Kali built-in powerful Attack Tools :D
+![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
+## Writing some very simple Bash + Kali Tools give you extra edges :D
+## Brute-forcing with Hydra
+![Hydra](https://miro.medium.com/v2/resize:fit:1358/0*Kx7N8nKgqqdXhYgX.jpg)
+## Hands-on example
+## cd ./Brute-force
+## Edit hydra.sh OR 1n3sniper.sh
+## Edit the namelists & wordlists used for hydra
+## Edit the namelists & wordlists used for 1N3/Sn1per
+##
+# 
+# 7. Tmux = A Multiplexer that allows you to run your Bash scripts using 100+ terminals at the same time, when performing DoS using a single Kali VM
+##
+## Multiplexer = A Mux serves as a layer of Amplifier to condense your fire-power
+## TMUX = A Mux to multiplex your single Brute-forcing script into 100+ terminals of concurrent bash sessions to run the single Bash script :D
+![Multiplexer](https://www.electrical4u.com/wp-content/uploads/What-is-a-Multiplexer.png)
+##
+# 8. Open-source Namelists & Wordlists for Brute-forcing
+## Download custom Namelists & Wordlists from github.com
+## https://gist.github.com/DaveYesland/e1d42489334049daf59d1c26543faa8b
+##
+## Performing DDoS using Bash + Docker Kali
+### bash fire-superiorty-hydra.sh
+### once at a given time to avoid crashing your Kali Linux
+### Aim well & make it count ;)
+##
+# Part 2 - Internet Attack on Titans
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
 ![BGP](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3184/images/yTC6GxXZS5CBS2JKntUj_Blog_Thumbnails.001.jpeg)
 ## 
-# Part 1 - Intra Network based attacks OSI Layer 2-4
+# Part 3 - Private Network based attacks OSI Layer 2-4
 ## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 ## Arp-spoofing illustrated
@@ -107,7 +245,7 @@
 ## Theory explained
 ## https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ##
-# Part 2 - Compiling Python scripts .py => .exe
+# Part 4 - Compiling Python scripts .py => .exe
 ## Best Practices for compiling malware to .exe:
 ![Python compilers](https://cdn.educba.com/academy/wp-content/uploads/2019/06/python-compilers.jpg)
 ##
@@ -123,8 +261,8 @@
 ## Gain persistency using Registry keys in Windows in your python code
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
 ##
-## Part3 - Fileless hacking
-## Launching all these crazy stuff using PowerShell Fileless hacking techniques
+## Part5 - Powershell Fileless hacking techniques
+## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
 ![PS Fileless Hacking](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
 ![PS Fileless Hacking](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
 ![Fileless Hacking](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
@@ -143,7 +281,7 @@
 ## SSH Tunneling Tutorial 2
 ## https://www.youtube.com/watch?v=pk5OF8XZSFM
 
-# The Phantom attacks
+# Part6 - The Phantom Fileless attacks on any platforms
 ![Phantom attacks](https://i.ytimg.com/vi/xZtPFCHip0Y/maxresdefault.jpg)
 ## Encapsulated maliacious payloads on Windows/ Linux: 
 ## Traditionally, you'll need to change Execution Policy in Powershell on a Windows computer
@@ -175,7 +313,7 @@
 ## python ./virus.py &&
 ## rm -rf ./virus.py
 ##
-# Part4 - DevOps tools exploitations
+# Part7 - DevOps tools exploitations
 ## Remember that, DevOps are always LAZY :D
 ## DevOps operating in an Enterprise environment are essentially working with large numbers of networks, environments and OS
 ##
@@ -212,121 +350,8 @@
 ## This repository owner NEVER suggests hacktivism
 ## This repository owner suggests continuous learning & defending by mimicking why & how malicious hackers portray their skills
 ##
-# Part 5 - Re-engineering Tools using Powerful network arms
-# Let's rock :D
-![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
-![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
-##
-![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
-##
-![V for vendetta rampage](https://i.makeagif.com/media/7-17-2016/pbeCKJ.gif)
-##
-![V for vendetta god-like](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
-##
 
-## 1. Kali Linux
-https://www.kali.org/
-![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
-##
-# If you have a Networking background
-## Download => Virtual Machines
-## Select your Virtualization environment
-## VMware / VirtualBox / Hyper-V
-## Get ISO images 
-## https://www.kali.org/get-kali/#kali-installer-images
-##
-# If you have a Programming background
-## get Containers (Docker/LXC/LXD) 
-![Containers](https://linuxways.net/wp-content/uploads/2021/11/What-is-the-Difference-Between-LXC-LXD-and-Docker-Containers.jpg)
-## https://www.kali.org/get-kali/#kali-containers
-## apt update && apt -y install kali-linux-headless
-## apt update && apt -y install kali-linux-large
-## docker pull kalilinux/kali-rolling
-##
-# If you have both Networking & Programming background:
-## You ARE GONNA go on a RAMPAGE!! :D
-## Just do whatever you want :D
-##
-# Kali Linux VM
-## Upon fresh installation of an ISO image on VMware
-## You need to update && upgrade Kali repository
-## Step 1 Update expired Kali keys on base-build image
-## sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;
-##
-## Step 2 Update Kali.org Repository to start using HTTPS
-## sudo vim /etc/apt/sources.list;
-## Add these lines:
-## deb https://http.kali.org/kali kali-rolling main non-free contrib
-## deb-src https://http.kali.org/kali kali-rolling main non-free contrib
-## :wq
-## APT update & upgrade
-## sudo apt update && apt -y upgrade;
-##
-## Step 4 Clean up APT after updating & upgrading to Kali repo
-## sudo apt autoremove -y;
-##
-# 2. Bash scripts
-## Brute-forcing + Concurrent DoS using Bash
-![AOT](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
-![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
-## Use Bash scripts in ./Malware-Dev/Brute-force
-## Install apt dependencies
-## chmod +x ./install.sh && bash install.sh;
-##
-## Brute-forcing with Hydra
-![Hydra](https://miro.medium.com/v2/resize:fit:1358/0*Kx7N8nKgqqdXhYgX.jpg)
-## Edit hydra.sh OR 1n3sniper.sh
-## Edit the namelists & wordlists used for hydra
-## Edit the namelists & wordlists used for 1N3/Sn1per
-##
-# 3. Tmux = Multiplexer when performing DoS
-## Multiplexer = A Mux serves as an Amplifier to condense your fire-power
-## TMUX = A Mux to multiplex your single Brute-forcing script into 100 terminals of concurrent bash sessions to run the single Bash script :D
-![Multiplexer](https://www.electrical4u.com/wp-content/uploads/What-is-a-Multiplexer.png)
-##
-## Namelists & Wordlists
-## Download custom Namelists & Wordlists from github.com
-## https://gist.github.com/DaveYesland/e1d42489334049daf59d1c26543faa8b
-##
-## Performing DDoS using Bash + Docker Kali
-### bash fire-superiorty-hydra.sh
-### once at a given time to avoid crashing your Kali Linux
-### Aim well & make it count ;)
-##
-# 4. Python
-![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
-![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
-## Usage
-## Install Python Dependencies
-## bash ./Malware-Dev/install-modules.sh
-##
-# 5. Python multiprocessing modules
-## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes)
-## Multi-processing != Multi-threaded
-## FREE Tutorial
-# Python multi-processing
-## https://www.youtube.com/watch?v=fKl2JW_qrso&list=PLdbtMgV1x_BiBTh_JwYpzramnhzOLgXvx&pp=gAQBiAQB
-##
-# Python 
-## If you're looking forward to further enhance the DDoS firepower => 
-## Go for Kasm/Docker Compose
-# Kasm
-![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
-# Docker Compose
-![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
-## Using Docker Compose with Kasm
-## Kasm official download .tar.gz has a bug in ./install.sh
-## Use the debugged ./Docker-compose/install.sh in here instead
-##
-# More & more Fire-power?
-# Use Golang :D
-![Golang](https://www.freecodecamp.org/news/content/images/2021/10/golang.png)
-# gopacket module :D 
-![Black Hat Go](https://m.media-amazon.com/images/I/81k+Ajmu4fL._AC_UF1000,1000_QL80_.jpg)
-## https://github.com/google/gopacket
-## OR Erlang OR Rust concurrent programming languages :D
-##
-# Part 6 - Malware
+# Part 8 - Malware Development
 ## 1. Backdoor
 ![Backdoor](https://blogs.juniper.net/wp-content/uploads/2022/12/SEC-220694_DIGITAL_Threat-Labs-ESXi-backdoor-anchor_2000x1116-1024x571.png)
 ## FREE Tutorials
