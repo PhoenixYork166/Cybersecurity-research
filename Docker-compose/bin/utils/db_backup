@@ -1,0 +1,117 @@
+#!/usr/bin/env bash
+
+SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
+DATABASE_HOSTNAME='false'
+DATABASE_USER='kasmapp'
+DATABASE_NAME='kasm'
+ARCH=$(uname -m | sed 's/aarch64/arm64/g' | sed 's/x86_64/amd64/g')
+ARGS=("$@")
+
+set -e
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root"
+   exit 1
+fi
+
+function display_help() {
+   CMD='\033[0;31m'
+   NC='\033[0m'
+   echo "Usage IE:"
+   echo "${0} --path /opt/kasm/current --backup-file /home/ubuntu/kasm_backup.tar"
+   echo ""
+   echo "Flag                                    Description"
+   echo "----------------------------------------------------------------------------------------------------------"
+   echo -e "| ${CMD}-h|--help${NC}              |Display this help menu                                           |"
+   echo -e "| ${CMD}-f|--backup-file${NC}       |Path to kasm db backup file (tar)                                |"
+   echo -e "| ${CMD}-p|--path${NC}              |Path to kasm installation desired for backup e.g /opt/kasm/1.0.0 |"
+   echo -e "| ${CMD}-q|--database-hostname${NC} |Database hostname                                                |"
+   echo -e "| ${CMD}-c|--database-user${NC}     |Database user                                                    |"
+   echo -e "| ${CMD}-j|--database-name${NC}     |Database name                                                    |"
+   echo -e "| ${CMD}-v|--verbose${NC}           |Verbose output                                                   |"
+   echo "----------------------------------------------------------------------------------------------------------"
+}
+
+for index in "${!ARGS[@]}"; do
+  case "${ARGS[index]}" in
+    -h|--help)
+        display_help
+        exit 0
+        ;;
+    -f|--backup-file)
+        DB_FILE="${ARGS[index+1]}"
+        ;;
+    -p|--path)
+        KASM_INSTALL_BASE="${ARGS[index+1]}"
+        ;;
+    -q|--database-hostname)
+        DATABASE_HOSTNAME="${ARGS[index+1]}"
+        ;;
+    -c|--database-user)
+        DATABASE_USER="${ARGS[index+1]}"
+        ;;
+    -j|--database-name)
+        DATABASE_NAME="${ARGS[index+1]}"
+        ;;
+    -v|--verbose)
+        set -x
+        ;;
+    -*|--*)
+        echo "Unknown option ${ARGS[index]}"
+        display_help
+        exit 1
+        ;;
+  esac
+done
+
+if [ -z "$DB_FILE" ]; then
+    echo "Error -  No database file specified ! "
+    echo ""
+    display_help
+    exit 1
+fi
+
+if [ -z "$KASM_INSTALL_BASE" ]; then
+    echo "Error -  No kasm installation path specified ! "
+    echo ""
+    display_help
+    exit 1
+fi
+
+export KASM_UID=$(id kasm -u)
+export KASM_GID=$(id kasm -g)
+
+DB_BACKUP_DIR=$(dirname "${DB_FILE}")
+DB_BACKUP_FILE_NAME=$(basename "${DB_FILE}")
+
+if [ "${DATABASE_HOSTNAME}" == "false" ] ; then
+  TEMP_DB_CONTAINER_NAME=temp_kasm_db_backup
+  pushd ${KASM_INSTALL_BASE}/docker > /dev/null
+  echo "Removing Existing Database container"
+  docker compose rm -f db > /dev/null
+
+  docker stop ${TEMP_DB_CONTAINER_NAME} &> /dev/null || true && docker rm ${TEMP_DB_CONTAINER_NAME}  &> /dev/null || true
+
+  echo "Creating temporary database backup container..."
+  docker compose run -v ${DB_BACKUP_DIR}/:/backup/ -d --name ${TEMP_DB_CONTAINER_NAME} db
+  sleep 10
+
+  echo "Executing Backup"
+  docker exec ${TEMP_DB_CONTAINER_NAME} pg_dump -b -C -U ${DATABASE_USER} -Ft ${DATABASE_NAME} -f /backup/${DB_BACKUP_FILE_NAME}
+
+  echo "Removing Temporary Backup Container"
+  docker rm -f ${TEMP_DB_CONTAINER_NAME}
+
+  popd > /dev/null
+else
+  DB_IMAGE_NAME=$(${SCRIPT_PATH}/yq_$(uname -m) '.services.db.image'  "${KASM_INSTALL_BASE}/docker/.conf/docker-compose-db.yaml")
+  DATABASE_PASSWORD=$(${SCRIPT_PATH}/yq_$(uname -m) '.database.password' "${KASM_INSTALL_BASE}/conf/app/api.app.config.yaml")
+  docker run -v ${DB_BACKUP_DIR}/:/backup/ -e PGPASSWORD="${DATABASE_PASSWORD}" --rm "${DB_IMAGE_NAME}" pg_dump -b -C -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -U ${DATABASE_USER} -Ft ${DATABASE_NAME} -f "/backup/${DB_BACKUP_FILE_NAME}"
+fi
+
+if [ ! -f "${DB_FILE}" ] ;
+then
+  echo "Database backup failed, backup file not present. Please correct the error and try again."
+  exit 1
+fi
+
+echo "Database backup is at the following location: ${DB_FILE}"

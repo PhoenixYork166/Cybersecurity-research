@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+set -e
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root"
+   exit 1
+fi
+
+KASM_VERSION="1.14.0"
+KASM_INSTALL_BASE="/opt/kasm/${KASM_VERSION}"
+SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+if ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.kasm_api.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q null; then
+  if ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.kasm_api.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q rolling; then
+    DONT_PULL_SERVICE_IMAGES=1
+  fi
+elif ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.kasm_agent.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q null; then
+  if ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.kasm_agent.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q rolling; then
+    DONT_PULL_SERVICE_IMAGES=1
+  fi
+elif ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.kasm_guac.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q null; then
+  if ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.kasm_guac.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q rolling; then
+    DONT_PULL_SERVICE_IMAGES=1
+  fi
+elif ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.db.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q null; then
+  if ${SCRIPT_PATH}/yq_$(uname -m) ".services.db.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q kasmweb; then
+    if ! ${SCRIPT_PATH}/yq_$(uname -m) ".services.db.image" ${KASM_INSTALL_BASE}/docker/docker-compose.yaml | grep -q rolling; then
+      DONT_PULL_SERVICE_IMAGES=1
+    fi
+  else
+    DONT_PULL_SERVICE_IMAGES=1
+  fi
+fi
+
+if [[ -z "${DONT_PULL_SERVICE_IMAGES}" ]]; then
+  pushd ${KASM_INSTALL_BASE}/docker > /dev/null
+
+  echo "Pulling Latest Kasm Service Images"
+  export KASM_UID=$(id kasm -u)
+  export KASM_GID=$(id kasm -g)
+  docker compose pull
+  popd > /dev/null
+else
+  echo "Skipping Pull of Kasm Service Images"
+fi

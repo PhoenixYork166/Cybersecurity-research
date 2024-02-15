@@ -1,0 +1,8 @@
+connection_proxies:
+  kasm-guac:
+    connection_proxy_id: "00000000-0000-0000-0000-000000000000"
+    server_address: "APIHOSTNAME"
+    server_port: 443
+    connection_proxy_type: GUAC
+    auth_token: GUACTOKEN
+    zone_name: default

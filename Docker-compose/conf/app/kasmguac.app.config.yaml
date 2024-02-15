@@ -1,0 +1,21 @@
+kasmguac:
+  id: 00000000-0000-0000-0000-000000000000
+  port: 3000
+  cluster_size: CLUSTER_SIZE
+  server_address: SERVER_ADDRESS
+  server_port: SERVER_PORT
+  zone: ZONE
+  registration_token: REGISTRATION_TOKEN
+  kasm_delete_session_watch_interval: 60
+  logging:
+    errorEventName: error
+    logDirectory: /opt/kasm/current/log/
+    fileNamePattern: kasmguac-<DATE>.log
+    dateFormat: YYYY.MM.DD
+    timestampFormat: YYYY-MM-DD HH:mm:ss.SSS
+api:
+  hostnames: ['APIHOSTNAME']
+  port: 443
+  auth_token: GUACTOKEN
+  allow_self_signed_cert: true
+  hostname_refresh_interval: 30

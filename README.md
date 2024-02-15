@@ -308,7 +308,24 @@ https://www.kali.org/
 ## https://www.youtube.com/watch?v=fKl2JW_qrso&list=PLdbtMgV1x_BiBTh_JwYpzramnhzOLgXvx&pp=gAQBiAQB
 ##
 # Python 
-## If you're looking forward to further enhance the DDoS firepower => Go for Docker Swarm + Golang/Erlang/Rust programming languages :D
+## If you're looking forward to further enhance the DDoS firepower => 
+## Go for Kasm/Docker Compose
+# Kasm
+![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
+# Docker Compose
+![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
+## Using Docker Compose with Kasm
+## Kasm official download .tar.gz has a bug in ./install.sh
+## Use the debugged ./Docker-compose/install.sh in here instead
+##
+# More & more Fire-power?
+# Use Golang :D
+![Golang](https://www.freecodecamp.org/news/content/images/2021/10/golang.png)
+# gopacket module :D 
+![Black Hat Go](https://m.media-amazon.com/images/I/81k+Ajmu4fL._AC_UF1000,1000_QL80_.jpg)
+## https://github.com/google/gopacket
+## OR Erlang OR Rust concurrent programming languages :D
+##
 # Part 6 - Malware
 ## 1. Backdoor
 ![Backdoor](https://blogs.juniper.net/wp-content/uploads/2022/12/SEC-220694_DIGITAL_Threat-Labs-ESXi-backdoor-anchor_2000x1116-1024x571.png)

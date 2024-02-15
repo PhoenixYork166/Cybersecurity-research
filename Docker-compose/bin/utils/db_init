@@ -1,0 +1,181 @@
+#!/usr/bin/env bash
+set -e
+KASM_VERSION="1.14.0"
+KASM_INSTALL_BASE="/opt/kasm/${KASM_VERSION}"
+DATABASE_USER='kasmapp'
+DATABASE_NAME='kasm'
+DATABASE_HOSTNAME='false'
+DATABASE_PASSWORD=''
+DATABASE_MASTER_USER='postgres'
+DATABASE_PORT='5432'
+DATABASE_SSL='false'
+SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
+ARGS=("$@")
+
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root"
+   exit 1
+fi
+
+function verify() {
+    printf "\n\n"
+    echo "WARNING!!!"
+    echo "__________________________"
+    printf "\n\n"
+    echo "Contents of the existing database will be removed. This is irreversible!"
+    printf "\n"
+    read -p "Continue? (y/n) " choice
+    case "$choice" in
+      y|Y )
+        return
+        ;;
+      n|N )
+        echo "Exiting"
+        exit 1
+        ;;
+      * )
+        echo "Invalid Response"
+        echo "Exiting"
+        exit 1
+        ;;
+    esac
+
+}
+
+function display_help() {
+   CMD='\033[0;31m'
+   NC='\033[0m'
+   echo "Usage IE:"
+   echo "${0} --initialize --seed-file my_seed_file"
+   echo ""
+   echo "Flag                                     Description"
+   echo "------------------------------------------------------------------------------------------------------------"
+   echo -e "| ${CMD}-h|--help${NC}               | Display this help menu                                           |"
+   echo -e "| ${CMD}-i|--initialize${NC}         | Initialize the database (delete and recreated schema)            |"
+   echo -e "| ${CMD}-s|--seed-file${NC}          | Absolute path to the seed file (yaml)                            |"
+   echo -e "| ${CMD}-v|--verbose${NC}            | Verbose output                                                   |"
+   echo -e "| ${CMD}-q|--database-hostname${NC}  | Database hostname                                                |"
+   echo -e "| ${CMD}-G|--db-master-password${NC} | Database master password for database remote init                |"
+   echo -e "| ${CMD}-g|--db-master-user${NC}     | Database master user for database remote init                    |"
+   echo -e "| ${CMD}-c|--database-user${NC}      |Database user                                                     |"
+   echo -e "| ${CMD}-j|--database-name${NC}      |Database name                                                     |"
+   echo -e "| ${CMD}-a|--accept-warning${NC}     | Accept warning regarding db_init overwriting the current database|"
+   echo "------------------------------------------------------------------------------------------------------------"
+}
+
+for index in "${!ARGS[@]}"; do
+  case "${ARGS[index]}" in
+    -h|--help)
+        display_help
+        exit 0
+        ;;
+    -a|--accept-warning)
+        ACCEPT_WARNING=true
+        ;;
+    -s|--seed-file)
+        SEED_FILE="${ARGS[index+1]}"
+        SEED_FILE_NAME=$(basename ${SEED_FILE})
+        echo "Setting Seed file as ${SEED_FILE}"
+        ;;
+    -i|--initialize)
+        INITIALIZE_DATABASE="--initialize-database"
+        ;;
+    -v|--verbose)
+        set -x
+        ;;
+    -q|--database-hostname)
+        DATABASE_HOSTNAME="${ARGS[index+1]}"
+        ;;
+    -Q|--database-password)
+        DATABASE_PASSWORD="${ARGS[index+1]}"
+        ;;
+    -T|--database-port)
+        DATABASE_PORT="${ARGS[index+1]}"
+        ;;
+    -t|--database-ssl)
+        DATABASE_SSL="${ARGS[index+1]}"
+        ;;
+    -g|--db-master-user)
+        DATABASE_MASTER_USER="${ARGS[index+1]}"
+        echo "Using Database Master User ${DATABASE_MASTER_USER}"
+        ;;
+    -G|--db-master-password)
+        DATABASE_MASTER_PASSWORD="${ARGS[index+1]}"
+        echo "Using Database Master Password from stdin -G"
+        ;;
+    -c|--database-user)
+        DATABASE_USER="${ARGS[index+1]}"
+        ;;
+    -j|--database-name)
+        DATABASE_NAME="${ARGS[index+1]}"
+        ;;
+    -*|--*)
+        echo "Unknown option ${ARGS[index]}"
+        display_help
+        exit 1
+        ;;
+  esac
+done
+
+if [ -z "${SEED_FILE}" ]; then
+    echo "Error -  No seed file specified ! "
+    echo ""
+    display_help
+    exit 1
+fi
+
+export KASM_UID=$(id kasm -u)
+export KASM_GID=$(id kasm -g)
+
+pushd ${KASM_INSTALL_BASE}/docker > /dev/null
+
+# local database
+if [ "$DATABASE_HOSTNAME" == 'false' ] ; then
+
+    # TODO Check if the db already exists or not
+    set +e
+    docker compose stop
+    docker kill kasm_db &> /dev/null
+    docker container rm kasm_db &> /dev/null
+    set -e
+
+    if [ ! -z "${INITIALIZE_DATABASE}" ]; then
+        set +e
+        docker volume rm kasm_db_${KASM_VERSION} &> /dev/null
+        set -e
+        docker volume create kasm_db_${KASM_VERSION}
+    fi
+
+    docker compose up -d db --wait
+else
+    if [ -n "${INITIALIZE_DATABASE}" ]; then
+        # Check for the our schema and if present wipe and recreate the schema of the database.
+        DB_IMAGE_NAME=$(${SCRIPT_PATH}/yq_$(uname -m) '.services.db.image'  "${KASM_INSTALL_BASE}/docker/.conf/docker-compose-db.yaml")
+        set +e
+        docker run -e PGPASSWORD="${DATABASE_PASSWORD}" --rm "${DB_IMAGE_NAME}" psql -v ON_ERROR_STOP=on -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -U "${DATABASE_USER}" -d "${DATABASE_NAME}" -c "\q"
+        ret=$?
+        set -e
+        if [ $ret -eq 0 ]; then
+            if [ ! "${ACCEPT_WARNING}" = true ]
+            then
+                verify
+            fi
+            docker run -e PGPASSWORD="${DATABASE_MASTER_PASSWORD}" --rm "${DB_IMAGE_NAME}" psql -v ON_ERROR_STOP=on -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -e -U "${DATABASE_MASTER_USER}" -c "drop database if exists ${DATABASE_NAME};" postgres
+        else
+            docker run -e PGPASSWORD="${DATABASE_MASTER_PASSWORD}" --rm "${DB_IMAGE_NAME}" psql -v ON_ERROR_STOP=on -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -U "${DATABASE_MASTER_USER}" -d postgres -c "CREATE USER ${DATABASE_USER} WITH PASSWORD '${DATABASE_PASSWORD}'"
+            docker run -e PGPASSWORD="${DATABASE_MASTER_PASSWORD}" --rm "${DB_IMAGE_NAME}" psql -v ON_ERROR_STOP=on -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -U "${DATABASE_MASTER_USER}" -d postgres -c "GRANT ${DATABASE_USER} TO ${DATABASE_MASTER_USER}"
+        fi
+        docker run -e PGPASSWORD="${DATABASE_MASTER_PASSWORD}" --rm "${DB_IMAGE_NAME}" psql -v ON_ERROR_STOP=on -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -U "${DATABASE_MASTER_USER}" -d postgres -c "CREATE DATABASE ${DATABASE_NAME} OWNER ${DATABASE_USER}"
+        docker run -e PGPASSWORD="${DATABASE_MASTER_PASSWORD}" --rm "${DB_IMAGE_NAME}" psql -v ON_ERROR_STOP=on -h "${DATABASE_HOSTNAME}" -p "${DATABASE_PORT}" -U "${DATABASE_MASTER_USER}" -d "${DATABASE_NAME}" -c 'CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'
+    fi
+fi
+
+${KASM_INSTALL_BASE}/bin/utils/yq_$(uname -m) -i '.services.kasm_api += {"read_only": false}' ${KASM_INSTALL_BASE}/docker/.conf/docker-compose-api.yaml
+docker compose  -f ${KASM_INSTALL_BASE}/docker/.conf/docker-compose-api.yaml run -v ${SEED_FILE}:/tmp/${SEED_FILE_NAME} --rm --entrypoint "/usr/bin/kasm_server.so ${INITIALIZE_DATABASE} --cfg /opt/kasm/current/conf/app/api.app.config.yaml --populate-production --seed-file /tmp/${SEED_FILE_NAME}" kasm_api 2>&1 | grep -v UserWarning
+if [ ! ${PIPESTATUS[0]} -eq 0 ]; then
+    exit 1
+fi
+${KASM_INSTALL_BASE}/bin/utils/yq_$(uname -m) -i '.services.kasm_api += {"read_only": true}' ${KASM_INSTALL_BASE}/docker/.conf/docker-compose-api.yaml
+docker compose stop
+echo "Database Initialization Complete"
+popd > /dev/null
