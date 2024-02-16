@@ -23,6 +23,9 @@ modules=(
     'auto-py-to-exe'
 )
 
+# Install Python3 package manager pip
+apt install -y pip;
+
 for module in ${modules[@]};
     do
         echo "Installing Windows Python module: ${module}";
@@ -43,8 +46,28 @@ for module in ${modules[@]};
             echo "======================================";
         fi
 
+        # Debian
         echo "Installing Linux Python module: ${module}";
         installLinuxMod=$(apt install -y python3-${module});
+        if [[ ${?} -eq 0 ]];
+        then
+            echo "======================================";
+            echo "";
+            echo "Succeeded in installing Python3-${module}";
+            echo "";
+            echo "======================================";
+
+        else
+            echo "======================================";
+            echo "";
+            echo "Failed to install ${module}";
+            echo "";
+            echo "======================================";
+        fi
+
+        # CentOS 9
+        echo "Installing Linux Python module: ${module}";
+        installLinuxMod=$(yum install -y python3-${module});
         if [[ ${?} -eq 0 ]];
         then
             echo "======================================";

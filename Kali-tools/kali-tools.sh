@@ -94,6 +94,8 @@ then
     ## First-time setup
     # msfconsole
     tools=('net-tools'
+            'inetutils-tools'
+            'inetutils-ping'
             'tcpdump'
             'kaboxer'
             'xdg-utils'
@@ -317,8 +319,7 @@ then
             'mac-robber' 
             'snapd' 
             'git' 
-            'docker.io' 
-            'ettercap-graphical' 
+            'docker.io'
             'hydra' 
             'cassandra' 
             'beef-xss' 

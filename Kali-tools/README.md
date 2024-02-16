@@ -1,5 +1,7 @@
 ![Debian Linux](https://i.ytimg.com/vi/Y4umB6KqB4g/maxresdefault.jpg)
 ##
+# This is used for Kasm - Docker Kali Linux without any tools installed 
+## 
 # Hi fellas!
 ## We are here to learn how to craft our own Kali Linux 
 ## from a plain 0 Debian Linux :D
