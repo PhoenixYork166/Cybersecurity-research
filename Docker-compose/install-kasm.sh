@@ -88,6 +88,11 @@ if [[ ${?} -eq 0 ]];
 then
     echo "Succeeded in installing docker-compose :D";
     echo "Installing Kasm...";
+    echo "Chmod 777 to all essential directory!!";
+    sudo chmod 777 ./bin;
+    sudo chmod 777 ./bin/utils;
+    sudo chmod 777 ./bin/utils/yq_x86_64;
+    sudo chmod 777 ./bin/utils/*;
     cd ./kasm_release && chmod 777 ./*.* && bash ./install.sh;
                                 
 else
