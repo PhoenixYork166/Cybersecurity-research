@@ -25,6 +25,7 @@ modules=(
 
 # Install Python3 package manager pip
 apt install -y pip;
+OS_ID=$(cat /etc/os-release | egrep '^\s*ID\s*=(.*)$');
 
 for module in ${modules[@]};
     do
