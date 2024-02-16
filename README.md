@@ -237,9 +237,18 @@
 ##
 # 9. Open-source PHP-Backdoors from Github
 ## Let's thank to the backdoors contributors ;)
-## https://github.com/1337r0j4n/php-backdoors
+# i. https://github.com/1337r0j4n/php-backdoors
+## Usage =>
+## git clone https://github.com/1337r0j4n/php-backdoors.git
+##
 ## https://github.com/tennc/webshell/tree/master
+## Usage =>
+## git clone https://github.com/tennc/webshell.git
+##
 ## https://github.com/bartblaze/PHP-backdoors
+## Usage =>
+## git clone https://github.com/bartblaze/PHP-backdoors.git
+## 
 ## https://github.com/topics/php-webshell-backdoor
 ##
 # Part 2 - Internet Attack on Titans
