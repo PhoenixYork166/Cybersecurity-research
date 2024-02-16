@@ -235,6 +235,13 @@
 ### once at a given time to avoid crashing your Kali Linux
 ### Aim well & make it count ;)
 ##
+# 9. Open-source PHP-Backdoors from Github
+## Let's thank to the backdoors contributors ;)
+## https://github.com/1337r0j4n/php-backdoors
+## https://github.com/tennc/webshell/tree/master
+## https://github.com/bartblaze/PHP-backdoors
+## https://github.com/topics/php-webshell-backdoor
+##
 # Part 2 - Internet Attack on Titans
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
