@@ -10,7 +10,7 @@ else
     echo "Proceeding";
 fi
 
-sudo dd if =/dev/zero bs=1M count=1024 of=/mnt/1GiB.swap
+sudo dd if=/dev/zero bs=1M count=1024 of=/mnt/1GiB.swap
 
 if [[ ${?} -eq 0 ]];
 then
