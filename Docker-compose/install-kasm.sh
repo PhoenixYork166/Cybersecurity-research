@@ -94,11 +94,15 @@ then
     sudo chmod 777 ./bin/utils/yq_x86_64;
     sudo chmod 777 ./bin/utils/*;
     cd ./kasm_release && chmod 777 ./*.* && bash ./install.sh;
+
+    echo "Succeeded in installing Kasm :D";
+    echo "Please drop down the login password for admin@kasm.local :D";
+    echo "Exiting with 0";
+    exit 0;
                                 
 else
     echo "Failed to install docker-compose :(";
     echo "Please manually apt update && apt -y upgrade...";
-    echo "Breaking through!!";
 fi
         
 
