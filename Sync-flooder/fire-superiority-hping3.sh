@@ -6,11 +6,11 @@
 # Max. sessions = 100 for a 16CPU +　16GB RAM VM
 
 # You may try out this Multiplexer on a super-computer :D
-script='./hping3.sh';
+script='./hping3-buster.sh';
 
 # Trial & Error tested
 # maximum of 100 sessions can be handled by a 16 CPU + 16GB RAM VM
-sessions=100;
+sessions=200;
 
 # Asynchronous / Concurrent HTTP requests flooding
 # 5 Flooding synchronously
