@@ -70,6 +70,9 @@ then
     echo "======================================";
     echo "";
 
+    # APT update
+    apt-get update;
+
     # Start installing tones of customized hacking tools
     ## ifconfig must be added to sys variables
     # net-tools (ifconfig)
@@ -94,6 +97,8 @@ then
     ## First-time setup
     # msfconsole
     tools=('net-tools'
+            'netcat-traditional'
+            'iputils-ping'
             'inetutils-tools'
             'inetutils-ping'
             'tcpdump'
