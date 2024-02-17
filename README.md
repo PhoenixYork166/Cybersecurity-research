@@ -308,6 +308,9 @@
 ## 
 ## Intro - PowerShell Fileless Malware
 ## https://www.youtube.com/watch?v=RFGlilkI1Qg
+##
+## Intro - PowerShell + VBA Fileless Malware
+## https://www.youtube.com/watch?v=-hhgiTP_fXQ
 ## 
 ## Short talks - PowerShell Fileless Malware
 ## https://www.youtube.com/watch?v=BO0bVFZJmpg
