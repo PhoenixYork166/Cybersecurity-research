@@ -104,6 +104,9 @@
 ![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
 ## Kasm = A browser-based Container Streaming platform
 ![Kasm Container Streaming](https://miro.medium.com/v2/resize:fit:1400/1*c31jE549mSuDgNPpFRjXGQ.png)
+## User guide
+## https://www.youtube.com/watch?v=EJ5TYZLvJ70
+## https://www.youtube.com/watch?v=U5-oNbNEJYI
 ##
 ## This is our Primary DDoS platform to launch multiple Docker Kali Linux
 # Docker Compose
@@ -111,6 +114,8 @@
 ![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
 ## With Kasm / Docker-compose, we have our fire-superiority :D
 ![Fire-superiority](https://image.shutterstock.com/image-photo/launch-military-missiles-rocket-artillery-260nw-2246138253.jpg)
+![Katyusha launching1](https://i.makeagif.com/media/1-24-2016/Fe-Rpr.gif)
+![Katyusha launching2](https://i.imgur.com/zz4lhAA.gif)
 ![AOT](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
 ![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
 ##
