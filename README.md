@@ -11,6 +11,8 @@
 ##
 ## Much appreciated your education for Cybersecurity, Cyber Orchestration, Advanced Network defenses, Infrastructure Security and Regular Expression🙇🏻‍♀️
 ## No Jimmy, no me🙇🏻‍♀️
+## 
+## *** Jimmy Gor & I also do NOT encourage hacktivism ***
 ##
 ## *** This repo does NOT encourage unethical hacktivism ***
 ## 
