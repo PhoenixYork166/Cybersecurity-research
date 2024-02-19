@@ -160,9 +160,8 @@
 ##
 ![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
 ##
-# If you have both Networking & Programming background:
+# If you have both Networking & Programming background...
 ## OMG! You ARE GONNA go on a RAMPAGE!! :D
-## If you're a Network+Security Engineer + a Developer :D
 ![Rogue one Vader](https://64.media.tumblr.com/07b25f2362e294b0be202368d6eed10d/972a35caba010962-b1/s540x810/d14abe5c7d2739352df7cd9e05ec6332f90e9c39.gif)
 ![Rogue one Vader2](https://i.pinimg.com/originals/c4/f1/78/c4f17879094617f094107f3a83838d3e.gif)
 ![Rogue one Vader3](https://media.tenor.com/DK_PuB_TtgMAAAAC/vader-rogue-one.gif)
