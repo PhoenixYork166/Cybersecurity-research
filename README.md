@@ -276,8 +276,14 @@
 # 10. Tons of Mr. Victim gors
 ![暴打渣男檸檬茶](https://i.ytimg.com/vi/dMO8AY2tTiQ/maxresdefault.jpg)
 ##
-## 19 Win10 gor
-## 
+## 19 Win10 gor Download
+## https://www.microsoft.com/en-hk/software-download/windows10
+##
+## CentOS stream 9 gor Download
+## https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/
+##
+## Debian 12 gor Download
+## https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.5.0-amd64-netinst.iso
 # Part 2 - Internet Attack on Titans
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
