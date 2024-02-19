@@ -31,10 +31,24 @@ if [[ ${?} -eq 0 ]];
 then
     echo "";
     echo "${NIC} is now up :D";
-    echo "Exiting with 0";
-    exit 0;
 else
     echo "";
     echo "Failed to bring up ${NIC} ;(";   
     echo "";
 fi
+
+echo "Restarting network.service";
+restartNetwork=$(sudo /etc/init.d/networking restart);
+if [[ ${?} -eq 0 ]];
+then
+    echo "";
+    echo "Succeeded in restarting network.service :D";
+else
+    echo "";
+    echo "Failed to restart network.service ;(";   
+    echo "";
+    exit 1;
+fi
+
+echo "Exiting with 0";
+exit 0;
