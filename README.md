@@ -7,6 +7,11 @@
 ![V for vendetta spinning knives](https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif)
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 # Disclaimer
+## This repo is also a dedication to my Cybersecurity Mentor: Jimmy gor🙇🏻‍♀️ 
+##
+## Much appreciated your education for Cybersecurity, Cyber Orchestration, Advanced Network defenses, Infrastructure Security and Regular Expression🙇🏻‍♀️
+## No Jimmy, no me🙇🏻‍♀️
+##
 ## *** This repo does NOT encourage unethical hacktivism ***
 ## 
 # Knowledge Pre-requisites
