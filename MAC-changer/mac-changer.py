@@ -14,7 +14,7 @@ import subprocess
 
 ifconfig = f'ifconfig'
 NIC = input(f'Enter NIC name to change MAC addr [eth0]: ')
-new_MAC = input(f'Enter new MAC addr for {NIC} [00:5c:56:fu:ck:yu]: ')
+new_MAC = input(f'Enter new MAC addr for {NIC} [00:5c:56:aa:bb:cc]: ')
 
 def changeMAC():
     do_ifconfig = subprocess.Popen(ifconfig, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -63,12 +63,13 @@ def changeMAC():
     if do_NIC_on.returncode == 0:
         print(f'\n')
         print(f'{do_NIC_on_out}')
-        print(f'Succeeded in turning of {NIC}')
+        print(f'Succeeded in turning ON {NIC}')
     else:
         print(f'\n')
         print(f'{do_NIC_on_err}')
-        print(f'Failed to turn off {NIC}')
+        print(f'Failed to turn ON {NIC}')
 
+# if this script = main script => Execute
 if __name__ == '__main__':
     changeMAC()
 

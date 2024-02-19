@@ -9,7 +9,7 @@ fi
 
 eth0_down=$(sudo ifconfig eth0 down);
 read -p "Enter NIC to change [eth0]: " NIC;
-read -p "Enter new MAC addr: [00:5c:56:fu:ck:yu]: " newMAC;
+read -p "Enter new MAC addr: [00:5c:56:aa:bb:cc]: " newMAC;
 change_MAC=$(sudo ifconfig $NIC hw ether $newMAC);
 
 if [[ ${?} -eq 0 ]];
