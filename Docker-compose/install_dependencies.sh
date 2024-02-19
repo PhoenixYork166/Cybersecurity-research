@@ -33,7 +33,7 @@ function check_docker_dependencies (){
     set +e
     DOCKER_VERSION=$(docker system info | grep "Server Version" | awk '{ print $3 }')
     DOCKER="$(command -v docker)"
-    DOCKER_COMPOSE="$(docker compose 2>/dev/null)"
+    DOCKER_COMPOSE="$(docker-compose 2>/dev/null)"
     DOCKER_COMPOSE_VERSION="$( (docker-compose version --short | sed s/v//g) 2>/dev/null)"
     set -e
     if [ -z "${DOCKER}" ] ; then
@@ -63,8 +63,8 @@ function check_docker_dependencies (){
 
     if [ -z "${DOCKER_COMPOSE}" ] ; then
         echo "Docker Compose is not installed."
-	INSTALL_COMPOSE='true'
-	install_docker_compose
+        INSTALL_COMPOSE='true'
+        install_docker_compose
     else
         echo "Docker compose is installed"
 

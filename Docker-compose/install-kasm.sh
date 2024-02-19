@@ -10,6 +10,32 @@ else
     echo "Proceeding";
 fi
 
+echo "Installing Docker.io for docker kommand :D";
+sudo apt install -y docker\.io;
+if [[ $? -eq 0 ]];
+then
+    echo "Succeeded in installing Docker.io for docker kommand :D";
+else
+    echo "Failed to install Docker.io for docker kommand :(";
+    echo "Trying out yum install -y docker && yum install -y docker\.io :D";
+    sudo yum install -y docker;
+    if [[ $? -eq 0 ]];
+    then
+        echo "Succeeded in yum installing docker :D";
+    else
+        echo "Failed to yum install -y docker";
+        echo "Trying out yum install -y docker\.io";
+        sudo yum install -y docker\.io;
+        if [[ $? -eq ]];
+        then
+            echo "Succeeded in yum install -y docker\.io";
+        else
+            echo "Failed to yum install -y docker\.io";
+        fi
+    fi
+fi
+
+echo "Preparing to do partition for Kasm";
 sudo dd if=/dev/zero bs=1M count=1024 of=/mnt/1GiB.swap
 
 if [[ ${?} -eq 0 ]];
@@ -83,6 +109,7 @@ echo "chmod +x /usr/local/bin/docker-compose";
 chmod +x /usr/local/bin/docker-compose;
 echo "Current docker-compose version: ";
 docker-compose --version;
+docker;
                                                         
 if [[ ${?} -eq 0 ]];
 then
