@@ -9,15 +9,6 @@
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 ##
 # Disclaimer
-## This repo is also a dedication to my Cybersecurity Mentor: Jimmy gor🙇🏻‍♀️ 
-##
-## Much appreciated your education for Cybersecurity, Cyber Orchestration, Advanced Network defenses, Infrastructure Security and Regular Expression🙇🏻‍♀️
-## No Jimmy, no me🙇🏻‍♀️
-## 
-## *** Jimmy Gor & I also do NOT encourage hacktivism ***
-##
-## *** This repo does NOT encourage unethical hacktivism ***
-## 
 # Knowledge Pre-requisites
 ## 
 # 1. Networking knowledge either: 
@@ -55,9 +46,9 @@
 ## git clone https://github.com/berlinlee-phoenix/Malicious-Dev.git
 ##
 ### The Purposes
-## To demonstrate IGS also has no-9-up Real Cybersecurity :D
-
-### I'm working as an IT user of a Web Application Firewall in my company
+## To demonstrate IGS also has alternative Cybersecurity :D
+##
+### I'm working as an IT user (Mr. Nobody) of a Web Application Firewall in my company
 ![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
 ### I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
 
@@ -66,9 +57,6 @@
 
 ### A Web Application Firewall looks like:
 ![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
-
-### My Cybersecurity Mentor Jimmy did NOT teach me any of these Black Hat technologies ;)
-## Jimmy gor taught me the invaluable concepts ;)
 ###
 ## This repo is for learning & professional development purposes
 ##
@@ -136,6 +124,7 @@
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
 ## There's NO boundaries between Networking & Development :D
 ## We're gonnna be good at both ;)
+## 
 # If you have a Networking background
 ## Download => Virtual Machines
 ## Select your Virtualization environment
