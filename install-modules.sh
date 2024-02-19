@@ -48,8 +48,8 @@ for module in ${modules[@]};
         fi
 
         # Debian
-        echo "Installing Linux Python module: ${module}";
-        installLinuxMod=$(apt install -y python3-${module});
+        echo "Installing Kali Linux Python module: ${module}";
+        installLinuxMod=$(pip install ${module});
         if [[ ${?} -eq 0 ]];
         then
             echo "======================================";
@@ -67,7 +67,7 @@ for module in ${modules[@]};
         fi
 
         # CentOS 9
-        echo "Installing Linux Python module: ${module}";
+        echo "Installing CentOS stream 9 Linux Python module: ${module}";
         installLinuxMod=$(yum install -y python3-${module});
         if [[ ${?} -eq 0 ]];
         then
