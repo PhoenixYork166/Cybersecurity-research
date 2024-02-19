@@ -102,17 +102,6 @@
 ##
 # Part 1 - Our Full-fleged Attacks platform
 # Let's rock :D
-![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
-![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
-##
-![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
-##
-![V for vendetta rampage](https://i.makeagif.com/media/7-17-2016/pbeCKJ.gif)
-##
-![V for vendetta god-like](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
-![Rogue one Vader](https://64.media.tumblr.com/07b25f2362e294b0be202368d6eed10d/972a35caba010962-b1/s540x810/d14abe5c7d2739352df7cd9e05ec6332f90e9c39.gif)
-![Rogue one Vader2](https://i.pinimg.com/originals/c4/f1/78/c4f17879094617f094107f3a83838d3e.gif)
-![Rogue one Vader3](https://media.tenor.com/DK_PuB_TtgMAAAAC/vader-rogue-one.gif)
 ##
 # Kasm
 ![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
@@ -144,7 +133,8 @@
 # 1. Kali Linux
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
-##
+## There's NO boundaries between Networking & Development :D
+## We're gonnna be good at both ;)
 # If you have a Networking background
 ## Download => Virtual Machines
 ## Select your Virtualization environment
@@ -152,6 +142,11 @@
 ## Get ISO images 
 ## https://www.kali.org/get-kali/#kali-installer-images
 ##
+## Being a Netrunner is like
+![V for vendetta rampage](https://i.makeagif.com/media/7-17-2016/pbeCKJ.gif)
+##
+![V for vendetta god-like](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
+## 
 # If you have a Programming background
 ## get Containers (Docker/LXC/LXD) 
 ![Containers](https://linuxways.net/wp-content/uploads/2021/11/What-is-the-Difference-Between-LXC-LXD-and-Docker-Containers.jpg)
@@ -159,10 +154,17 @@
 ## apt update && apt -y install kali-linux-headless
 ## apt update && apt -y install kali-linux-large
 ## docker pull kalilinux/kali-rolling
+![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
+![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
+##
+![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
 ##
 # If you have both Networking & Programming background:
 ## OMG! You ARE GONNA go on a RAMPAGE!! :D
-## Just do whatever you want :D
+## If you're a Network+Security Engineer + a Developer :D
+![Rogue one Vader](https://64.media.tumblr.com/07b25f2362e294b0be202368d6eed10d/972a35caba010962-b1/s540x810/d14abe5c7d2739352df7cd9e05ec6332f90e9c39.gif)
+![Rogue one Vader2](https://i.pinimg.com/originals/c4/f1/78/c4f17879094617f094107f3a83838d3e.gif)
+![Rogue one Vader3](https://media.tenor.com/DK_PuB_TtgMAAAAC/vader-rogue-one.gif)
 ##
 # Kali Linux VM
 ## Upon fresh installation of an ISO image on VMware
