@@ -5,6 +5,7 @@
 ![Atomic Blonde](https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif)
 ![Atomic Blonde2](https://64.media.tumblr.com/b004e7ecda80d57285da275de4e813f3/tumblr_oy1dzjVQ9a1qd49gbo2_540.gif)
 ![V for vendetta spinning knives](https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif)
+![Rogue one Vader](https://64.media.tumblr.com/07b25f2362e294b0be202368d6eed10d/972a35caba010962-b1/s540x810/d14abe5c7d2739352df7cd9e05ec6332f90e9c39.gif)
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 # Disclaimer
 ## This repo is also a dedication to my Cybersecurity Mentor: Jimmy gor🙇🏻‍♀️ 
@@ -53,6 +54,8 @@
 ## git clone https://github.com/berlinlee-phoenix/Malicious-Dev.git
 ##
 ### The Purposes
+## To demonstrate IGS also has no-9-up Real Cybersecurity :D
+
 ### I'm working as an IT user of a Web Application Firewall in my company
 ![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
 ### I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
@@ -64,6 +67,7 @@
 ![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
 
 ### My Cybersecurity Mentor Jimmy did NOT teach me any of these Black Hat technologies ;)
+## Jimmy gor taught me the invaluable concepts ;)
 ###
 ## This repo is for learning & professional development purposes
 ##
