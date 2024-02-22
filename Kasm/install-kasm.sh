@@ -26,7 +26,7 @@ else
         echo "Failed to yum install -y docker";
         echo "Trying out yum install -y docker\.io";
         sudo yum install -y docker\.io;
-        if [[ $? -eq ]];
+        if [[ $? -eq 0 ]];
         then
             echo "Succeeded in yum install -y docker\.io";
         else
