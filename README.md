@@ -127,7 +127,7 @@
 # 1. Kali Linux
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
-## There's NO boundaries between Networking & Development :D
+## There're NO boundaries between Networking & Development :D
 ## We're gonnna be good at both ;)
 ## 
 # If you have a Networking background
