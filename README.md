@@ -101,6 +101,7 @@
 ## https://www.youtube.com/watch?v=U5-oNbNEJYI
 ##
 ## This is our Primary DDoS platform to launch multiple Docker Kali Linux
+## 
 # Docker Compose
 ## If you prefer writing your own .yml :D
 ![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
@@ -114,10 +115,12 @@
 ## Using Kasm
 ## I'm a lazy guy, I do NOT wanna write any .yml ;)
 ![Lazy](https://media.tenor.com/dRS4cAaAU5EAAAAM/megumin-konosuba.gif)
-##
+## 
+## Fixing Kasm official open-source bugs...
 ## Kasm official download .tar.gz has a bug in ./install.sh
-## Use the debugged ./Docker-compose/install.sh in here instead
-##
+## Use /Kasm/install-kasm.sh or debugged /Kasm/install.sh
+## in this repository to install Kasm seamlessly...
+## 
 # Part 2 - Introducing the components of our powerful Cyber Arms :D
 # 1. Kali Linux
 ## https://www.kali.org/
