@@ -86,22 +86,22 @@ else
     echo "We'll break-through!!";
 fi
 
-#echo "Downloading Kasm...";
-#sudo wget https://kasm-static-content.s3.amazonaws.com/kasm_release_1.10.0.238225.tar.gz;
-#if [[ ${?} -eq 0 ]];
-#then
-#    echo "Succeeded in downloading Kasm :D";
-#else
-#    echo "Failed to download Kasm :(";
-#    echo "No worries! We'll break-through!!";
-#fi
+echo "Downloading Kasm...";
+sudo wget https://kasm-static-content.s3.amazonaws.com/kasm_release_1.10.0.238225.tar.gz;
+if [[ ${?} -eq 0 ]];
+then
+    echo "Succeeded in downloading Kasm :D";
+else
+    echo "Failed to download Kasm :(";
+    echo "No worries! We'll break-through!!";
+fi
 
-#echo "Proceeding to untar Kasm...";
-#echo "chmod 777 ./kasm_release_1.10.0.238225.tar.gz";
-#sudo chmod 777 ./kasm_release_1.10.0.238225.tar.gz;
-#sudo tar -zxvf ./kasm_release_1.10.0.238225.tar.gz;
-#echo "chmod 777 ./kasm_release";
-#sudo chmod 777 ./kasm_release;
+echo "Proceeding to untar Kasm...";
+echo "chmod 777 ./kasm_release_1.10.0.238225.tar.gz";
+sudo chmod 777 ./kasm_release_1.10.0.238225.tar.gz;
+sudo tar -zxvf ./kasm_release_1.10.0.238225.tar.gz;
+echo "chmod 777 ./kasm_release";
+sudo chmod 777 ./kasm_release;
                             
 echo "Downloading Docker Compose as a dependency of Kasm...";
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.18.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose;
@@ -113,7 +113,7 @@ docker;
                                                         
 if [[ ${?} -eq 0 ]];
 then
-    echo "Succeeded in installing docker-compose :D";
+    #echo "Succeeded in installing docker-compose :D";
     echo "Installing Kasm...";
     echo "Chmod 777 to all essential directory!!";
     sudo chmod 777 ./bin;
