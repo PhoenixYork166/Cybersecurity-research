@@ -113,7 +113,7 @@ docker;
                                                         
 if [[ ${?} -eq 0 ]];
 then
-    #echo "Succeeded in installing docker-compose :D";
+    echo "Succeeded in installing docker-compose :D";
     echo "Installing Kasm...";
     echo "Chmod 777 to all essential directory!!";
     sudo chmod 777 ./bin;
