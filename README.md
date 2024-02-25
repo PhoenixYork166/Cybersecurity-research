@@ -11,6 +11,10 @@
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 ##
 # Disclaimer
+# This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Groups/Insitutions or Governments
+# This repository is a medium of collaborative Learning, Research & Development of how to protect ourselves from modern Cyber Warfare. 
+# Most importantly, we still do NOT have any practical approaches/measures to protect ourselves from the Malicious activities discussed, explained herewith.
+##
 # Knowledge Pre-requisites
 ## 
 # 1. Networking knowledge either: 
