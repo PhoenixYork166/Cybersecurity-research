@@ -1,12 +1,14 @@
 Hippocratic License Version Number: 2.1.
+
 Copyright 2024 Berlin Lee (“Licensor”)
 
 Disclaimer
+
 This repository & its owner does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Race(s)/Insitution(s)/Government(s)
 
 This repository is one of the many medium for collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.
 
-This repository contains this repository owner's own code & also other repositories owners' code for System Integration purposes with as much LICENSE(s) added as possible to the extent that source code and associated authors of the captioned could be feasibly added.
+This repository contains this repository owner's own code & also other repositories owners' code for System Integration purposes with as much LICENSE(s) added as possible to the extent that source code and associated authors of their code AND(OR) software could be feasibly referenced and(or) captioned.
 
 
 Purpose. The purpose of this License is for the Licensor named above to permit the Licensee (as defined below) broad permission, if consistent with Human Rights Laws and Human Rights Principles (as each is defined below), to use and work with the Software (as defined below) within the full scope of Licensor’s copyright and patent rights, if any, in the Software, while ensuring attribution and protecting the Licensor from liability.

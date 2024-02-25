@@ -12,7 +12,9 @@
 ##
 # Disclaimer
 # This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Groups/Insitutions or Governments
-# This repository is a medium of collaborative Learning, Research & Development of how to protect ourselves from modern Cyber Warfare. 
+##
+# This repository is a medium of collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare. 
+#
 # Most importantly, we still do NOT have any practical approaches/measures to protect ourselves from the Malicious activities discussed, explained herewith.
 ##
 # Knowledge Pre-requisites
