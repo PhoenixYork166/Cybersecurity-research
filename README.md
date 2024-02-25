@@ -1,4 +1,4 @@
-# Penetration Testing + Secret Stress Testing
+# Cyber Warfare & Defenses Research & Development
 ![Ethical Hacking](https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg)
 ![V for vendetta knives](https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg)
 # Let's Rock ;)
@@ -11,6 +11,10 @@
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 ##
 # Disclaimer
+# This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Groups/Insitutions or Governments
+# This repository is a medium of collaborative Learning, Research & Development of how to protect ourselves from modern Cyber Warfare. 
+# Most importantly, we still do NOT have any practical approaches/measures to protect ourselves from the Malicious activities discussed, explained herewith.
+##
 # Knowledge Pre-requisites
 ## 
 # 1. Networking knowledge either: 
@@ -368,7 +372,6 @@
 ## As most of us are using Win10/11 in 2024 :D
 ## PowerShell becomes the default runtime on our Windows :D
 ## This technique is extremely useful to wear your black hat in a strict Enterprise environment ;)
-## Like fucking Mxxgax Stxxlxy or Jxxxxy Clxx
 ## NOT many in-house Cybersecurity professionals have to know-how to catch you ;)
 ![Catch me if you can ;)](https://cdn.theasc.com/Catch-Me-If-You-Can-Featured.jpg)
 ![Leonardo](https://i.pinimg.com/564x/a8/7b/87/a87b8795a17bf841cba6e7dca959a4c5.jpg)
