@@ -120,7 +120,7 @@ then
     sudo chmod 777 ./bin/utils;
     sudo chmod 777 ./bin/utils/yq_x86_64;
     sudo chmod 777 ./bin/utils/*;
-    cd ./kasm_release && chmod 777 ./*.* && bash ./install.sh;
+    bash ./install.sh;
                                 
 else
     echo "Failed to install docker-compose :(";
