@@ -1,4 +1,4 @@
-# Penetration Testing + Load Testing
+# Penetration Testing + Stress Testing
 ![Ethical Hacking](https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg)
 ![V for vendetta knives](https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg)
 # Let's Rock ;)
@@ -127,7 +127,7 @@
 # 1. Kali Linux
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
-## There's NO boundaries between Networking & Development :D
+## There're NO boundaries between Networking & Development :D
 ## We're gonnna be good at both ;)
 ## 
 # If you have a Networking background
