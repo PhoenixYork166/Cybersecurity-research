@@ -1,4 +1,6 @@
-Buffer-overflow/*.py
-Socket/*.py
+Buffer-overflow/
+Socket/
 Socket/*.c
+Socket/*.py
+Load-test/
 Load-test/*.py
