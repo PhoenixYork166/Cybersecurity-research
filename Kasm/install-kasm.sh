@@ -16,6 +16,14 @@ apt install -y curl;
 # Need to ipv4_forward = 1
 echo 1 > /proc/sys/net/ipv4/ip_forward;
 
+# Chmod 777
+echo "Chmod 777 to all essential directory!!";
+sudo chmod 777 ./bin;
+sudo chmod 777 ./bin/utils;
+sudo chmod 777 ./bin/utils/yq_x86_64;
+sudo chmod 777 ./bin/utils/*;
+bash ./install.sh;
+
 echo "Installing Docker.io for docker kommand :D";
 sudo apt install -y docker\.io;
 if [[ $? -eq 0 ]];
@@ -127,12 +135,6 @@ if [[ ${?} -eq 0 ]];
 then
     echo "Succeeded in installing docker-compose :D";
     echo "Installing Kasm...";
-    echo "Chmod 777 to all essential directory!!";
-    sudo chmod 777 ./bin;
-    sudo chmod 777 ./bin/utils;
-    sudo chmod 777 ./bin/utils/yq_x86_64;
-    sudo chmod 777 ./bin/utils/*;
-    bash ./install.sh;
                                 
 else
     echo "Failed to install docker-compose :(";

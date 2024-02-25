@@ -104,6 +104,7 @@
 ![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
 ## Kasm = A browser-based Container Streaming platform
 ![Kasm Container Streaming](https://miro.medium.com/v2/resize:fit:1400/1*c31jE549mSuDgNPpFRjXGQ.png)
+##
 ## User guide
 ## https://www.youtube.com/watch?v=EJ5TYZLvJ70
 ## https://www.youtube.com/watch?v=U5-oNbNEJYI
@@ -125,9 +126,10 @@
 ![Lazy](https://media.tenor.com/dRS4cAaAU5EAAAAM/megumin-konosuba.gif)
 ## 
 ## Fixing Kasm official open-source bugs...
-## Kasm official download .tar.gz has a bug in ./install.sh
-## Use /Kasm/install-kasm.sh or debugged /Kasm/install.sh
-## in this repository to install Kasm seamlessly...
+##
+## Kasm official download .tar.gz has an official bug in ./install.sh
+##
+## You MUST use /Kasm/install-kasm.sh to get Kasm installed properly...
 ## 
 # Part 2 - Introducing the components of our powerful Cyber Arms :D
 # 1. Kali Linux

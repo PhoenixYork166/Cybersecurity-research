@@ -1286,7 +1286,7 @@ then
     fi
 fi
 
-id -u kasm &>/dev/null || useradd kasm
+id -u kasm &>/dev/null || sudo useradd kasm
 
 # TODO Prompt the user, or accept a flag for automation
 sudo rm -rf ${KASM_INSTALL_BASE}
