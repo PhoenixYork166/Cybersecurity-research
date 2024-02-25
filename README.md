@@ -368,7 +368,6 @@
 ## As most of us are using Win10/11 in 2024 :D
 ## PowerShell becomes the default runtime on our Windows :D
 ## This technique is extremely useful to wear your black hat in a strict Enterprise environment ;)
-## Like fucking Mxxgax Stxxlxy or Jxxxxy Clxx
 ## NOT many in-house Cybersecurity professionals have to know-how to catch you ;)
 ![Catch me if you can ;)](https://cdn.theasc.com/Catch-Me-If-You-Can-Featured.jpg)
 ![Leonardo](https://i.pinimg.com/564x/a8/7b/87/a87b8795a17bf841cba6e7dca959a4c5.jpg)
