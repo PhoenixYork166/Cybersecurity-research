@@ -13,6 +13,9 @@ fi
 # Just in case Debian 12 does NOT come with curl command
 apt install -y curl;
 
+# Need to ipv4_forward = 1
+echo 1 > /proc/sys/net/ipv4/ip_forward;
+
 echo "Installing Docker.io for docker kommand :D";
 sudo apt install -y docker\.io;
 if [[ $? -eq 0 ]];
@@ -37,6 +40,12 @@ else
         fi
     fi
 fi
+
+# Install Docker-compose
+echo "Installing Docker-compose for Kasm :D";
+mkdir -p /usr/local/lib/docker/cli-plugins
+curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/lib/docker/cli-plugins/docker-compose
+chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
 echo "Preparing to do partition for Kasm";
 sudo dd if=/dev/zero bs=1M count=1024 of=/mnt/1GiB.swap

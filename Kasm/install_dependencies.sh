@@ -312,6 +312,7 @@ if [ "${OS_ID}" == "debian" ] && ( [ "${OS_VERSION_ID}" == '"10"' ] || [ "${OS_V
     SUPPORTED='true'
     if [ $INSTALL_DOCKER == 'true' ] ; then
         install_debian
+        install_docker_compose
     fi
 
     if [ $INSTALL_COMPOSE == 'true' ] ; then
