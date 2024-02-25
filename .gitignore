@@ -4,3 +4,5 @@ Socket/*.c
 Socket/*.py
 Load-test/
 Load-test/*.py
+Firewall/
+GNS/
