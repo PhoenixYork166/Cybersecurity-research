@@ -133,6 +133,10 @@
 # 1. Kali Linux
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
+##
+## To automate Kali repository & Install Attack tools
+## https://github.com/berlinlee-phoenix/Kali-Rebuild-Auto
+## 
 ## There're NO boundaries between Networking & Development :D
 ## We're gonnna be good at both ;)
 ## 
