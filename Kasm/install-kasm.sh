@@ -10,6 +10,9 @@ else
     echo "Proceeding";
 fi
 
+# Just in case Debian 12 does NOT come with curl command
+apt install -y curl;
+
 echo "Installing Docker.io for docker kommand :D";
 sudo apt install -y docker\.io;
 if [[ $? -eq 0 ]];
