@@ -5,7 +5,7 @@
 modules=('locust')
 
 # Windows
-echo "Doing Windows";
+echo "Doing Windows...";
 for each in "${modules[@]}";
 do
     python -m pip install $each --user IGS;
@@ -26,7 +26,7 @@ do
 done
 
 # Linux
-echo "Doing Linux";
+echo "Doing Linux...";
 for each in "${modules[@]}";
 do
     pip install $each;
@@ -45,3 +45,5 @@ do
         echo "Failed to install $each :(";
     fi
 done
+
+
