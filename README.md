@@ -14,8 +14,10 @@
 #
 
 <img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
-#
-![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
+<h1></h1>
+<img src="https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif" alt="Explosion" title="Explosion" width="800" height="500" />
+<h1></h1>
+##
 ##
 # Disclaimer
 # This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Groups/Insitutions or Governments
