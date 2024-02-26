@@ -34,12 +34,16 @@
 <img src="https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
 </div>
 <br>
-<div>
-![TCP/IP Illustrated vol.1](http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf)
-</div>div>
+#
+
+#
+## http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf
+#
+
 <br>
 <br>
 
+#
 ##
 
 #TCP/IP Illustrated vol.2 - The Implementation
