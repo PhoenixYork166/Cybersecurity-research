@@ -1,40 +1,40 @@
 # Penetration Testing
 # [Cyber Warfare & Defenses Research & Development]
+<br>
 ![Ethical Hacking](https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg)
 ![V for vendetta knives](https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg)
-# Let's Rock ;)
-<h1></h1>
+<br>
+<h1>Let's Rock ;)</h1>
+<br>
 <img src="https://i.makeagif.com/media/2-04-2017/eJ0A_3.gif" alt="攞你命3000" title="攞你命3000" width="800" height="500" />
-<h1></h1>
-#
-<h1></h1>
+<br>
+<br>
 <img src="https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif" alt="atomic blonde" title="atomic blonde" width="500" height="250" />
-<h1></h1>
+<br>
 <img src="https://64.media.tumblr.com/b004e7ecda80d57285da275de4e813f3/tumblr_oy1dzjVQ9a1qd49gbo2_540.gif" alt="atomic blonde2" title="atomic blonde2" width="500" height="250" />
-<h1></h1>
+<br>
 <img src="https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif" alt="V for vendetta spinning knives" title="V for vendetta spinning knives" width="800" height="400" />
-<h1></h1>
+<br>
 <img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
 <h1></h1>
 <img src="https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif" alt="Explosion" title="Explosion" width="800" height="500" />
-<h1></h1>
-##
-# Disclaimer
-# This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Groups/Insitutions or Governments
-##
-# This repository is a medium of collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare. 
-#
-# Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.
-##
-# Knowledge Pre-requisites
+<br>
+<h1>Disclaimer</h1>
+<h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
+<br>
+<h1>This repository is a medium of collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
+<br>
+<h1>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h1>
+<br>
+<h1>Knowledge Pre-requisites</h1>
+<br>
+<h1>1. Networking knowledge either: </h1>
+<h2>TCP/IP Illustrated vol.1</h2>
+<img src="https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
+<br>
+[![TCP/IP Illustrated vol.1](http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf)](http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf)
+<br>
 ## 
-# 1. Networking knowledge either: 
-## FREE knowledge from .pdf e-books below :D
-## 
-## Reading & understanding all concepts
-## TCP/IP Illustrated vol.1
-![TCP/IP Illustrated vol.1 ](https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg)
-## http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf
 ##
 ## TCP/IP Illustrated vol.2 - The Implementation
 ![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
