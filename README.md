@@ -39,10 +39,14 @@
 </div>div>
 <br>
 <br>
-<div>TCP/IP Illustrated vol.2 - The Implementation</div>div>
-<div>![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)<div>
-<div>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf<div>
-<br>
+
+##
+
+#TCP/IP Illustrated vol.2 - The Implementation
+![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
+## https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf
+
+##
 
 ## 
 ## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
