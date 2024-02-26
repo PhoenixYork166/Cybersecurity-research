@@ -35,23 +35,14 @@
 </div>
 <br>
 #
-
 #
 ## http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf
 #
-
-<br>
-<br>
-
 #
 ##
-
-#TCP/IP Illustrated vol.2 - The Implementation
+# TCP/IP Illustrated vol.2 - The Implementation
 ![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
 ## https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf
-
-##
-
 ## 
 ## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
 ![TCP/IP Illustrated vol.3 ](https://m.media-amazon.com/images/I/71sp1Hsa9LL._AC_UF1000,1000_QL80_.jpg)
