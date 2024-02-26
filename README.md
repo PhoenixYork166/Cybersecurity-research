@@ -15,7 +15,7 @@
 ##
 # This repository is a medium of collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare. 
 #
-# Most importantly, we still do NOT have any practical approaches/measures to protect ourselves from the Malicious activities discussed, explained herewith.
+# Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.
 ##
 # Knowledge Pre-requisites
 ## 
