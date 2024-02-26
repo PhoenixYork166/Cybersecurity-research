@@ -13,6 +13,7 @@
 ![V for vendetta spinning knives](https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif)
 #
 ![我妻由乃](https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif)
+<img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="500" height="500" />
 #
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 ##
