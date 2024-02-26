@@ -13,13 +13,11 @@
 <img src="https://64.media.tumblr.com/b004e7ecda80d57285da275de4e813f3/tumblr_oy1dzjVQ9a1qd49gbo2_540.gif" alt="atomic blonde2" title="atomic blonde2" width="500" height="250" />
 <h1></h1>
 <img src="https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif" alt="V for vendetta spinning knives" title="V for vendetta spinning knives" width="800" height="400" />
-#
 <h1></h1>
 <img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
 <h1></h1>
 <img src="https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif" alt="Explosion" title="Explosion" width="800" height="500" />
 <h1></h1>
-##
 ##
 # Disclaimer
 # This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Groups/Insitutions or Governments
