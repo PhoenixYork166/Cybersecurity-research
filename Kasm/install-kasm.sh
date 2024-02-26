@@ -50,10 +50,10 @@ else
 fi
 
 # Install Docker-compose
-echo "Installing Docker-compose for Kasm :D";
-mkdir -p /usr/local/lib/docker/cli-plugins
-curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/lib/docker/cli-plugins/docker-compose
-chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+#echo "Installing Docker-compose for Kasm :D";
+#mkdir -p /usr/local/lib/docker/cli-plugins
+#curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/lib/docker/cli-plugins/docker-compose
+#chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
 echo "Preparing to do partition for Kasm";
 sudo dd if=/dev/zero bs=1M count=1024 of=/mnt/1GiB.swap
