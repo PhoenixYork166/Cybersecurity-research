@@ -30,14 +30,20 @@
 <br>
 <h1>1. Networking knowledge either: </h1>
 <h2>TCP/IP Illustrated vol.1</h2>
+<div>
 <img src="https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
+</div>
 <br>
+<div>
 ![TCP/IP Illustrated vol.1](http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf)
+</div>div>
 <br>
 <br>
-TCP/IP Illustrated vol.2 - The Implementation
-![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
-https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf
+<div>TCP/IP Illustrated vol.2 - The Implementation</div>div>
+<div>![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)<div>
+<div>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf<div>
+<br>
+
 ## 
 ## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
 ![TCP/IP Illustrated vol.3 ](https://m.media-amazon.com/images/I/71sp1Hsa9LL._AC_UF1000,1000_QL80_.jpg)
