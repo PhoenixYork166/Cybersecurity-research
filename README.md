@@ -8,7 +8,7 @@
 <h1></h1>
 #
 <h1></h1>
-<img src="https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif" alt="atomic blonde" title="atomic blonde" width="800" height="500" />
+<img src="https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif" alt="atomic blonde" title="atomic blonde" width="500" height="250" />
 <h1></h1>
 #
 <h1></h1>
