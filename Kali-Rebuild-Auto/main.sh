@@ -22,21 +22,20 @@ if [[ ${?} -eq 0 ]];
 then
     echo "Succeeded in updating Kali Repository :D";
     echo "Proceeding to install Kali tools ;)";
-    installTools=$(sudo bash ./install-tools.sh);
-    if [[ ${?} -eq 0 ]];
-    then
-        echo "Succeeded in install Kali Tools :D";
-        echo "Proceeding to install Python3 modules...";
-        
-    else
-        echo "Failed to install Kali tools :(";
-        echo "Exiting...";
-        exit 1;
-    fi
+    
 else
     echo "Failed to update Kali Repository :(";
-    echo "Exiting with 1";
-    exit 1;
+fi
+
+installTools=$(sudo bash ./install-tools.sh);
+
+if [[ ${?} -eq 0 ]];
+then
+    echo "Succeeded in install Kali Tools :D";
+    echo "Proceeding to install Python3 modules...";
+        
+else
+    echo "Failed to install Kali tools :(";
 fi
 
 installModules=$(sudo bash ./install-pymodules.sh);
