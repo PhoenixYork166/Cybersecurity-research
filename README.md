@@ -28,6 +28,16 @@
 <br>
 <h1>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h1>
 <br>
+<h1>Gear & $ Pre-requisites</h1>
+<br>
+<h1>$$ some handy bit-coin for Rust binary purchased somewhere ;)</h1>
+<br>
+<h1>Infra pre-requisites: Knowledge of Cloud IaaS, Cloud SaaS for handy OVH Cloud anonymous hosting of your Turret(s)</h1>
+<br>
+<h1>Network bandwidth: >= 10Gbps (under further testing...)</h1>
+<br>
+<h1>Field howitzer team reports that 1Gbps bandwidth cannot stand against the network traffic of a single 64CPU & 32GB RAM Kali Turret with 6 no. of Kasm containers of 8 CPU & 4Gb RAM launching DDoS...</h1>
+<br>
 <h1>Knowledge Pre-requisites</h1>
 <br>
 <h1>1. Networking knowledge either: </h1>
@@ -57,14 +67,18 @@
 ## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
 ![CCNP](https://noblinkyblinkycom.files.wordpress.com/2020/07/ccnp_enterprise_large.png)
 ##
-# 2. Network programming: 
+# 2. Network programming:
+# Rust concurrent programming for Fire-power engineering
+# 
+# Knowledge source of RFC
 ## Cisco DevNet
 ![Cisco DevNet](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
 ## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
 ## FREE knowledge FREE Download :D
 ## https://ptgmedia.pearsoncmg.com/images/9780137370443/samplepages/9780137370443_Sample.pdf
 ## 
-# 3. Programming knowledge: OOP, Python, Bash, regex, HTTP, Socket 
+# 3. Programming knowledge: OOP, Rust, Python, Bash, regex, HTTP, Socket, WebHooks (OVH Cloud automated deployment...) 
+#
 ## FREE knowledge
 ## https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
 ##
