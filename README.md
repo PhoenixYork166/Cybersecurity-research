@@ -19,6 +19,28 @@
 <br>
 <h1>Audience: Everyone who uses Computers</h1>
 <br>
+<h1>Mindset Pre-requisites</h1>
+<br>
+<h2>Respect every life-being</h2>
+<br>
+<h2>Challenge yourself!</h2>
+<br>
+<h2>Try Harder! OffSec says<h2>
+<br>
+<h2>Rules are built to break ;) they say</h2> 
+<br>
+<h2>Challenge Authoritativeness :D It will be fun they say</h2> 
+<br>
+<h2>Challenge Information Technology they say</h2>
+<br>
+<h2>Challenge all working Artifacts they say</h2>
+<br>
+<h2>Challenge every non-living thing :D they say</h2>
+<br>
+<h2>If you're from MNC / Enterprise, please get off from this repository ASAP</h2>
+<h2>Enterprise workers shall NOT need this kind of wisdom to get your job done ;) I say</h2>
+<h2>or any imminent need to challenge anything ;) I say</h2>
+<br>
 <h1>Recommended Networking Knowledge</h1>
 <br>
 <h1>1. Either TCP/IP Illustrated/CCNP</h1>
