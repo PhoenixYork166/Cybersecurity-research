@@ -1,12 +1,14 @@
 Hippocratic License Version Number: 2.1.
 
-Copyright 2024 Berlin Lee & a group of Anonymous developers (“Licensor”)
+Copyright 2024(c), Berlin Lee (The Integrator) & a group of Anonymous developers (“Licensor”)
 
 Disclaimer
 
-This repository & its owner does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Race(s)/Insitution(s)/Government(s)
+This repository & its owner (The Integrator) does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Race(s)/Insitution(s)/Government(s)
 
-This repository is one of the many medium for collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.
+This repository originates from the might of Collative R & D of a group of Clevel persons & Open-source contributors, the Integrator does NOT personally own any Knowledge, and associated knowledge in making of involved Technologies and Cyber Arms.
+
+This repository is one of the many medium for Open-source collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.
 
 This repository contains this repository owner's own code & also other repositories owners' code for System Integration purposes with as much LICENSE(s) added as possible to the extent that source code and associated authors of their code AND(OR) software could be feasibly referenced and(or) captioned.
 
