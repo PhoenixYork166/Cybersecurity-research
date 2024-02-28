@@ -201,6 +201,8 @@
 ##
 # Versatile Cyber Arms
 # 1. Kali Linux VM
+## Purpose of Kali Linux: Offensive Security
+##
 ## Upon fresh installation of an ISO image on VMware
 ## You need to update && upgrade Kali repository
 ## Step 1 Update expired Kali keys on base-build image
@@ -220,7 +222,9 @@
 ##
 # 2. Bash scripts
 ![Bash](https://blog.facialix.com/wp-content/uploads/2021/08/3930400_0bea.jpg)
-## Recon, Brute-forcing & Denial of Service using Bash scripts only
+## Purpose of Bash: Automation, configuration management, Multiplexing 
+## Purpose of Bash: Ansible Artifactory bypass, Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
+## 
 ## For instance, we wanna do some Brute-forcing
 ## Use Bash scripts in ./Brute-force
 ## Install apt dependencies
@@ -229,16 +233,20 @@
 # 3. Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
+## Purpose of general Python: Rapid Prototyping for Security PoC, Automation scripting, Socket programming
+##
 ## Usage
 ## Install Python Dependencies
 ## bash ./Malware-Dev/install-modules.sh
 ##
 # 4. Python Forensics - The Scapy module
+## Purpose of Scapy: Network sniffing, Network Automation, Network analysis
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 ## Tutorials 
 ## https://www.youtube.com/watch?v=YKxKnVE5FaE&list=PLhfrWIlLOoKOc3z424rgsej5P5AP8yNKR
 ##
 # 5. Python multi-processing module
+## Purpose of multiprocessing: Slightly enhance Python slow performance...Not so useful...
 ![Python Multi-processing](https://i.ytimg.com/vi/CRJOQtaRT_8/sddefault.jpg)
 ![Python Multi-processing](https://miro.medium.com/v2/resize:fit:1400/1*3UHj7DLOsHLIdt2YiOoZ3w.gif)
 ## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes)
@@ -247,9 +255,8 @@
 # Python multi-processing
 ## https://www.youtube.com/watch?v=fKl2JW_qrso&list=PLdbtMgV1x_BiBTh_JwYpzramnhzOLgXvx&pp=gAQBiAQB
 ##
-# Python 
 ## If you're looking forward to further enhance the DDoS firepower => 
-# Use Golang :D
+# Try Golang :D
 ![Golang](https://www.freecodecamp.org/news/content/images/2021/10/golang.png)
 # gopacket module :D 
 ![Black Hat Go](https://m.media-amazon.com/images/I/81k+Ajmu4fL._AC_UF1000,1000_QL80_.jpg)
@@ -260,10 +267,12 @@
 ![Avada Vedavra](https://i.gifer.com/A4yu.gif)
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 ![My Railgun](https://31.media.tumblr.com/95805eb5b84a264b6a2cef62fc54d42c/tumblr_mqta92HN4n1r5db25o1_500.gif)
-## Go for Rust concurrent programming :D
+## Try Rust - the Crab for concurrent programming :D
 ![Rust](https://mir-s3-cdn-cf.behance.net/project_modules/disp/fe36cc42774743.57ee5f329fae6.gif)
-# 6. Using Kali built-in powerful Attack Tools :D
+##
+# 6. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
 ![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
+##
 ## Writing some very simple Bash + Kali Tools give you extra edges :D
 ## Brute-forcing with Hydra
 ![Hydra](https://miro.medium.com/v2/resize:fit:1358/0*Kx7N8nKgqqdXhYgX.jpg)
@@ -274,7 +283,9 @@
 ## Edit the namelists & wordlists used for 1N3/Sn1per
 ##
 # 
-# 7. Tmux = A Multiplexer that allows you to run your Bash scripts using 100+ terminals at the same time, when performing DoS using a single Kali VM
+# 7. Tmux 
+## Purpose of TMUX: Terminal Multiplexing
+## A Multiplexer allows you to run your Bash scripts using 100+ terminals at the same time, when performing DoS using a single Kali VM/Kali Docker :D
 ![TMUX](https://raw.githubusercontent.com/tedsluis/tmux.conf/master/tmux_screenshot.gif)
 ##
 ## Multiplexer = A Mux serves as a layer of Amplifier to condense your fire-power
@@ -359,6 +370,13 @@
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
 ##
 # Part 5 - Powershell Fileless hacking techniques
+## Purpose of PowerShell: 19 Microsoft Defender bypass, all layers Firewall bypass, Memory Dump, Windows Registry Dump
+## Purpose of Powershell: PowerShell Execution Policy bypass, PS-Remoting bypass, Ansible Artifactory bypass
+## Purpose of PowerShell: SSH tunnelling through remote port forwarding, Malicious VPN connection, bring havoc on all Windows Users :D
+## Purpose of PowerShell: Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
+## Purpose of PowerShell: Powerful Combined Arms with Metasploit & Bash for Cross-platform hacking ;)
+## Purpose of PowerShell Empire: Post exploitations for gaining a foothold on your victims, Building Botnets ;)
+##
 ## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
 ![PS Fileless Malware](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f8b6737244527b8/62c1881dc35371509809003d/get-clipboard-get-malware.gif)
 ![PS Fileless Hacking1](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
