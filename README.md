@@ -207,6 +207,8 @@
 ![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
 ![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
 ##
+![Dumbledore](https://i.pinimg.com/originals/72/05/66/720566164e4624b34c98e65058847297.gif)
+##
 # If you have both Networking & Programming background...
 ## OMG! You ARE GONNA go on a RAMPAGE!! :D
 ![Rogue one Vader](https://64.media.tumblr.com/07b25f2362e294b0be202368d6eed10d/972a35caba010962-b1/s540x810/d14abe5c7d2739352df7cd9e05ec6332f90e9c39.gif)
