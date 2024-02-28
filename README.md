@@ -257,11 +257,12 @@
 ##
 # 4. Powershell Fileless hacking techniques
 ## Purpose of PowerShell: 19 Microsoft Defender bypass, all layers Firewall bypass, Memory Dump, Windows Registry Dump
-## Purpose of Powershell: PowerShell Execution Policy bypass, PS-Remoting bypass, Ansible Artifactory bypass
+## Purpose of PowerShell: PowerShell Execution Policy bypass, PS-Remoting bypass
+## Purpose of PowerShell: Ansible Artifactory code-screening bypass, , Building Botnets ;)
 ## Purpose of PowerShell: SSH tunnelling through remote port forwarding, Malicious VPN connection, bring havoc on all Windows Users :D
 ## Purpose of PowerShell: Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
 ## Purpose of PowerShell: Powerful Combined Arms with Metasploit & Bash for Cross-platform hacking ;)
-## Purpose of PowerShell Empire: Post exploitations for gaining a foothold on your victims, Building Botnets ;)
+## Purpose of PowerShell Empire: Post exploitations for gaining a foothold on your victims
 ##
 ## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
 ![PS Fileless Malware](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f8b6737244527b8/62c1881dc35371509809003d/get-clipboard-get-malware.gif)
