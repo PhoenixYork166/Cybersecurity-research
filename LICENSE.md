@@ -1,6 +1,6 @@
 Hippocratic License Version Number: 2.1.
 
-Copyright 2024 Berlin Lee (“Licensor”)
+Copyright 2024 Berlin Lee & a group of Anonymous developers (“Licensor”)
 
 Disclaimer
 
