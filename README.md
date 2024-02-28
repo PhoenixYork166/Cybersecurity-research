@@ -179,10 +179,9 @@
 ## apt update && apt -y install kali-linux-headless
 ## apt update && apt -y install kali-linux-large
 ## docker pull kalilinux/kali-rolling
+## Being a Developer is like:
 ![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
 ![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
-##
-![V for vendetta strikes back](https://i.makeagif.com/media/12-11-2015/APaRLp.gif)
 ##
 # If you have both Networking & Programming background...
 ## OMG! You ARE GONNA go on a RAMPAGE!! :D
