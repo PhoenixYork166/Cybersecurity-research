@@ -1,25 +1,13 @@
 # Penetration Testing
 # [Cyber Warfare & Defenses Research & Development]
 <br>
-<img src="https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="850" height="700" />
-<br>
-<img src="https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg" alt="V for vendetta knives" title="V for vendetta knives" width="650" height="400" />
-<br>
+<img src="https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="850" height="600" />
 <br>
 <h1>Let's Rock ;)</h1>
-<br>
-<img src="https://i.makeagif.com/media/2-04-2017/eJ0A_3.gif" alt="攞你命3000" title="攞你命3000" width="800" height="500" />
-<br>
 <br>
 <img src="https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif" alt="atomic blonde" title="atomic blonde" width="500" height="250" />
 <br>
 <img src="https://64.media.tumblr.com/b004e7ecda80d57285da275de4e813f3/tumblr_oy1dzjVQ9a1qd49gbo2_540.gif" alt="atomic blonde2" title="atomic blonde2" width="500" height="250" />
-<br>
-<img src="https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif" alt="V for vendetta spinning knives" title="V for vendetta spinning knives" width="800" height="400" />
-<br>
-<img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
-<h1></h1>
-<img src="https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif" alt="Explosion" title="Explosion" width="800" height="500" />
 <br>
 <h1>Disclaimer</h1>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
@@ -27,16 +15,6 @@
 <h1>This repository is a medium of collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
 <br>
 <h1>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h1>
-<br>
-<h1>Gear & $ Pre-requisites</h1>
-<br>
-<h1>$$ some handy bit-coin for Rust binary purchased somewhere ;)</h1>
-<br>
-<h1>Infra pre-requisites: Knowledge of Cloud IaaS, Cloud SaaS for handy OVH Cloud anonymous hosting of your Turret(s)</h1>
-<br>
-<h1>Network bandwidth: >= 10Gbps (under further testing...)</h1>
-<br>
-<h1>Field howitzer team reports that 1Gbps bandwidth cannot stand against the network traffic of a single 64CPU & 32GB RAM Kali Turret with 6 no. of Kasm containers of 8 CPU & 4Gb RAM launching DDoS...</h1>
 <br>
 <h1>Knowledge Pre-requisites</h1>
 <br>
@@ -77,7 +55,7 @@
 ## FREE knowledge FREE Download :D
 ## https://ptgmedia.pearsoncmg.com/images/9780137370443/samplepages/9780137370443_Sample.pdf
 ## 
-# 3. Programming knowledge: OOP, Rust, Python, Bash, regex, HTTP, Socket, WebHooks (OVH Cloud automated deployment...) 
+# 3. Programming knowledge: OOP, Python, Bash, HTTP, Socket, TCP/IP
 #
 ## FREE knowledge
 ## https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
@@ -204,7 +182,18 @@
 ![Rogue one Vader2](https://i.pinimg.com/originals/c4/f1/78/c4f17879094617f094107f3a83838d3e.gif)
 ![Rogue one Vader3](https://media.tenor.com/DK_PuB_TtgMAAAAC/vader-rogue-one.gif)
 ##
-# Kali Linux VM
+# Kings of DDoS (top 3)
+# 1. JMeter (dockerized)
+## https://github.com/alpine-docker/jmeter
+## https://github.com/justb4/docker-jmeter
+##
+# 2. HPing3 (dockerized)
+## https://github.com/utkudarilmaz/docker-hping3
+##
+# 3. Hydra
+##
+# Versatile Cyber Arms
+# 1. Kali Linux VM
 ## Upon fresh installation of an ISO image on VMware
 ## You need to update && upgrade Kali repository
 ## Step 1 Update expired Kali keys on base-build image
@@ -529,3 +518,88 @@
 ## You may change the path for encryption where the encryption script runs at
 ##
 # Enjoy :D
+#
+# =================== Post PoC Updates ===================================================
+<h1>Formation of PoC for Web App Firewall Penetration Testing group: 14 Dec 2023</h1>
+<br>
+<br>
+<img src="https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg" alt="V for vendetta knives" title="V for vendetta knives" width="650" height="400" />
+<br>
+<h1>1st PoC Period of Red teaming: 16 Jan 2024 to 24 Feb 2024</h1>
+<br>
+<h1>PoC status: Completed</h1>
+<br>
+<h1>Reporting...</h1>
+<h2>Pass = Could defend</h2>
+<h2>Failed = Failed to defend</h2>
+<br>
+<h2>Web Scraping (Java): pass</h2>
+<br>
+<h2>Generic XSS result: pass</h2>
+<br>
+<h2>Man-in-the-middle defense: pass</h2>
+<br>
+<h2>SQL Injection: pass</h2>
+<br>
+<h2>PHP Backdoor upload: pass</h2>
+<br>
+<h2>Nmap recon: failed</h2>
+<br>
+<h2>Hydra Web Brute-forcing: pass</h2>
+<br>
+<h2>Layer 7 DDoS (HTTP Flood): failed</h2>
+<br>
+<h2>Layer 4 DDoS (SYN ACK Flood): failed</h2>
+<br>
+<h2>Layer 3 DDoS (ICMPv4 Flood): failed</h2>
+<br>
+<h2>Layer 2 DDoS (ARP spoof Flood): failed</h2>
+<br>
+<h1>Official record of Maximum Sessions available for DDoS: 200 concurrent sessions</h1>
+<br>
+<h1>Official record of Maximum Concurrency for JMeter: 250k concurrency</h1>
+<br>
+<h2>Where are we heading to?</h2>
+
+# Practical experiments indicate that DDoS attacks are the most effective & practical way to take down targets against Enterprises in Cyber Warfare
+# 
+# While Sneaky MSF venoms & Fileless hacking using By-pass are the most effective Social Engineering attacks against personnel
+#
+# Direction
+## No one knows, this PoC was initiated in an complete unknow state...but completed successfully ;)
+##
+## We might be developing Wireguard VPN + host a PoC only Backdoor Server somewhere safe to simulate Ransomware + Backdoor attacks?
+## We might be re-inventing the wheel & doing some CI for existing artifacts?
+## No one knows ;)
+#
+## Hacking ground:
+## Previously: On-prem
+## Future: Unknown
+##
+## Network programming:
+## Rapid Prototyping: Python Scapy
+## Future Implementation: Unknown programming language(s)
+##
+## Virtualization:
+## Previously: Kali VM + Docker-compose in ESXi
+## Future: Docker-compose + Terraform + Ansible?
+##
+## Target DDoS sessions: Unknown
+<img src="https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif" alt="V for vendetta spinning knives" title="V for vendetta spinning knives" width="800" height="400" />
+<br>
+<img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
+<h1></h1>
+<img src="https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif" alt="Explosion" title="Explosion" width="800" height="500" />
+<br>
+<img src="https://i.makeagif.com/media/2-04-2017/eJ0A_3.gif" alt="攞你命3000" title="攞你命3000" width="800" height="500" />
+<br>
+<h1>Gear & $ Pre-requisites</h1>
+<br>
+<h1>$$ some handy bit-coin for Rust binary purchased somewhere ;)</h1>
+<br>
+<h1>Future Infra pre-requisites: Knowledge of Cloud IaaS, Cloud SaaS for handy OVH Cloud anonymous hosting of your Turret(s)</h1>
+<br>
+<h1>Future Network bandwidth: >= 10Gbps (under further testing...)</h1>
+<br>
+<h1>26-Feb-208: Field howitzer team reports that 1Gbps bandwidth cannot stand against the intranet network traffic of a single 64CPU & 32GB RAM Kali Turret with 6 no. of Kasm containers of 8 CPU & 4Gb RAM launching DDoS...</h1>
+<br>
