@@ -152,7 +152,7 @@
 # Part 2 - Introducing the components of our powerful Cyber Arms :D
 # 1. Kali Linux
 ## https://www.kali.org/
-![Kali Linux](https://www.kali.org/images/notebook-kali-2022.1.jpg)
+![Kali Linux](https://www.kali.org/blog/kali-linux-2019-4-release/images/kali-preview-boot.gif)
 ##
 ## To automate Kali repository & Install Attack tools
 ## https://github.com/berlinlee-phoenix/Kali-Rebuild-Auto
