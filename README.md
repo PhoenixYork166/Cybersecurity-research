@@ -10,15 +10,18 @@
 <img src="https://64.media.tumblr.com/b004e7ecda80d57285da275de4e813f3/tumblr_oy1dzjVQ9a1qd49gbo2_540.gif" alt="atomic blonde2" title="atomic blonde2" width="500" height="250" />
 <br>
 <h1>Disclaimer</h1>
+<br>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
 <br>
-<h1>This repository is a medium of collaborative Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
+<h1>This repository is a medium of collaborative public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
 <br>
 <h1>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h1>
 <br>
-<h1>Knowledge Pre-requisites</h1>
+<h1>Audience: Everyone who uses Computers</h1>
 <br>
-<h1>1. Networking knowledge either: </h1>
+<h1>Recommended Networking Knowledge</h1>
+<br>
+<h1>1. Either TCP/IP Illustrated/CCNP</h1>
 <h2>TCP/IP Illustrated vol.1</h2>
 <div>
 <img src="https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
@@ -45,17 +48,18 @@
 ## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
 ![CCNP](https://noblinkyblinkycom.files.wordpress.com/2020/07/ccnp_enterprise_large.png)
 ##
-# 2. Network programming:
+# 2. Recommended Network programming:
 # Rust concurrent programming for Fire-power engineering
 # 
 # Knowledge source of RFC
+# 
 ## Cisco DevNet
 ![Cisco DevNet](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
 ## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
 ## FREE knowledge FREE Download :D
 ## https://ptgmedia.pearsoncmg.com/images/9780137370443/samplepages/9780137370443_Sample.pdf
 ## 
-# 3. Programming knowledge: OOP, Python, Bash, HTTP, Socket, TCP/IP
+# 3. Recommended Programming knowledge (Entry level): OOP, Python, Bash, HTTP, Socket, TCP/IP
 #
 ## FREE knowledge
 ## https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
@@ -66,7 +70,11 @@
 ### The Purposes
 ## To demonstrate IGS also has alternative Cybersecurity :D
 ##
-### I'm working as an IT user (Mr. Nobody) of a Web Application Firewall in my company
+## Contributors of 1st PoC:
+## IGS Cybersecurity (& Network) team, , IGS DevSecOps team, IGS Infra team (OS + Network), IGS Blue Team, IGS Red Team, Anonymous Developers behind the scenes
+##
+## I'm working as an IT user (Mr. Nobody) or Amateur Technical Writter of a Web Application Firewall PoC in my company
+## I hereby announce that I am only the Integrator who do NOT personally own any involved Open-Source tools in any kinds e.g. knowledge/assets/Cyber Arms
 ![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
 ### I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
 
@@ -76,7 +84,7 @@
 ### A Web Application Firewall looks like:
 ![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
 ###
-## This repo is for learning & professional development purposes
+## This repo is documented for learning & professional development purposes
 ##
 ## If you do NOT follow rules below, YOU absolutely GO TO JAIL ;)
 ![Jail](https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/Can-You-Go-to-Jail-for-Debt_-1400x700-1.jpg.optimal.jpg)
