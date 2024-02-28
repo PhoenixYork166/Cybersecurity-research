@@ -557,8 +557,9 @@
 <br>
 <h1>Official record of Maximum Sessions available for DDoS: 200 concurrent sessions</h1>
 <br>
-<h1>Official record of Maximum Concurrency for JMeter: 250k concurrency</h1>
+<h1>Official record of Maximum Concurrency for JMeter: 500k concurrency</h1>
 <br>
+<h1>Officially tested best SystemInfo for a DDoS Docker container/Kali VM: 8 CPU & 4GB RAM</h1>
 <h2>Where are we heading to?</h2>
 
 # Practical experiments indicate that DDoS attacks are the most effective & practical way to take down targets against Enterprises in Cyber Warfare
