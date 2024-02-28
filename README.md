@@ -176,6 +176,26 @@
 ## https://www.kali.org/
 ![Kali Linux](https://www.kali.org/blog/kali-linux-2019-4-release/images/kali-preview-boot.gif)
 ##
+## Purpose of Kali Linux: Offensive Security (Recon, Cracking, SSL Stripping, Network Sniffing, whole TCP stack hacking etc.)
+##
+## Upon fresh installation of an ISO image on VMware
+## You need to update && upgrade Kali repository
+##
+## Step 1 Update expired Kali keys on base-build image
+## sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;
+##
+## Step 2 Update Kali.org Repository to start using HTTPS
+## sudo vim /etc/apt/sources.list;
+## Add these lines:
+## deb https://http.kali.org/kali kali-rolling main non-free contrib
+## deb-src https://http.kali.org/kali kali-rolling main non-free contrib
+## :wq
+## APT update & upgrade
+## sudo apt update && apt -y upgrade;
+##
+## Step 4 Clean up APT after updating & upgrading to Kali repo
+## sudo apt autoremove -y;
+##
 ## To automate Kali repository & Install Attack tools
 ## https://github.com/berlinlee-phoenix/Kali-Rebuild-Auto
 ## 
@@ -215,38 +235,17 @@
 ![Rogue one Vader2](https://i.pinimg.com/originals/c4/f1/78/c4f17879094617f094107f3a83838d3e.gif)
 ![Rogue one Vader3](https://media.tenor.com/DK_PuB_TtgMAAAAC/vader-rogue-one.gif)
 ##
-# Kings of DDoS (top 3)
-# 1. JMeter (dockerized)
+# 2. The Kings of DDoS (top 3)
+# i. JMeter (dockerized)
 ## https://github.com/alpine-docker/jmeter
 ## https://github.com/justb4/docker-jmeter
 ##
-# 2. HPing3 (dockerized)
+# ii. HPing3 (dockerized)
 ## https://github.com/utkudarilmaz/docker-hping3
 ##
-# 3. Hydra
+# iii. Hydra
 ##
-# Versatile Cyber Arms
-# 1. Kali Linux VM
-## Purpose of Kali Linux: Offensive Security
-##
-## Upon fresh installation of an ISO image on VMware
-## You need to update && upgrade Kali repository
-## Step 1 Update expired Kali keys on base-build image
-## sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;
-##
-## Step 2 Update Kali.org Repository to start using HTTPS
-## sudo vim /etc/apt/sources.list;
-## Add these lines:
-## deb https://http.kali.org/kali kali-rolling main non-free contrib
-## deb-src https://http.kali.org/kali kali-rolling main non-free contrib
-## :wq
-## APT update & upgrade
-## sudo apt update && apt -y upgrade;
-##
-## Step 4 Clean up APT after updating & upgrading to Kali repo
-## sudo apt autoremove -y;
-##
-# 2. Bash scripts
+# 3. Bash scripts
 ![Bash](https://blog.facialix.com/wp-content/uploads/2021/08/3930400_0bea.jpg)
 ## Purpose of Bash: Automation, configuration management, Multiplexing 
 ## Purpose of Bash: Ansible Artifactory bypass, Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
@@ -256,7 +255,7 @@
 ## Install apt dependencies
 ## chmod +x ./install.sh && bash install.sh;
 ##
-# 3. # Powershell Fileless hacking techniques
+# 4. Powershell Fileless hacking techniques
 ## Purpose of PowerShell: 19 Microsoft Defender bypass, all layers Firewall bypass, Memory Dump, Windows Registry Dump
 ## Purpose of Powershell: PowerShell Execution Policy bypass, PS-Remoting bypass, Ansible Artifactory bypass
 ## Purpose of PowerShell: SSH tunnelling through remote port forwarding, Malicious VPN connection, bring havoc on all Windows Users :D
@@ -291,7 +290,7 @@
 ## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
 ##
-# 4. Python
+# 5. Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
 ## Purpose of general Python: Rapid Prototyping for Security PoC, Automation scripting, Socket programming
@@ -300,20 +299,20 @@
 ## Install Python Dependencies
 ## bash ./Malware-Dev/install-modules.sh
 ##
-# 5. Python Forensics - The Scapy module
+# 6. Python Forensics - The Scapy module
 ## Purpose of Scapy: Network sniffing, Network Automation, Network analysis
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 ## Tutorials 
 ## https://www.youtube.com/watch?v=YKxKnVE5FaE&list=PLhfrWIlLOoKOc3z424rgsej5P5AP8yNKR
 ##
-# 6. Python multi-processing module
+# 7. Python multi-processing module
 ## Purpose of multiprocessing: Slightly enhance Python slow performance...Not so useful...
 ![Python Multi-processing](https://i.ytimg.com/vi/CRJOQtaRT_8/sddefault.jpg)
 ![Python Multi-processing](https://miro.medium.com/v2/resize:fit:1400/1*3UHj7DLOsHLIdt2YiOoZ3w.gif)
 ## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes)
 ## Multi-processing != Multi-threaded
-## FREE Tutorial
-# Python multi-processing
+#
+# 8. Python multi-processing
 ## https://www.youtube.com/watch?v=fKl2JW_qrso&list=PLdbtMgV1x_BiBTh_JwYpzramnhzOLgXvx&pp=gAQBiAQB
 ##
 ## If you're looking forward to further enhance the DDoS firepower => 
@@ -331,7 +330,7 @@
 ## Try Rust - the Crab for concurrent programming :D
 ![Rust](https://mir-s3-cdn-cf.behance.net/project_modules/disp/fe36cc42774743.57ee5f329fae6.gif)
 ##
-# 7. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
+# 9. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
 ![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
 ##
 ## Writing some very simple Bash + Kali Tools give you extra edges :D
@@ -344,7 +343,7 @@
 ## Edit the namelists & wordlists used for 1N3/Sn1per
 ##
 # 
-# 8. Tmux 
+# 10. Tmux 
 ## Purpose of TMUX: Terminal Multiplexing
 ## A Multiplexer allows you to run your Bash scripts using 100+ terminals at the same time, when performing DoS using a single Kali VM/Kali Docker :D
 ![TMUX](https://raw.githubusercontent.com/tedsluis/tmux.conf/master/tmux_screenshot.gif)
@@ -353,7 +352,7 @@
 ## TMUX = A Mux to multiplex your single Brute-forcing script into 100+ terminals of concurrent bash sessions to run the single Bash script :D
 ![Multiplexer](https://www.electrical4u.com/wp-content/uploads/What-is-a-Multiplexer.png)
 ##
-# 9. Open-source Namelists & Wordlists for Brute-forcing
+# 11. Open-source Namelists & Wordlists for Brute-forcing
 ## Download custom Namelists & Wordlists from github.com
 ## https://gist.github.com/DaveYesland/e1d42489334049daf59d1c26543faa8b
 ##
@@ -362,7 +361,7 @@
 ### once at a given time to avoid crashing your Kali Linux
 ### Aim well & make it count ;)
 ##
-# 10. Open-source PHP-Backdoors from Github
+# 12. Open-source PHP-Backdoors from Github
 ## Let's thank to the backdoors contributors ;)
 # i. https://github.com/1337r0j4n/php-backdoors
 ## Usage =>
@@ -378,17 +377,19 @@
 ## 
 ## https://github.com/topics/php-webshell-backdoor
 ##
-# 11. Tons of Mr. Victim gors
+# 13. Tons of Mr. Victim gors
 ![暴打渣男檸檬茶](https://i.ytimg.com/vi/dMO8AY2tTiQ/maxresdefault.jpg)
 ##
-## 19 Win10 gor Download
+## i. 19 Win10 gor Download
 ## https://www.microsoft.com/en-hk/software-download/windows10
 ##
-## CentOS stream 9 gor Download
+## ii. CentOS stream 9 gor Download
 ## https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/
 ##
-## Debian 12 gor Download
+## iii. Debian 12 gor Download
 ## https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.5.0-amd64-netinst.iso
+##
+##
 # Part 2 - Internet Attack on Titans
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
@@ -512,8 +513,9 @@
 ##
 
 # Part 8 - Malware Development
-## 1. Backdoor
+## 1. Backdoor PoC
 ![Backdoor](https://blogs.juniper.net/wp-content/uploads/2022/12/SEC-220694_DIGITAL_Threat-Labs-ESXi-backdoor-anchor_2000x1116-1024x571.png)
+##
 ## FREE Tutorials
 # 1. Python networking
 ## https://www.youtube.com/watch?v=3UOyky9sEQY&list=PLdbtMgV1x_BiFtjWTuylQbz8cF77F5bQA&pp=gAQBiAQB
@@ -528,10 +530,11 @@
 ## e.g. Wireguard VPN 
 ![Wireguard](https://www.zenarmor.com/docs/assets/images/1-f429b46a671cf6531fc5c99dd6fe302c.png)
 ## You victims will be able to connect to your network as Backdoor client only
-
-*** Usage ***
-*** Read the guide in ./Backdoor-verB/Backdoor coding.docx***
-
+#
+## *** Usage ***
+## *** Read the guide in ./Backdoor-verB/Backdoor coding.docx***
+##
+## Deployment?
 ## Use your creativity to find the way to make victims run vpn -> run code in reverse_shell.py
 ## A USB?
 ## An e-mail?
@@ -543,8 +546,9 @@
 ## May be some hackers' playground like OVH Cloud, with Indian Cloud servers hosted in India Data Centers? :D
 ![OVH Cloud](https://us.ovhcloud.com/sites/default/files/styles/large_screens_1x/public/2023-02/why-ovhcloud-icon-infographic-2018.png)
 
-# 2. Ransomware:
+# 2. Ransomware PoC:
 ![Ransomware](https://thepythoncode.com/media/articles/make-a-ransomware-in-python.jpg)
+##
 ## FREE Tutorial
 ## https://www.youtube.com/watch?v=bEA8HI_I5bQ&list=PLdbtMgV1x_BgL1Zns9Nx3f8qG_IRU8G4A&index=24&pp=gAQBiAQB
 ##
@@ -572,9 +576,8 @@
 ##
 # Enjoy :D
 #
-# =================== Post PoC Updates ===================================================
-<h1>Formation of PoC for Web App Firewall Penetration Testing group: 14 Dec 2023</h1>
-<br>
+# =================== Post PoC Updates ====================
+<h1>Official date of formation of PoC group: 14 Dec 2023</h1>
 <br>
 <img src="https://m.media-amazon.com/images/M/MV5BMjAxNTE4NTcxNl5BMl5BanBnXkFtZTcwNTk0MTYyNw@@._V1_.jpg" alt="V for vendetta knives" title="V for vendetta knives" width="650" height="400" />
 <br>
