@@ -230,7 +230,42 @@
 ## Install apt dependencies
 ## chmod +x ./install.sh && bash install.sh;
 ##
-# 3. Python
+# 3. # Powershell Fileless hacking techniques
+## Purpose of PowerShell: 19 Microsoft Defender bypass, all layers Firewall bypass, Memory Dump, Windows Registry Dump
+## Purpose of Powershell: PowerShell Execution Policy bypass, PS-Remoting bypass, Ansible Artifactory bypass
+## Purpose of PowerShell: SSH tunnelling through remote port forwarding, Malicious VPN connection, bring havoc on all Windows Users :D
+## Purpose of PowerShell: Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
+## Purpose of PowerShell: Powerful Combined Arms with Metasploit & Bash for Cross-platform hacking ;)
+## Purpose of PowerShell Empire: Post exploitations for gaining a foothold on your victims, Building Botnets ;)
+##
+## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
+![PS Fileless Malware](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f8b6737244527b8/62c1881dc35371509809003d/get-clipboard-get-malware.gif)
+![PS Fileless Hacking1](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
+![PS Fileless Hacking2](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
+![Fileless Hacking3](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
+## PowerShell Fileless Attacks
+## It allows you to put over a bunch of Malware using MC bypass leveraging memory execution without leaving any tracks behind on a Windows OS
+## 
+## Intro - PowerShell Fileless Malware
+## https://www.youtube.com/watch?v=RFGlilkI1Qg
+##
+## Intro - PowerShell + VBA Fileless Malware
+## https://www.youtube.com/watch?v=-hhgiTP_fXQ
+## 
+## Short talks - PowerShell Fileless Malware
+## https://www.youtube.com/watch?v=BO0bVFZJmpg
+## 
+## https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32ZiEWb2f9eMbpVjCX9Wd-uvMSWyK-snHWn1pQbKsyZiV-JiGn-dmnc73BpXqlJ0v3C0&usqp=CAU
+## https://www.youtube.com/watch?v=BFVzmZXIbQk
+## 
+## Long Tutorial - PowerShell Fileless Malware
+## https://www.youtube.com/watch?v=ChokX9P5tjM
+##
+## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
+## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
+![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
+##
+# 4. Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
 ## Purpose of general Python: Rapid Prototyping for Security PoC, Automation scripting, Socket programming
@@ -239,13 +274,13 @@
 ## Install Python Dependencies
 ## bash ./Malware-Dev/install-modules.sh
 ##
-# 4. Python Forensics - The Scapy module
+# 5. Python Forensics - The Scapy module
 ## Purpose of Scapy: Network sniffing, Network Automation, Network analysis
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 ## Tutorials 
 ## https://www.youtube.com/watch?v=YKxKnVE5FaE&list=PLhfrWIlLOoKOc3z424rgsej5P5AP8yNKR
 ##
-# 5. Python multi-processing module
+# 6. Python multi-processing module
 ## Purpose of multiprocessing: Slightly enhance Python slow performance...Not so useful...
 ![Python Multi-processing](https://i.ytimg.com/vi/CRJOQtaRT_8/sddefault.jpg)
 ![Python Multi-processing](https://miro.medium.com/v2/resize:fit:1400/1*3UHj7DLOsHLIdt2YiOoZ3w.gif)
@@ -270,7 +305,7 @@
 ## Try Rust - the Crab for concurrent programming :D
 ![Rust](https://mir-s3-cdn-cf.behance.net/project_modules/disp/fe36cc42774743.57ee5f329fae6.gif)
 ##
-# 6. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
+# 7. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
 ![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
 ##
 ## Writing some very simple Bash + Kali Tools give you extra edges :D
@@ -283,7 +318,7 @@
 ## Edit the namelists & wordlists used for 1N3/Sn1per
 ##
 # 
-# 7. Tmux 
+# 8. Tmux 
 ## Purpose of TMUX: Terminal Multiplexing
 ## A Multiplexer allows you to run your Bash scripts using 100+ terminals at the same time, when performing DoS using a single Kali VM/Kali Docker :D
 ![TMUX](https://raw.githubusercontent.com/tedsluis/tmux.conf/master/tmux_screenshot.gif)
@@ -292,7 +327,7 @@
 ## TMUX = A Mux to multiplex your single Brute-forcing script into 100+ terminals of concurrent bash sessions to run the single Bash script :D
 ![Multiplexer](https://www.electrical4u.com/wp-content/uploads/What-is-a-Multiplexer.png)
 ##
-# 8. Open-source Namelists & Wordlists for Brute-forcing
+# 9. Open-source Namelists & Wordlists for Brute-forcing
 ## Download custom Namelists & Wordlists from github.com
 ## https://gist.github.com/DaveYesland/e1d42489334049daf59d1c26543faa8b
 ##
@@ -301,7 +336,7 @@
 ### once at a given time to avoid crashing your Kali Linux
 ### Aim well & make it count ;)
 ##
-# 9. Open-source PHP-Backdoors from Github
+# 10. Open-source PHP-Backdoors from Github
 ## Let's thank to the backdoors contributors ;)
 # i. https://github.com/1337r0j4n/php-backdoors
 ## Usage =>
@@ -317,7 +352,7 @@
 ## 
 ## https://github.com/topics/php-webshell-backdoor
 ##
-# 10. Tons of Mr. Victim gors
+# 11. Tons of Mr. Victim gors
 ![暴打渣男檸檬茶](https://i.ytimg.com/vi/dMO8AY2tTiQ/maxresdefault.jpg)
 ##
 ## 19 Win10 gor Download
@@ -369,40 +404,7 @@
 ## Gain persistency using Registry keys in Windows in your python code
 ![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
 ##
-# Part 5 - Powershell Fileless hacking techniques
-## Purpose of PowerShell: 19 Microsoft Defender bypass, all layers Firewall bypass, Memory Dump, Windows Registry Dump
-## Purpose of Powershell: PowerShell Execution Policy bypass, PS-Remoting bypass, Ansible Artifactory bypass
-## Purpose of PowerShell: SSH tunnelling through remote port forwarding, Malicious VPN connection, bring havoc on all Windows Users :D
-## Purpose of PowerShell: Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
-## Purpose of PowerShell: Powerful Combined Arms with Metasploit & Bash for Cross-platform hacking ;)
-## Purpose of PowerShell Empire: Post exploitations for gaining a foothold on your victims, Building Botnets ;)
-##
-## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
-![PS Fileless Malware](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f8b6737244527b8/62c1881dc35371509809003d/get-clipboard-get-malware.gif)
-![PS Fileless Hacking1](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
-![PS Fileless Hacking2](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
-![Fileless Hacking3](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
-## PowerShell Fileless Attacks
-## It allows you to put over a bunch of Malware using MC bypass leveraging memory execution without leaving any tracks behind on a Windows OS
-## 
-## Intro - PowerShell Fileless Malware
-## https://www.youtube.com/watch?v=RFGlilkI1Qg
-##
-## Intro - PowerShell + VBA Fileless Malware
-## https://www.youtube.com/watch?v=-hhgiTP_fXQ
-## 
-## Short talks - PowerShell Fileless Malware
-## https://www.youtube.com/watch?v=BO0bVFZJmpg
-## 
-## https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32ZiEWb2f9eMbpVjCX9Wd-uvMSWyK-snHWn1pQbKsyZiV-JiGn-dmnc73BpXqlJ0v3C0&usqp=CAU
-## https://www.youtube.com/watch?v=BFVzmZXIbQk
-## 
-## Long Tutorial - PowerShell Fileless Malware
-## https://www.youtube.com/watch?v=ChokX9P5tjM
-##
-## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
-## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
-![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
+
 ## SSH Tunneling Hands-on Tutorial 1
 ## Hands-on
 ## Read illustrated guide from:
