@@ -165,7 +165,7 @@
 <img src="./images/aot.jpeg" alt="AOT" title="AOT" width="1280" height="720" />
 <img src="./images/rumbling.gif" alt="Rumbling" title="Rumbling" width="960" height="540" />
 <br>
-<img src="" alt="explosion" title="explosion" width="" height="" />
+<img src="./images/explosion.gif" alt="explosion" title="explosion" width="600" height="340" />
 <br>
 <h2>Using Kasm</h2>
 <h2>I'm a lazy guy, I do NOT wanna write any .yml ;)</h2>
@@ -225,7 +225,7 @@
 <br>
 <h1>If you have a Programming background</h1>
 <h2>Get Containers (Docker/LXC/LXD) </h2>
-<img src="./images/containers.jpg" alt="Containers" title="Containers" width="" height="" />
+<img src="./images/containers.jpg" alt="Containers" title="Containers" width="500" height="270" />
 <br>
 <h2>https://www.kali.org/get-kali/#kali-containers</h2>
 <h2>apt update && apt -y install kali-linux-headless</h2>
@@ -235,30 +235,31 @@
 <img src="./images/v-sugar.gif" alt="V x Shakespeare" title="V x Shakespeare" width="720" height="580" />
 <br>
 <img src="./images/dumbledore.gif" alt="Dumbledor" title="Dumbledor" width="500" height="210" />
+<br>
+<h1>If you have both Networking & Programming background...</h1>
+<h2>OMG! You ARE GONNA go on a RAMPAGE!! :D</h2>
+<img src="./images/rouge-vader-1.gif" alt="Rouge One Vader" title="Rogue One Vader" width="720" height="800" />
+<img src="./images/rouge-vader-2.gif" alt="Rogue One Vader-2" title="Rouge One Vader-2" width="720" height="300" />
+<img src="./images/rogue-vader-3.gif" alt="Rogue One Vader-3" title="Rogue One Vader-3" width="720" height="300" />
+<br>
+<h1>2. The Kings of DDoS (top 3)</h1>
+<h1>i. JMeter (dockerized)</h1>
+<h2>https://github.com/alpine-docker/jmeter</h2>
+<h2>https://github.com/justb4/docker-jmeter</h2>
+<br>
+<h1>ii. HPing3 (dockerized)</h1>
+<h2>https://github.com/utkudarilmaz/docker-hping3</h2>
+<br>
+<h1>iii. Hydra</h1>
+<br>
+<h1>3. Bash scripts</h1>
+<img src="./images/bash.jpg" alt="Bash" title="Bash" width="720" height="405" />
+<h2>Purpose of Bash: Automation, configuration management, Multiplexing </h2>
+<h2>Purpose of Bash: Ansible Artifactory bypass, Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)</h2>
+<br>
+<h2>For instance, we wanna do some Brute-forcing</h2>
 
-##
-# If you have both Networking & Programming background...
-## OMG! You ARE GONNA go on a RAMPAGE!! :D
-![Rogue one Vader](https://64.media.tumblr.com/07b25f2362e294b0be202368d6eed10d/972a35caba010962-b1/s540x810/d14abe5c7d2739352df7cd9e05ec6332f90e9c39.gif)
-![Rogue one Vader2](https://i.pinimg.com/originals/c4/f1/78/c4f17879094617f094107f3a83838d3e.gif)
-![Rogue one Vader3](https://media.tenor.com/DK_PuB_TtgMAAAAC/vader-rogue-one.gif)
-##
-# 2. The Kings of DDoS (top 3)
-# i. JMeter (dockerized)
-## https://github.com/alpine-docker/jmeter
-## https://github.com/justb4/docker-jmeter
-##
-# ii. HPing3 (dockerized)
-## https://github.com/utkudarilmaz/docker-hping3
-##
-# iii. Hydra
-##
-# 3. Bash scripts
-![Bash](https://blog.facialix.com/wp-content/uploads/2021/08/3930400_0bea.jpg)
-## Purpose of Bash: Automation, configuration management, Multiplexing 
-## Purpose of Bash: Ansible Artifactory bypass, Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
 ## 
-## For instance, we wanna do some Brute-forcing
 ## Use Bash scripts in ./Brute-force
 ## Install apt dependencies
 ## chmod +x ./install.sh && bash install.sh;
