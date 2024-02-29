@@ -3,6 +3,8 @@
 <br>
 <img src="https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="850" height="600" />
 <br>
+<img src="./hero.jpg" alt="hero" title="hero" width="500" height="500" />
+<br>
 <h1>Let's Rock ;)</h1>
 <br>
 <img src="https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif" alt="atomic blonde" title="atomic blonde" width="500" height="250" />
