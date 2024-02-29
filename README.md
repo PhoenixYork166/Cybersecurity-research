@@ -25,46 +25,41 @@
 <br>
 <h1>Mindset Pre-requisites</h1>
 <br>
-<h2>Respect every life-being</h2>
+<p>Respect every life-being</p>
 <br>
-<h2>Challenge yourself!</h2>
+<p>Challenge yourself!</p>
 <br>
-<h2>Try Harder! OffSec says<h2>
+<p>Try Harder! OffSec says<p>
 <br>
-<h2>Rules are built to break ;) they say</h2> 
+<p>Rules are built to break ;) they say</p> 
 <br>
-<h2>Challenge Authoritativeness :D It will be fun they say</h2> 
+<p>Challenge Authoritativeness :D It will be fun they say</p> 
 <br>
-<h2>Challenge Information Technology they say</h2>
+<p>Challenge Information Technology they say</p>
 <br>
-<h2>Challenge all working Artifacts they say</h2>
+<p>Challenge all working Artifacts they say</p>
 <br>
-<h2>Challenge every non-living thing :D they say</h2>
+<p>Challenge every non-living thing :D they say</p>
 <br>
-<h2>If you're from MNC / Enterprise, please get off from this repository ASAP</h2>
-<h2>Your supervisors are gonna trace the websites you browsed through a proxy ;) I say</h2>
-<h2>80% of Enterprise(s) so called Technical Managers have no wisdom in configuring their SIEMs (Splunk/Azure Sentinels) well ;) I say</h2>
+<p>If you're from MNC / Enterprise, please get off from this repository ASAP</p>
+<img src="./images/corpo-dog.jpg" alt="corpo-dog" title="corpo-dog" />
+<br>
+<p>Your supervisors are gonna trace the websites you browsed through a proxy ;) I say</p>
+<p>80% of Enterprise so called Technical Managers have no wisdom in configuring their SIEMs well ;) (Splunk/Azure Sentinels) I say</p>
 <br>
 <h1>Recommended Networking Knowledge</h1>
 <br>
 <h1>1. Either TCP/IP Illustrated/CCNP</h1>
 <h2>TCP/IP Illustrated vol.1</h2>
-<div>
-<img src="https://m.media-amazon.com/images/I/51+kWutbzlL._AC_UF1000,1000_QL80_.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
-</div>
+<img src="./images/tcp-ip-vol1.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
+<p>http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf</p>
 <br>
+<h1>TCP/IP Illustrated vol.2 - The Implementation</h1>
+<img src="./images/tcp-ip-vol2.jpg" alt="TCP/IP Illustrated Vol.2" title="TCP/IP Illustrated Vol.2" />
+<p>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf</p>
 
-#
-#
 
-## http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf
-#
-#
-
-##
-# TCP/IP Illustrated vol.2 - The Implementation
-![TCP/IP Illustrated vol.2 ](https://m.media-amazon.com/images/I/51JyD+zFULL._AC_UF1000,1000_QL80_.jpg)
-## https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf
+## 
 ## 
 ## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
 ![TCP/IP Illustrated vol.3 ](https://m.media-amazon.com/images/I/71sp1Hsa9LL._AC_UF1000,1000_QL80_.jpg)
