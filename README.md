@@ -1,11 +1,11 @@
 # Penetration Testing
 # [Cyber Warfare & Defenses Research & Development]
 <br>
-<img src="https://t3.ftcdn.net/jpg/02/04/94/58/360_F_204945831_yzvd0Ult5kS5yjXDUjoHxMgUCE63KKf9.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="850" height="600" />
+<img src="./images/ethical-hacking.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="550" height="300" />
 <br>
-<img src="./hero.jpg" alt="hero" title="hero" width="500" height="500" />
+<img src="./images/hero.jpg" alt="hero" title="hero" width="500" height="500" />
 <br>
-<img src="avada-kedavra.png" alt="avada-kedavra" title="avada-kedavra" width="500" height="500" />
+<img src="./images/avada-kedavra.png" alt="avada-kedavra" title="avada-kedavra" width="500" height="500" />
 <br>
 <h1>Let's Rock ;)</h1>
 <br>
