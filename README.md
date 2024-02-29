@@ -39,7 +39,7 @@
 <br>
 <h2>If you're from MNC / Enterprise, please get off from this repository ASAP</h2>
 <h2>Your supervisors are gonna trace the websites you browsed through a proxy ;) I say</h2>
-<h2>80% of Enterprise(s) so called Technical Managers have no wisdom in configuring their SIEMs/IDS (Splunk/Azure Sentinels) well ;) I say</h2>
+<h2>80% of Enterprise(s) so called Technical Managers have no wisdom in configuring their SIEMs (Splunk/Azure Sentinels) well ;) I say</h2>
 <br>
 <h1>Recommended Networking Knowledge</h1>
 <br>
