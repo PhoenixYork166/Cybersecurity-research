@@ -1,17 +1,21 @@
 # Penetration Testing
 # [Cyber Warfare & Defenses Research & Development]
 <br>
-<img src="./images/ethical-hacking.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="550" height="300" />
+<img src="./images/ethical-hacking.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="600" height="360" />
 <br>
-<img src="./images/hero.jpg" alt="hero" title="hero" width="500" height="500" />
+<img src="./images/hero.jpg" alt="hero" title="hero" width="358" height="284" />
 <br>
-<img src="./images/avada-kedavra.png" alt="avada-kedavra" title="avada-kedavra" width="500" height="500" />
+<img src="./images/explosion.gif" alt="explosion" title="explosion" width="600" height="340" />
+<br>
+<img src="./images/explosion-2.gif" alt="explosion2" title="explosion2" width="720" height="405" />
+<br>
+<img src="./images/avada-kedavra.png" alt="avada-kedavra" title="avada-kedavra" width="464" height="303" />
 <br>
 <h1>Let's Rock ;)</h1>
 <br>
-<img src="https://i.pinimg.com/originals/f1/44/54/f1445451c93ddea2e51a9db84c3601eb.gif" alt="atomic blonde" title="atomic blonde" width="500" height="250" />
+<img src="./images/atomic-blonde-1.gif" alt="atomic blonde" title="atomic blonde" width="500" height="206" />
 <br>
-<img src="https://64.media.tumblr.com/b004e7ecda80d57285da275de4e813f3/tumblr_oy1dzjVQ9a1qd49gbo2_540.gif" alt="atomic blonde2" title="atomic blonde2" width="500" height="250" />
+<img src="./images/atomic-blonde-2.gif" alt="atomic blonde2" title="atomic blonde2" width="540" height="260" />
 <br>
 <h1>Disclaimer</h1>
 <br>
@@ -19,30 +23,31 @@
 <br>
 <h1>This repository is a medium of collaborative public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
 <br>
-<h1>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h1>
+<h2>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h2>
 <br>
 <h1>Audience: Everyone who uses Computers</h1>
 <br>
 <h1>Mindset Pre-requisites</h1>
 <br>
-<p>Respect every life-being</p>
+<h2>Resh2ect every life-being (Corh2o-dog included)</h2>
 <br>
-<p>Challenge yourself!</p>
+<h2>Challenge yourself!</h2>
 <br>
-<p>Try Harder! OffSec says<p>
+<h2>Try Harder! OffSec says<h2>
 <br>
-<p>Rules are built to break ;) they say</p> 
+<h2>Rules are built to break ;) they say</h2> 
 <br>
-<p>Challenge Authoritativeness :D It will be fun they say</p> 
+<h2>Challenge Authoritativeness :D It will be fun they say</h2> 
 <br>
-<p>Challenge Information Technology they say</p>
+<h2>Challenge Information Technology they say</h2>
 <br>
-<p>Challenge all working Artifacts they say</p>
+<h2>Challenge all working Artifacts they say</h2>
 <br>
-<p>Challenge every non-living thing :D they say</p>
+<h2>Challenge every non-living thing :D they say</h2>
 <br>
-<p>If you're from MNC / Enterprise, please get off from this repository ASAP</p>
-<img src="./images/corpo-dog.jpg" alt="corpo-dog" title="corpo-dog" />
+<h1>If you're from MNC / Enterprise, please get off from this repository ASAP</h1>
+<img src="./images/corpo-dog.jpg" alt="corpo-dog" title="corpo-dog" width="900" height="900" />
+<img src="./images/no-corpo-dog.gif" alt="no-corpo-dog" title="no-corpo-dog" width="500" height="280" />
 <br>
 <p>Your supervisors are gonna trace the websites you browsed through a proxy ;) I say</p>
 <p>80% of Enterprise so called Technical Managers have no wisdom in configuring their SIEMs well ;) (Splunk/Azure Sentinels) I say</p>
@@ -51,182 +56,186 @@
 <br>
 <h1>1. Either TCP/IP Illustrated/CCNP</h1>
 <h2>TCP/IP Illustrated vol.1</h2>
-<img src="./images/tcp-ip-vol1.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="800" height="500" />
+<img src="./images/tcp-ip-vol1.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="1000" height="1000" />
 <p>http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf</p>
 <br>
 <h1>TCP/IP Illustrated vol.2 - The Implementation</h1>
-<img src="./images/tcp-ip-vol2.jpg" alt="TCP/IP Illustrated Vol.2" title="TCP/IP Illustrated Vol.2" />
+<img src="./images/tcp-ip-vol2.jpg" alt="TCP/IP Illustrated Vol.2" title="TCP/IP Illustrated Vol.2" width="800" height="1000" />
 <p>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf</p>
+<br>
+<h1>TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite</h1>
+<img src="./images/tcp-ip-vol3.jpg" title="TCP/IP Illustrated Vol.3" alt="TCP/IP Illustrated Vol.3" width="806" height="1000" />
+<br>
+<h1>OR</h1>
+<br>
+<h1>CCNP (Costly & NOT mandatory)</h1>
+<img src="./images/CCNP.png" alt="CCNP" title="CCNP" width="600" height="600" />
+<h3>Do NOT go for the Cert, go for the knowledge in it is more than enough :D</h3>
+<br>
+<h1>2. Recommended Network programming:</h1>
+<h3>Some RFC concepts</h3>
+<br>
+<h3>Python Scapy for Rapid prototyping</h3>
+<br>
+<h3>Some Violent Python</h3>
+<h2>(Entry level): OOP, Python, Bash, HTTP, Socket, TCP/IP
+</h2>
+<br>
+<h1>FREE knowledge</h1>
+<h3>https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
+</h3>
+<br>
+<h1>The Purposes of this repo</h1>
+<h2>To demonstrate IGS also has alternative Cybersecurity :D</h2>
+<br>
+<h2>Contributors of 1st PoC:<h2>
+<img src="./images/IGS.png" alt="IGS" title="IGS" width="1000" height="600" />
+<h2>IGS Cybersecurity (& Network) team, , IGS DevSecOps team, IGS Infra team (OS + Network), IGS Blue Team, IGS Red Team, Anonymous Developers behind the scenes</h2>
+<br>
+<h3>I'm working as an IT user (Mr. Nobody) or Amateur Technical Writter of a Web Application Firewall PoC in my company</h3>
+<br>
+<h3>I hereby announce that I am only the Integrator who do NOT personally own OR have any knowledge in crafting the involved Open-Source tools in any kinds e.g. grasp of essense/assets/cyber arms forging</h3>
+<br>
+<h4>I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process</h4>
+<br>
+<h4>If you're also undertaking such obligations to test a Web App Firewall, please enjoy the learning process! :D</h4>
+<h4>Cuz this experience is invaluable :D</h4>
+<br>
+<h1>A Web Application Firewall looks like:</h1>
+<img src="./images/waf.png" alt="Web App Firewall" title="Web App Firewall" width="1460" height="660" />
+<br>
+<h2>This repo is documented for learning & professional development purposes</h2>
+<br>
+<h1>If you do NOT follow rules below, YOU absolutely GO TO JAIL ;)</h1>
+<img src="./images/Jail.jpg" alt="Jail" title="Jail" width="1460" height="660" />
+<br>
+<h1>Rule 0:</h1>
+<h2>Set up your own lab as your hacking ground, do NOT perform any hacking on the Internet</h2>
+<br>
+<h1>Rule 1:</h1>
+<h2>Ask your victims for permissions before doing any of these</h2>
+<br>
+<h1>Rule 2:</h1>
+<h2>Do NOT launch any of these without permissions</h2>
+<br>
+<h1>Rule 3:</h1>
+<h2>Please ONLY run these scripts on your victims, NOT your good selves...</h2>
+<br>
+<h1>Part 0 - Protections</h1>
+<h2>If you're really challenging some Authoritativeness using your hacking skills, well good luck out there ;)</h2> 
+<br>
+<h2>Self-protections techniques might save your life ;)</h2>
+<br>
+<img src="./images/v-get-shot.gif" alt="V getting shot at" title="V getting shot at" width="400" height="400" />
+<br>
+<h1>Proxychains</h1>
+<h2>This will change your Public IP using a number of proxy servers</h2>
+<img src="./images/proxychains.jpg" alt="proxychains" title="proxychains" width="1280" height="720" />
+<img src="./images/proxychains-output.png" alt="proxychains-outputs" title="proxychains-outputs" width="1117" height="605" />
+<br>
+<h2>Tutorial</h2>
+<h3>https://www.youtube.com/watch?v=KWwOU1z5E8E&t=657s</h3>
+<br>
+<h1>TOR</h1>
+<img src="./images/tor.jpg" alt="TOR" title="TOR" width="660" height="330" />
+<br>
+<h2>Tutorial</h2>
+<h2>https://www.youtube.com/watch?v=6vg5JlQhHgo</h2>
+<br>
+<h1>Part 1 - Our Full-fleged Attacks platform</h1>
+<h1>Let's rock :D</h1>
+<br>
+<h1>Kasm</h1>
+<h2>Container streaming Desktop as a Service</h2>
+<img src="./images/kasm.png" alt="Kasm" title="Kasm" width="1400" height="764" />
+<br>
+<h2>User guide</h2>
+<h2>https://www.youtube.com/watch?v=EJ5TYZLvJ70</h2>
+<h2>https://www.youtube.com/watch?v=U5-oNbNEJYI</h2>
+<br>
+<h2>This is our Primary DDoS platform to launch multiple Docker Kali Linux</h2>
+<br>
+<h1>Docker Compose</h1>
+<h2>If you prefer writing your own .yml :D</h2>
+<br>
+<img src="./images/docker-compose.png" alt="docker-compose" title="docker-compose" width="1000" height="691" />
+<br>
+<h2>With Kasm / Docker-compose / Terraform, we have our fire-superiority :D</h2> 
+<br>
+<img src="./images/aot.jpeg" alt="AOT" title="AOT" width="1280" height="720" />
+<img src="./images/rumbling.gif" alt="Rumbling" title="Rumbling" width="960" height="540" />
+<br>
+<img src="" alt="explosion" title="explosion" width="" height="" />
+<br>
+<h2>Using Kasm</h2>
+<h2>I'm a lazy guy, I do NOT wanna write any .yml ;)</h2>
+<img src="./images/lazy.gif" alt="lazy" title="lazy" width="440" height="250" />
+<br>
+<h2>Fixing Kasm official open-source bugs...</h2>
+<h2>Kasm official download .tar.gz has an official bug in ./install.sh</h2>
+<h2>You MUST use /Kasm/install-kasm.sh to get Kasm installed properly...</h2>
+<br>
+<h1>Part 2 - Introducing the components of our powerful Cyber Arms :D</h1>
+<br>
+<h1>1. Kali Linux</h1> 
+<h2>https://www.kali.org/</h2>
+<img src="./images/kali-linux.gif" alt="Kali Linux" title="Kali Linux" width="650" height="450" />
+<br>
+<h2>Purpose of Kali Linux:</h2>
+<h2>Offensive Security Open-source software</h2>
+<h2>Recon, Cracking, SSL Stripping, Network Sniffing, Hacking IoT, Hacking everything with connections, Hacking the entire UDP + TCP/IP stacks etc.)</h2>
+<br>
+<br>
+<h2>Upon fresh installation of an ISO image on VMware</h2>
+<h2>You need to update && upgrade Kali repository</h2>
+<br>
+<h2>Step 1 Update expired Kali keys on base-build image</h2>
+<h2>sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;</h2>
+<br>
+<h2>Step 2 Update Kali.org Repository to start using HTTPS</h2>
+<h2>sudo vim /etc/apt/sources.list;</h2>
+<h2>Add these lines:</h2>
+<h2>deb https://http.kali.org/kali kali-rolling main non-free contrib</h2>
+<h2>deb-src https://http.kali.org/kali kali-rolling main non-free contrib</h2>
+<h2>:wq<h2>
+<h2>APT update & upgrade</h2>
+<h2>sudo apt update && apt -y upgrade;</h2>
+<br>
+<h2>Step 4 Clean up APT after updating & upgrading to Kali repo</h2>
+<h2>sudo apt autoremove -y;</h2>
+<br>
+<h2>To automate Kali repository & Install Attack tools</h2>
+<h2>https://github.com/berlinlee-phoenix/Kali-Rebuild-Auto</h2>
+<br>
+<h2> There're NO boundaries between Networking & Development :D</h2>
+<br>
+<h2>We're gonnna be good at both ;)</h2>
+<br>
+<h1>If you have a Networking background</h1>
+<h2>Download => Virtual Machines</h2>
+<h2>Select your Virtualization environment</h2>
+<h2>VMware / VirtualBox / Hyper-V</h2>
+<br>
+<h2>Get ISO images </h2>
+<h2>https://www.kali.org/get-kali/#kali-installer-images</h2>
+<br>
+<h2>Being a Netrunner is like</h2>
+<img src="./images/v-spin-knives.gif" alt="V for Vendetta" title="V" width="720" height="302" />
+<img src="./images/v-my-turn.gif" alt="my-turn" title="my-turn" width="720" height="405" />
+<br>
+<h1>If you have a Programming background</h1>
+<h2>Get Containers (Docker/LXC/LXD) </h2>
+<img src="./images/containers.jpg" alt="Containers" title="Containers" width="" height="" />
+<br>
+<h2>https://www.kali.org/get-kali/#kali-containers</h2>
+<h2>apt update && apt -y install kali-linux-headless</h2>
+<h2>apt update && apt -y install kali-linux-large</h2>
+<h2>docker pull kalilinux/kali-rolling</h2>
+<h2>Being a Developer is like:</h2>
+<img src="./images/v-sugar.gif" alt="V x Shakespeare" title="V x Shakespeare" width="720" height="580" />
+<br>
+<img src="./images/dumbledore.gif" alt="Dumbledor" title="Dumbledor" width="500" height="210" />
 
-
-## 
-## 
-## TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite
-![TCP/IP Illustrated vol.3 ](https://m.media-amazon.com/images/I/71sp1Hsa9LL._AC_UF1000,1000_QL80_.jpg)
-## https://doc.lagout.org/network/TCP-IP%20Illustrated%20Vol.3.pdf
-## OR
-## CCNP (Costly & NOT compulsory)
-## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
-![CCNP](https://noblinkyblinkycom.files.wordpress.com/2020/07/ccnp_enterprise_large.png)
-##
-# 2. Recommended Network programming:
-# Rust concurrent programming for Fire-power engineering
-# 
-# Knowledge source of RFC
-# 
-## Cisco DevNet
-![Cisco DevNet](https://images.credly.com/size/680x680/images/e21e94f7-feec-4717-9687-ac150b213f64/Cisco_DevNetAsst_600.png)
-## Do NOT go for the Cert, go for the knowledge in it is more than enough :D
-## FREE knowledge FREE Download :D
-## https://ptgmedia.pearsoncmg.com/images/9780137370443/samplepages/9780137370443_Sample.pdf
-## 
-# 3. Recommended Programming knowledge (Entry level): OOP, Python, Bash, HTTP, Socket, TCP/IP
-#
-## FREE knowledge
-## https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
-##
-# Usage
-## git clone https://github.com/berlinlee-phoenix/Malicious-Dev.git
-##
-### The Purposes
-## To demonstrate IGS also has alternative Cybersecurity :D
-##
-## Contributors of 1st PoC:
-## IGS Cybersecurity (& Network) team, , IGS DevSecOps team, IGS Infra team (OS + Network), IGS Blue Team, IGS Red Team, Anonymous Developers behind the scenes
-##
-## I'm working as an IT user (Mr. Nobody) or Amateur Technical Writter of a Web Application Firewall PoC in my company
-## I hereby announce that I am only the Integrator who do NOT personally own any involved Open-Source tools in any kinds e.g. knowledge/assets/Cyber Arms
-![IGS](https://static.wixstatic.com/media/6fc253_5f7ef664103740078c3e040972b70499~mv2.png/v1/fit/w_2500,h_1330,al_c/6fc253_5f7ef664103740078c3e040972b70499~mv2.png)
-### I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process
-
-### If you're also undertaking such obligations to test a Web App Firewall, please enjoy the learning process! :D
-### Cuz this experience is invaluable :D
-
-### A Web Application Firewall looks like:
-![Web Application Firewall](https://www.cloudflare.com/img/learning/ddos/glossary/waf/waf.png)
-###
-## This repo is documented for learning & professional development purposes
-##
-## If you do NOT follow rules below, YOU absolutely GO TO JAIL ;)
-![Jail](https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/Can-You-Go-to-Jail-for-Debt_-1400x700-1.jpg.optimal.jpg)
-## Rule 0:
-## Set up your own lab as your hacking ground, do NOT perform any hacking on the Internet
-## Rule 1:
-## Ask your victims for permissions before doing any of these
-## Rule 2:
-## Do NOT launch any of these without permissions
-## Rule 3:
-## Please ONLY run these scripts on your victims, NOT your good selves...
-##
-# Part 0 - Protections
-## If you're really challenging some Authoritativeness using your hacking skills, well good luck out there ;)
-## Self-protections techniques might save your life ;)
-![V for vendetta](https://j.gifs.com/y42DJE.gif)
-## 
-## Proxychains
-## This will change your Public IP using a number of proxy servers
-![Proxychains](https://i.ytimg.com/vi/jqrd9Ba3VOc/maxresdefault.jpg)
-![Proxychains output ](https://www.oreilly.com/api/v2/epubs/9781787121829/files/assets/7fdf7841-d065-43bf-a44f-d22132efe27e.png)
-![Proxychains config](https://linuxhint.com/wp-content/uploads/2023/09/word-image-373292-3.png)
-## Tutorial
-## https://www.youtube.com/watch?v=KWwOU1z5E8E&t=657s
-
-## TOR
-![TOR](https://www.blackmoreops.com/wp-content/uploads/2013/12/Installing-Tor-in-Kali-Linux-blackMORE-Ops-2.jpg)
-## Tutorial
-## https://www.youtube.com/watch?v=6vg5JlQhHgo
-##
-# Part 1 - Our Full-fleged Attacks platform
-# Let's rock :D
-##
-# Kasm
-![Kasm](https://i.ytimg.com/vi/JPuhCtweh8o/sddefault.jpg)
-## Kasm = A browser-based Container Streaming platform
-![Kasm Container Streaming](https://miro.medium.com/v2/resize:fit:1400/1*c31jE549mSuDgNPpFRjXGQ.png)
-##
-## User guide
-## https://www.youtube.com/watch?v=EJ5TYZLvJ70
-## https://www.youtube.com/watch?v=U5-oNbNEJYI
-##
-## This is our Primary DDoS platform to launch multiple Docker Kali Linux
-## 
-# Docker Compose
-## If you prefer writing your own .yml :D
-![Docker Compose](https://miro.medium.com/v2/resize:fit:1000/1*Kj4Oh2kw1ITD-kQJL_pGgw.png)
-## With Kasm / Docker-compose, we have our fire-superiority :D
-![Fire-superiority](https://image.shutterstock.com/image-photo/launch-military-missiles-rocket-artillery-260nw-2246138253.jpg)
-![Katyusha launching1](https://i.makeagif.com/media/1-24-2016/Fe-Rpr.gif)
-![Katyusha launching2](https://i.imgur.com/zz4lhAA.gif)
-![AOT](https://p1.itc.cn/images01/20210307/ff6c30488efd45f09f02c199880b3595.jpeg)
-![The Rumbling](https://i.ytimg.com/vi/oHcx1QLOJ3U/maxresdefault.jpg)
-##
-## Using Kasm
-## I'm a lazy guy, I do NOT wanna write any .yml ;)
-![Lazy](https://media.tenor.com/dRS4cAaAU5EAAAAM/megumin-konosuba.gif)
-## 
-## Fixing Kasm official open-source bugs...
-##
-## Kasm official download .tar.gz has an official bug in ./install.sh
-##
-## You MUST use /Kasm/install-kasm.sh to get Kasm installed properly...
-## 
-# Part 2 - Introducing the components of our powerful Cyber Arms :D
-# 1. Kali Linux
-## https://www.kali.org/
-![Kali Linux](https://www.kali.org/blog/kali-linux-2019-4-release/images/kali-preview-boot.gif)
-##
-## Purpose of Kali Linux: Offensive Security (Recon, Cracking, SSL Stripping, Network Sniffing, whole TCP stack hacking etc.)
-##
-## Upon fresh installation of an ISO image on VMware
-## You need to update && upgrade Kali repository
-##
-## Step 1 Update expired Kali keys on base-build image
-## sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc;
-##
-## Step 2 Update Kali.org Repository to start using HTTPS
-## sudo vim /etc/apt/sources.list;
-## Add these lines:
-## deb https://http.kali.org/kali kali-rolling main non-free contrib
-## deb-src https://http.kali.org/kali kali-rolling main non-free contrib
-## :wq
-## APT update & upgrade
-## sudo apt update && apt -y upgrade;
-##
-## Step 4 Clean up APT after updating & upgrading to Kali repo
-## sudo apt autoremove -y;
-##
-## To automate Kali repository & Install Attack tools
-## https://github.com/berlinlee-phoenix/Kali-Rebuild-Auto
-## 
-## There're NO boundaries between Networking & Development :D
-## We're gonnna be good at both ;)
-## 
-# If you have a Networking background
-## Download => Virtual Machines
-## Select your Virtualization environment
-## VMware / VirtualBox / Hyper-V
-## Get ISO images 
-## https://www.kali.org/get-kali/#kali-installer-images
-##
-## Being a Netrunner is like
-![V for vendetta rampage](https://i.makeagif.com/media/7-17-2016/pbeCKJ.gif)
-##
-![Matrix](https://i.makeagif.com/media/5-29-2015/w0CPaQ.gif)
-##
-![V for vendetta god-like](https://i.makeagif.com/media/7-17-2016/1Q1ap-.gif)
-## 
-# If you have a Programming background
-## get Containers (Docker/LXC/LXD) 
-![Containers](https://linuxways.net/wp-content/uploads/2021/11/What-is-the-Difference-Between-LXC-LXD-and-Docker-Containers.jpg)
-## https://www.kali.org/get-kali/#kali-containers
-## apt update && apt -y install kali-linux-headless
-## apt update && apt -y install kali-linux-large
-## docker pull kalilinux/kali-rolling
-## Being a Developer is like:
-![V for vendetta Ideas](https://i.pinimg.com/originals/6f/5d/c0/6f5dc0fc793b43530944c591473132d0.gif)
-![V for vendetta Ideas are Bullet-proof](https://cdn.quotesgram.com/img/39/0/2074373172-6e95d82b6ac57c33a5fa69699cd71d30.jpg)
-##
-![Dumbledore](https://i.pinimg.com/originals/72/05/66/720566164e4624b34c98e65058847297.gif)
 ##
 # If you have both Networking & Programming background...
 ## OMG! You ARE GONNA go on a RAMPAGE!! :D
