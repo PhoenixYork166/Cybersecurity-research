@@ -21,7 +21,7 @@
 <br>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
 <br>
-<h1>This repository is a medium of collaborative public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
+<h1>This repository is a medium of collaboratively public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
 <br>
 <h2>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h2>
 <br>
@@ -29,7 +29,7 @@
 <br>
 <h1>Mindset Pre-requisites</h1>
 <br>
-<h2>Resh2ect every life-being (Corh2o-dog included)</h2>
+<h2>Respect every life-being (Corpo-dog included)</h2>
 <br>
 <h2>Challenge yourself!</h2>
 <br>
@@ -57,14 +57,15 @@
 <h1>1. Either TCP/IP Illustrated/CCNP</h1>
 <h2>TCP/IP Illustrated vol.1</h2>
 <img src="./images/tcp-ip-vol1.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="1000" height="1000" />
-<p>http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf</p>
+<h2>http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf</h2>
 <br>
 <h1>TCP/IP Illustrated vol.2 - The Implementation</h1>
 <img src="./images/tcp-ip-vol2.jpg" alt="TCP/IP Illustrated Vol.2" title="TCP/IP Illustrated Vol.2" width="800" height="1000" />
-<p>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf</p>
+<h2>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf</h2>
 <br>
 <h1>TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite</h1>
 <img src="./images/tcp-ip-vol3.jpg" title="TCP/IP Illustrated Vol.3" alt="TCP/IP Illustrated Vol.3" width="806" height="1000" />
+<h2>https://doc.lagout.org/network/TCP-IP%20Illustrated%20Vol.3.pdf</h2>
 <br>
 <h1>OR</h1>
 <br>
@@ -142,38 +143,66 @@
 <h2>Tutorial</h2>
 <h2>https://www.youtube.com/watch?v=6vg5JlQhHgo</h2>
 <br>
-<h1>Part 1 - Our Full-fleged Attacks platform</h1>
+<h1>Part 1 - Our Full-fleged Attacks platform(s)</h1>
+<h1>Leveraging DevSecOps team's Might for Fire-superiority :D</h1>
+<img src="./images/air-fortress.gif" alt="air-fortress" title="air-fortress" width="512" height="217" />
 <h1>Let's rock :D</h1>
 <br>
-<h1>Kasm</h1>
-<h2>Container streaming Desktop as a Service</h2>
+<h1>i. Ansible Tower</h1>
+<img src="./images/ansible-tower.jpg" alt="Ansible Tower" width="400" height="300" />
+<br>
+<h2>Purposes of Ansible Tower:</h2>
+<img src="./images/death-star.gif" alt="death star" width="500" height="220" />
+<img src="./images/death-star-2.gif" alt="death star" width="460" height="200" />
+<h2>Attack Tools configuration automation</h2>
+<h2>Attack Tools automated integration</h2>
+<h2>Leveraging Full Fire-power of individual Kali VM through Bash Scripts</h2>
+<h2>Ansible Tower = our Botnet Death Star</h2>
+<br>
+<h1>ii. Terraform</h1>
+<img src="./images/terraform.jpg" alt="terraform" width="474" height="266"/>
+<br>
+<h2>Purposes of Terraform</h2>
+<img src="./images/rumbling.gif" alt="Rumbling" title="Rumbling" width="960" height="540" />
+<h2>High speed Hacking playground formation in a private network</h2>
+<h2>National class of Cyber Warfare Fire-superiority through Automated deployments of large numbers (thousands) of Kali VM using ISO images :D</h2>
+<h2>Automated Kali VM Repository updates upon spawning :D</h2>
+<h2>Automated Clustering of Victims' Web Apps Systems :D</h2>
+<h2>Automated Load Balancing configuration of Victims' Systems :D</h2>
+<h2>Automated deployment of Core Infrastructure e.g. DHCP, DNS, SSL cert registration of our Hacking playground :D</h2>
+<br>
+<h1>iii. Kasm</h1>
 <img src="./images/kasm.png" alt="Kasm" title="Kasm" width="1400" height="764" />
+<h2>Purposes of Kasm:</h2>
+<h2>Reduces Disk usage, CPU, RAM constraints :D</h2>
+<h2>Each standalone Kali VM serves as a single Turret :D</h2>
+<h2>Each Kasm platform holds 5-6 Kali containers :D</h2>
+<h2>Container streaming Desktop as a Service</h2>
 <br>
 <h2>User guide</h2>
 <h2>https://www.youtube.com/watch?v=EJ5TYZLvJ70</h2>
 <h2>https://www.youtube.com/watch?v=U5-oNbNEJYI</h2>
 <br>
-<h2>This is our Primary DDoS platform to launch multiple Docker Kali Linux</h2>
+<h2>This is our Tertiary DDoS platform to launch multiple Docker Kali Linux</h2>
 <br>
-<h1>Docker Compose</h1>
+<h1>iv. Docker Compose</h1>
 <h2>If you prefer writing your own .yml :D</h2>
 <br>
 <img src="./images/docker-compose.png" alt="docker-compose" title="docker-compose" width="1000" height="691" />
 <br>
-<h2>With Kasm / Docker-compose / Terraform, we have our fire-superiority :D</h2> 
-<br>
-<img src="./images/aot.jpeg" alt="AOT" title="AOT" width="1280" height="720" />
-<img src="./images/rumbling.gif" alt="Rumbling" title="Rumbling" width="960" height="540" />
+<h2>With Ansible + Terraform + Kasm + Docker-compose, we have our absolute Fire-superiority :D</h2> 
 <br>
 <img src="./images/explosion.gif" alt="explosion" title="explosion" width="600" height="340" />
 <br>
-<h2>Using Kasm</h2>
-<h2>I'm a lazy guy, I do NOT wanna write any .yml ;)</h2>
+<h2>Usage</h2>
+<h2>I'm a lazy guy, I use bypass...</h2>
+<h2>I do NOT wanna write any .yml ;)</h2>
 <img src="./images/lazy.gif" alt="lazy" title="lazy" width="440" height="250" />
 <br>
 <h2>Fixing Kasm official open-source bugs...</h2>
 <h2>Kasm official download .tar.gz has an official bug in ./install.sh</h2>
-<h2>You MUST use /Kasm/install-kasm.sh to get Kasm installed properly...</h2>
+<h2>You MUST use ./Kasm/install-kasm.sh to get Kasm installed properly...</h2>
+<br>
 <br>
 <h1>Part 2 - Introducing the components of our powerful Cyber Arms :D</h1>
 <br>
@@ -233,6 +262,7 @@
 <h2>docker pull kalilinux/kali-rolling</h2>
 <h2>Being a Developer is like:</h2>
 <img src="./images/v-sugar.gif" alt="V x Shakespeare" title="V x Shakespeare" width="720" height="580" />
+<h2>How many people actually comprehend what a Developer says? I doubt...</h2>
 <br>
 <img src="./images/dumbledore.gif" alt="Dumbledor" title="Dumbledor" width="500" height="210" />
 <br>
@@ -332,13 +362,24 @@
 ![Black Hat Go](https://m.media-amazon.com/images/I/81k+Ajmu4fL._AC_UF1000,1000_QL80_.jpg)
 ## https://github.com/google/gopacket
 ## 
-## If you're really a crazy Red Team developer with a thirst of absolute fire-superiority to DDoS your targets :O
+## If you're really a crazy Red Team developer like me with a thirst of absolute fire-superiority to DDoS your targets :O
 ![Oh No](https://tukuimg.bdstatic.com/scrop/b6e769b92640ac9d813f5c86e6156e32.gif)
 ![Avada Vedavra](https://i.gifer.com/A4yu.gif)
 ![Explosion](https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif)
 ![My Railgun](https://31.media.tumblr.com/95805eb5b84a264b6a2cef62fc54d42c/tumblr_mqta92HN4n1r5db25o1_500.gif)
 ## Try Rust - the Crab for concurrent programming :D
 ![Rust](https://mir-s3-cdn-cf.behance.net/project_modules/disp/fe36cc42774743.57ee5f329fae6.gif)
+## We have a real prototypal Rust program in ./Port-scanner/Rust/
+## https://www.youtube.com/watch?v=LDU_Txk06tM
+<img src="./images/crab-dancing.gif" title="crab island" width="500" height="275" />
+
+## To edit Rust code ./Port-scanner/Rust/src/main.rs
+## Re-compiling after editing code:
+## rustc ./Port-scanner/Rust/src/main.rs;
+##
+## To run the Rust Port-scanner program
+## cargo run -- -j <threads> <IP_ADDR>;
+## I normally use 10000 threads for Port scanning ;)
 ##
 # 9. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
 ![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
@@ -633,11 +674,15 @@
 # While Sneaky MSF venoms & Fileless hacking using By-pass are the most effective Social Engineering attacks against personnel
 #
 # Direction
-## No one knows, this PoC was initiated in an complete unknow state...but completed successfully ;)
+## No one knows, this PoC was initiated in a completely unknow state...but completed successfully ;)
 ##
 ## We might be developing Wireguard VPN + host a PoC only Backdoor Server somewhere safe to simulate Ransomware + Backdoor attacks?
+##
 ## We might be re-inventing the wheel & doing some CI for existing artifacts?
-## No one knows ;)
+##
+## We might switch to Golang/Rustlang/C ?
+##
+## No one knows where the future holds ;)
 #
 ## Hacking ground:
 ## Previously: On-prem
