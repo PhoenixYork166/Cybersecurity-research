@@ -454,20 +454,41 @@
 # Part 3 - Private Network based attacks OSI Layer 2-4
 ## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
-## Arp-spoofing illustrated
+# i. Network sniffing
+## python3 ./Port-scanner/Python/port-scanner.py
+## cd ./Port-scanner/Rust/ && sudo cargo run -- -j 10000 IP_ADDR
+##
+# ii. Network Point-to-point connections sniffer
+## python3 ./P2P/find-p2p.py;
+## Enter Network_Addr/CIDR
+##
+# iii. Arp-spoofing illustrated
 ![ARP spoofing](https://www.okta.com/sites/default/files/media/image/2021-04/ARPPoisoningSpoofing.png)
+##
+## python3 ./Arp-spoofer/arp-spoofer.py;
+##
 ## Tutorial
 ## https://www.youtube.com/watch?v=CW0Mf9qGBOc&t=117s
-
-## Spanning Tree Protocol attack illustrated
+##
+# iv. Spanning Tree Protocol attack illustrated
 ![SPT attack](https://cdn.networklessons.com/wp-content/uploads/2014/10/spanning-tree-mitm.png)
+##
+## python3 ./STP-attack/stpHackRootPort.py;
+##
 ## Theory
 ## https://www.youtube.com/watch?v=japdEY1UKe4
 ## Journals
 ## https://notes.networklessons.com/stp-root-bridge-selection
-
-## TCP Syn-Ack flooding illustrated
+##
+# v. TCP Syn-Ack flooding illustrated
 ![Sync Flood](https://purplesec.us/wp-content/uploads/2019/07/SNY-attack-cyber-attack.png)
+##
+## python3 ./Sync-flooder/flooder.py;
+## 
+# Hping3 + TMUX
+## Edit your target_IP & spoof_IP first in ./Sync-flooder/hping3-buster.sh 
+## bash ./Sync-flooder/fire-superiority-hping3.sh;
+##
 ## Theory explained
 ## https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
 ##
