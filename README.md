@@ -444,9 +444,12 @@
 ##
 ##
 # Part 2 - Internet Attack on Titans
+![BGP](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3184/images/yTC6GxXZS5CBS2JKntUj_Blog_Thumbnails.001.jpeg)
+
+<img src="./images/BGP-ddos.png" alt="BGP-ddos" width="640" height="360" >
+
 ## See ./BGP-DoS/destroying the Internet.docx
 ## Watch the youtube tutorial & understand all concepts
-![BGP](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3184/images/yTC6GxXZS5CBS2JKntUj_Blog_Thumbnails.001.jpeg)
 ## 
 # Part 3 - Private Network based attacks OSI Layer 2-4
 ## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
