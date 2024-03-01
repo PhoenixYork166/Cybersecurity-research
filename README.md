@@ -695,7 +695,8 @@
 <h1>Official record of Maximum Concurrency for JMeter: 500k concurrency</h1>
 <br>
 <h1>Officially tested best SystemInfo for a DDoS Docker container/Kali VM: 8 CPU & 4GB RAM</h1>
-<h2>Where are we heading to?</h2>
+<br>
+<h1>Where are we heading to?</h1>
 
 # Practical experiments indicate that DDoS attacks are the most effective & practical way to take down targets against Enterprises in Cyber Warfare
 # 
