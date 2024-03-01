@@ -488,9 +488,7 @@
 
 <img src="./images/regedit.png" alt="regedit" width="660" height="400" />
 
-![Win regedit](https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2013/09/figure5.png)
 ##
-
 ## SSH Tunneling Hands-on Tutorial 1
 ## Hands-on
 ## Read illustrated guide from:
