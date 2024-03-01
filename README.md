@@ -466,7 +466,7 @@
 ## Journals
 ## https://notes.networklessons.com/stp-root-bridge-selection
 
-## TCP Syn flooding illustrated
+## TCP Syn-Ack flooding illustrated
 ![Sync Flood](https://purplesec.us/wp-content/uploads/2019/07/SNY-attack-cyber-attack.png)
 ## Theory explained
 ## https://www.youtube.com/watch?v=tClcCMrXzek&t=385s
