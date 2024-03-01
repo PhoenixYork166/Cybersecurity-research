@@ -665,6 +665,7 @@
 <br>
 <h1>Reporting...</h1>
 <h2>Pass = Could defend</h2>
+<br>
 <h2>Failed = Failed to defend</h2>
 <br>
 <h2>Web Scraping (Java): pass</h2>
@@ -703,16 +704,16 @@
 # Direction
 ## No one knows, this PoC was initiated in a completely unknow state...but completed successfully ;)
 ##
-## We might be developing Wireguard VPN + host a PoC only Backdoor Server somewhere safe to simulate Ransomware + Backdoor attacks?
+## We might be developing Wireguard VPN + hosting a PoC only Backdoor Server somewhere safe to simulate Ransomware + Backdoor attacks & record the entire process?
 ##
 ## We might be re-inventing the wheel & doing some CI for existing artifacts?
 ##
-## We might switch to Golang/Rustlang/C ?
+## We might be switching to Golang/Rustlang/C ?
 ##
 ## No one knows where the future holds ;)
 #
 ## Hacking ground:
-## Previously: On-prem
+## Previously: On-prem Bare Metal
 ## Future: Unknown
 ##
 ## Network programming:
@@ -724,6 +725,9 @@
 ## Future: Docker-compose + Terraform + Ansible?
 ##
 ## Target DDoS sessions: Unknown
+## Target DDoS concurrency: Unknown
+## Our future where being: Unknown
+
 <img src="https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif" alt="V for vendetta spinning knives" title="V for vendetta spinning knives" width="800" height="400" />
 <br>
 <img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
@@ -731,14 +735,3 @@
 <img src="https://i.pinimg.com/originals/b2/47/df/b247dfc239ea15e382dfee809ffac3ea.gif" alt="Explosion" title="Explosion" width="800" height="500" />
 <br>
 <img src="https://i.makeagif.com/media/2-04-2017/eJ0A_3.gif" alt="攞你命3000" title="攞你命3000" width="800" height="500" />
-<br>
-<h1>Gear & $ Pre-requisites</h1>
-<br>
-<h1>$$ some handy bit-coin for Rust binary purchased somewhere ;)</h1>
-<br>
-<h1>Future Infra pre-requisites: Knowledge of Cloud IaaS, Cloud SaaS for handy OVH Cloud anonymous hosting of your Turret(s)</h1>
-<br>
-<h1>Future Network bandwidth: >= 10Gbps (under further testing...)</h1>
-<br>
-<h1>26-Feb-208: Field howitzer team reports that 1Gbps bandwidth cannot stand against the intranet network traffic of a single 64CPU & 32GB RAM Kali Turret with 6 no. of Kasm containers of 8 CPU & 4Gb RAM launching DDoS...</h1>
-<br>
