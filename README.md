@@ -378,8 +378,8 @@
 ## rustc ./Port-scanner/Rust/src/main.rs;
 ##
 ## To run the Rust Port-scanner program
-## cargo run -- -j <threads> <IP_ADDR>;
-## I normally use 10000 threads for Port scanning ;)
+## cargo run -- -j thread IP_ADDR;
+## I normally use -j 10000 threads for Port scanning ;)
 ##
 # 9. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
 ![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
