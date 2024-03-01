@@ -382,6 +382,8 @@
 ## I normally use -j 10000 threads for Port scanning ;)
 ##
 # 9. Using Kali built-in powerful Attack Tools made of C, Perl, Ruby, Golang, and Python programming langauges :D
+<img src="./images/kali-tools.gif" alt="kali-tools" width="600" height="420" />
+
 ![Kali Tools](https://www.kali.org/images/notebook-kali-2022.1.jpg)
 ##
 ## Writing some very simple Bash + Kali Tools give you extra edges :D
