@@ -19,6 +19,12 @@
 <br>
 <h1>Disclaimer</h1>
 <br>
+<h1>This repository does NOT cover OSCP syllabus at all</h1>
+<h1>Please do NOT compare our technical level against OSCP</h1>
+<h1>OSCP = Civil class Penetration Testing</h1>
+<h1>This repo = National class Cyber Warfare</h1>
+<img src="./images/glory-to-ukraine.jpg" alt="Glory to Ukraine" width="530" height="400" />
+<br>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
 <br>
 <h1>This repository is a medium of collaboratively public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
