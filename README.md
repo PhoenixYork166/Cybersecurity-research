@@ -23,7 +23,6 @@
 <h1>Please do NOT compare our technical level against OSCP</h1>
 <h1>OSCP = Civil class Penetration Testing</h1>
 <h1>This repo = National class Cyber Warfare</h1>
-<img src="./images/glory-to-ukraine.jpg" alt="Glory to Ukraine" width="530" height="400" />
 <br>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
 <br>
@@ -748,6 +747,8 @@
 ## Target DDoS concurrency: Unknown
 ## Our future where being: Unknown
 
+<img src="./images/glory-to-ukraine.jpg" alt="Glory to Ukraine" width="530" height="400" />
+<br>
 <img src="https://i.pinimg.com/originals/73/a4/54/73a4541315915eb0c4f714492bad9b30.gif" alt="V for vendetta spinning knives" title="V for vendetta spinning knives" width="800" height="400" />
 <br>
 <img src="https://68.media.tumblr.com/d09ac3d335147e2a90fedc8ebec58960/tumblr_on9r89hEFG1v296kfo9_250.gif" alt="我妻由乃" title="我妻由乃" width="400" height="250" />
