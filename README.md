@@ -363,6 +363,11 @@
 # 5. Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
+##
+## Since 202x, Python3.4 to Python3.9 are inbuilt runtime for many Linux based OS e.g. CentOS stream9, Debian 12, RedHat Linux etc.
+##
+## Leveraging all built-in runtime e.g. PowerShell + Python + Bash gives you essentially extra 3 attack surfaces as combined-arm edges :D
+## 
 ## Purpose of general Python: Rapid Prototyping for Security PoC, Automation scripting, Socket programming
 ##
 ## Usage
