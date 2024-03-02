@@ -37,7 +37,28 @@ then
     echo "";
     echo "Enabling & Starting docker...";
     sudo systemctl enable docker;
+    if [[ $? -eq 0 ]];
+    then    
+        echo "";
+        echo "Succeeded in enabling docker :D";
+        echo "";
+        echo "Starting docker :D";
+    else
+        echo "";
+        echo "Failed to enable docker";
+        echo "";
+    fi
+
     sudo systemctl start docker;
+    if [[ $? -eq 0 ]];
+    then
+        echo "";
+        echo "Succeeded in starting docker";
+        echo "";
+    else
+        echo "";
+        echo "Failed to start docker";
+    fi
 
 else
     echo "";
@@ -196,11 +217,11 @@ sudo echo "y" | sudo bash ./install.sh;
                                                         
 if [[ ${?} -eq 0 ]];
 then
-    echo "Succeeded in installing docker-compose :D";
-    echo "Installing Kasm...";
+    echo "Succeeded in installing Kasm :D";
+    echo "Exiting :D";
                                 
 else
-    echo "Failed to install docker-compose :(";
+    echo "Failed to install Kasm :(";
     echo "Please manually apt update && apt -y upgrade...";
 fi
 
