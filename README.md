@@ -377,6 +377,17 @@
 # 6. Python Forensics - The Scapy module
 ## Purpose of Scapy: Network sniffing, Network Automation, Network analysis
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
+##
+## As Python3.4 to Python3.9 runtime are very common on modern Linux OS
+## Installing python3-pip is NOT suspicious at all :D
+##
+## Installation of Python3 Scapy
+## Windows:
+## python -m pip install scapy --user IGS
+##
+## Linux:
+## sudo pip install scapy;
+##
 ## Tutorials 
 ## https://www.youtube.com/watch?v=YKxKnVE5FaE&list=PLhfrWIlLOoKOc3z424rgsej5P5AP8yNKR
 ##
