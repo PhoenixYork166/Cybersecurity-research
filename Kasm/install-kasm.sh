@@ -34,6 +34,11 @@ if [[ $? -eq 0 ]];
 then
     echo "";
     echo "Succeeded in installing Docker.io for docker kommand :D";
+    echo "";
+    echo "Enabling & Starting docker...";
+    sudo systemctl enable docker;
+    sudo systemctl start docker;
+    
 else
     echo "";
     echo "Failed to install Docker.io for docker kommand :(";
