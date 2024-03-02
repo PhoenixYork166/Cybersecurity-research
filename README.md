@@ -273,7 +273,6 @@
 <br>
 <h1>If you have both Networking & Programming background...</h1>
 <h2>OMG! You ARE GONNA go on a RAMPAGE!! :D</h2>
-<img src="./images/rouge-vader-1.gif" alt="Rouge One Vader" title="Rogue One Vader" width="720" height="800" />
 <img src="./images/rouge-vader-2.gif" alt="Rogue One Vader-2" title="Rouge One Vader-2" width="720" height="300" />
 <img src="./images/rogue-vader-3.gif" alt="Rogue One Vader-3" title="Rogue One Vader-3" width="720" height="300" />
 <br>
