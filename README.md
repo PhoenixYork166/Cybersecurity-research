@@ -286,6 +286,27 @@
 <br>
 <h1>iii. Hydra</h1>
 <br>
+<h1>3. wireShark</h1>
+<img src="./images/wireShark.gif" alt="wireShark" width="720" height="540" />
+<img src="./images/wireShark.png" alt="wireShark2" width="720" height="462" />
+<img src="./images/wireShark2.jpg" alt="wireShark3" width="720" height="400" />
+<h2>Purposes of wireShark:</h2>
+<h2>To capture all network traffic once you launch any attacks</h2>
+<br>
+<h2>wireShark = Capstone to allow us further engineer our Fire-superiority & exceed our Cyber Arms' limitations everyday :D</h2>
+<br>
+<h2>All Traffic (TCP/IP + HTTP) interception</h2>
+<h2>wireShark comes in extremely handy upon our Man-in-the-middle attacks :D</h2>
+<h2>All of our spoofed/poisoned Victims' network connections are totally exposed to us as Black Hats :D</h2>
+<h2>We know what every victim is doing, browsing, websites + SMTP servers + SQL login by following their TCP/HTTP Streams :D</h2>
+<h2>wireShark is just one of the best Cyber Arms ever :D</h2>
+<br>
+<h2>i. Backdoor Server + Backdoor Client connections => TCP/IP streams</h2>
+<h2>ii. Man-in-the-middle attacks detection</h2>
+<h2>iii. Arp Spoofing (Duplicated MAC Adddress) detection</h2>
+<h2>iv. ICMPv4 Flood detection</h2>
+<h2>v. TCP SYN ACK Flood detection</h2>
+<br>
 <h1>3. Bash scripts</h1>
 <img src="./images/bash.jpg" alt="Bash" title="Bash" width="720" height="405" />
 <h2>Purpose of Bash: Automation, configuration management, Multiplexing </h2>
