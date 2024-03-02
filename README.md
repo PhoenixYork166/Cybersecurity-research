@@ -334,6 +334,11 @@
 ##
 ## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
 ## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
+##
+## *** Sneaky Combined Arms ***
+## SSH Tunnelling + ./advanced-Backdoor
+## No one on Earth (Intrusion Detection Systems) can trace the network traffic happen between Backdoor Server & Backdoor Client, especially traffic derived from downloading/uploading large numbers of files from/to Victims ;)
+##
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
 ##
 # 5. Python
@@ -521,9 +526,17 @@
 ## Read illustrated guide from:
 ## ./Bypass-Firewall-SSH-Tunneling/Bypassing IGS Fortinet Firewall port 443.docx
 ##
+## Once you established a secret SSH tunnel
+## Feel free to launch the Backdoor client on your victims
+## Traffic derived from Downloading/Uploading files from/to Victims are securely encrypted as a Deep Web
+## Intrusion Detection Systems won't be able to trace encrypted SSH tunnelled traffic ;)
+## This gives you an extra edge in maintaining persistency on your Victims (Botnets) ;)
+##
 ## Pre-requisites:
 ## An AWS EC2 Linux with Public port forwarding & GatewayPorts open
+## 
 ## https://www.youtube.com/watch?v=Wp7boqm3Xts&t=870s
+##
 ## SSH Tunneling Tutorial 2
 ## https://www.youtube.com/watch?v=pk5OF8XZSFM
 
