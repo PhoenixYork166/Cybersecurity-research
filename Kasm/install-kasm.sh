@@ -38,7 +38,7 @@ then
     echo "Enabling & Starting docker...";
     sudo systemctl enable docker;
     sudo systemctl start docker;
-    
+
 else
     echo "";
     echo "Failed to install Docker.io for docker kommand :(";
@@ -92,10 +92,10 @@ else
 fi
 
 # Install Docker-compose
-#echo "Installing Docker-compose for Kasm :D";
-#mkdir -p /usr/local/lib/docker/cli-plugins
-#curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/lib/docker/cli-plugins/docker-compose
-#chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+echo "Installing Docker-compose for Kasm :D";
+mkdir -p /usr/local/lib/docker/cli-plugins
+curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/lib/docker/cli-plugins/docker-compose
+chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
 echo "";
 echo "Preparing to do partition for Kasm";
@@ -192,7 +192,7 @@ chmod +x /usr/local/bin/docker-compose;
 
 echo "";
 echo "Running ./install.sh for Kasm :D";
-bash ./install.sh;
+sudo echo "y" | sudo bash ./install.sh;
                                                         
 if [[ ${?} -eq 0 ]];
 then
