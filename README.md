@@ -3,7 +3,7 @@
 <br>
 <img src="./images/ethical-hacking.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="600" height="360" />
 <br>
-<img src="./images/hero.jpg" alt="hero" title="hero" width="358" height="284" />
+<img src="./images/luke-skywalker.jpg" alt="hero" title="hero" width="600" height="480" />
 <br>
 <img src="./images/explosion.gif" alt="explosion" title="explosion" width="600" height="340" />
 <br>
@@ -275,6 +275,9 @@
 <h2>OMG! You ARE GONNA go on a RAMPAGE!! :D</h2>
 <img src="./images/rouge-vader-2.gif" alt="Rogue One Vader-2" title="Rouge One Vader-2" width="720" height="300" />
 <img src="./images/rogue-vader-3.gif" alt="Rogue One Vader-3" title="Rogue One Vader-3" width="720" height="300" />
+<img src="./images/luke-hallway-0.gif" alt="Luke0" width="720" height="470" />
+<img src="./images/luke-hallway-1.gif" alt="Luke" width="720" height="400" />
+
 <br>
 <h1>2. The Kings of DDoS (top 3)</h1>
 <h1>i. JMeter (dockerized)</h1>
