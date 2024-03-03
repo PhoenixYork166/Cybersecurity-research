@@ -19,8 +19,12 @@
 <br>
 <h1>Disclaimer</h1>
 <br>
-<h1>As dev & infra & cybersecurity teams always question whether I do have a mentor</h1>
-<h1>Yes, I do have a mentor, my forever cybersecurity mentor is Jimmy Gor</h1>
+<h1>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h1>
+<h1>Yes, I do have a mentor, my forever Cybersecurity mentor is Jimmy Gor</h1>
+<br>
+<h1>If you think I do have a very high technical level<h1>
+<h1>You're just too naive that you do NOT know those who do have much higher technical level...</h1>
+<h1>Those I will unlikely & hopefully barely reach...</h1>
 <br>
 <h1>If you have an honour to work with my mentor, you will get to know the only person who does know Cybersecurity, OS, Networking, Orchestration and DevOps in-depth...</h1>
 <h1>I love Jimmy gor</h1>
