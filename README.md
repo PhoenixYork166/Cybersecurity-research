@@ -19,6 +19,12 @@
 <br>
 <h1>Disclaimer</h1>
 <br>
+<h1>As dev & infra & cybersecurity teams always question whether I do have a mentor</h1>
+<h1>Yes, I do have a mentor, my forever cybersecurity mentor is Jimmy Gor</h1>
+<h1>I love Jimmy gor</h1>
+<br>
+<h1>Jimmy gor is one of the nicest person on earth who taught me everything :D</h1>
+<br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
 <h1>OSCP = Civil class Penetration Testing</h1>
