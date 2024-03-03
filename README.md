@@ -20,19 +20,14 @@
 <h1>Disclaimer</h1>
 <br>
 <h1>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h1>
-<h1>Yes, I do have a mentor, my forever Cybersecurity mentor is Jimmy Gor</h1>
+<h1>Yes, I do have a mentor, my forever Cybersecurity mentor, my knowledge does come from my sifu :D</h1>
 <br>
 <h1>If you think I do have a very high technical level<h1>
-<h1>You're just too naive that you do NOT know those who do have much higher technical level in IGS</h1>
+<h1>You're just too naive that you do NOT know those like my sifu who do have much higher technical level in IGS</h1>
 <h1>Those I will unlikely & hopefully barely reach...</h1>
 <br>
-<br>
-<h1>I love Jimmy gor</h1>
-<br>
-<h1>Jimmy gor is one of the nicest person on earth who taught me everything about Cybersecurity compliance :D</h1>
-<br>
 <h1>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h1>
-<h1>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer</h1>
+<h1>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer :D</h1>
 <br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
