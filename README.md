@@ -23,10 +23,12 @@
 <h1>Yes, I do have a mentor, my forever Cybersecurity mentor is Jimmy Gor</h1>
 <br>
 <h1>If you think I do have a very high technical level<h1>
-<h1>You're just too naive that you do NOT know those who do have much higher technical level...</h1>
+<h1>You're just too naive that you do NOT know those who do have much higher technical level in IGS</h1>
 <h1>Those I will unlikely & hopefully barely reach...</h1>
 <br>
-<h1>If you have an honour to work with my mentor, you will get to know the only person who does know Cybersecurity, OS, Networking, Orchestration and DevOps in-depth...</h1>
+<h1>You won't know who we are & our background ;)</h1>
+<h1>However, we do know everything of you ;)</h1>
+<br>
 <h1>I love Jimmy gor</h1>
 <br>
 <h1>Jimmy gor is one of the nicest person on earth who taught me everything :D</h1>
