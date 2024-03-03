@@ -29,7 +29,7 @@
 <br>
 <h1>I love Jimmy gor</h1>
 <br>
-<h1>Jimmy gor is one of the nicest person on earth who taught me everything :D</h1>
+<h1>Jimmy gor is one of the nicest person on earth who taught me everything about Cybersecurity compliance :D</h1>
 <br>
 <h1>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h1>
 <h1>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer</h1>
