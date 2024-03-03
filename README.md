@@ -26,15 +26,13 @@
 <h1>You're just too naive that you do NOT know those who do have much higher technical level in IGS</h1>
 <h1>Those I will unlikely & hopefully barely reach...</h1>
 <br>
-<h1>You won't know who we are & our background ;)</h1>
-<h1>However, we do know everything of you ;)</h1>
 <br>
 <h1>I love Jimmy gor</h1>
 <br>
 <h1>Jimmy gor is one of the nicest person on earth who taught me everything :D</h1>
 <br>
-<h1>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a developer</h1>
-<h1>You MUST be good at both Programming and Networking to be a "Decent" Developer, then if you wish become a good Cybersecurity guy...</h1>
+<h1>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h1>
+<h1>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer</h1>
 <br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
