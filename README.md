@@ -32,7 +32,7 @@
 <h1>Jimmy gor is one of the nicest person on earth who taught me everything :D</h1>
 <br>
 <h1>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a developer</h1>
-<h1>You MUST be good at both Programming and Networking to be a "Decent" Ethical Hacker...</h1>
+<h1>You MUST be good at both Programming and Networking to be a "Decent" Developer, then if you wish become a good Cybersecurity guy...</h1>
 <br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
