@@ -21,6 +21,7 @@
 <br>
 <h1>As dev & infra & cybersecurity teams always question whether I do have a mentor</h1>
 <h1>Yes, I do have a mentor, my forever cybersecurity mentor is Jimmy Gor</h1>
+<br>
 <h1>I love Jimmy gor</h1>
 <br>
 <h1>Jimmy gor is one of the nicest person on earth who taught me everything :D</h1>
