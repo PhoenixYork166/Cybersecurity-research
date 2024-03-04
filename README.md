@@ -22,6 +22,8 @@
 <h1>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h1>
 <h1>Yes, I do have a mentor, my mentor trained me to be a good IT user :D</h1>
 <br>
+<h1>My teacher has trained me to use a Green lightsaber :D</h1>
+<br>
 <h1>If you think I am a very good IT user, just go thank Alan Turin :D</h1>
 <h1>Professor Turin created what I use everyday :D</h1>
 <br>

