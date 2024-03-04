@@ -1,12 +1,13 @@
+# Let's Rock :D
+import multiprocessing
+import os
+
 def print_cube(num):
     print(f'Cube: {num * num * num}')
     
 def print_square(num):
     print(f'Square: {num * num}')
     
-# Let's Rock :D
-import multiprocessing
-
 def main():
     my_cpu = multiprocessing.cpu_count()
 
@@ -30,8 +31,15 @@ def main():
 
     # Wait for p2 to complete
     p2.join()
+    
+    # To check whether p1 is still alive
+    print(f'p1.is_alive(): {p1.is_alive()}')
+    
+    # To check whether p2 is still alive
+    print(f'p2.is_alive(): {p2.is_alive()}')
 
 # Fucking Windows needs to confirm this is the main script 
 # and NOT a module...
 if __name__ == '__main__':
     main()
+    
