@@ -35,6 +35,8 @@
 <h1>OSCP = Civil class Penetration Testing</h1>
 <h1>This repo = National class Cyber Warfare</h1>
 <br>
+<h1>Best option to-date to protect ourselves from Cyber attacks = Do not use a computer/mobile phone ;)</h1>
+<br>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
 <br>
 <h1>This repository is a medium of collaboratively public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
