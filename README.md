@@ -20,12 +20,12 @@
 <h1>Disclaimer</h1>
 <br>
 <h1>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h1>
-<h1>Yes, I do have a mentor, my mentor trained me to be a good IT user :D</h1>
+<h1>Yes, I do have a mentor, my forever mentor (sifu) is Jimmy Gor, who trained me to be a good IT user :D</h1>
 <br>
-<h1>My teacher has trained me to use a Green lightsaber :D</h1>
+<h1>My mentor has trained me to use a Green lightsaber (Wisdom, Peace) :D</h1>
 <br>
-<h1>If you think I am a very good IT user, just go thank Alan Turin :D</h1>
-<h1>Professor Turin created what I use everyday :D</h1>
+<h1>If you think I am a very good IT user, just go thank Jimmy Gor (my mentor) & Alan Turin :D</h1>
+<h1>Professor Turin created what we use everyday :D</h1>
 <br>
 <h1>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h1>
 <h1>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer :D</h1>
