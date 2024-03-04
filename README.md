@@ -19,18 +19,18 @@
 <br>
 <h1>Disclaimer</h1>
 <br>
-<h2>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h2>
-<h2>Yes, I do have a mentor, my forever mentor (sifu) is Jimmy Gor, who trained me to be a good IT user :D</h2>
+<h3>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h3>
+<h3>Yes, I do have a mentor, my forever mentor (sifu) is Jimmy Gor, who trained me to be a good IT user :D</h3>
 <br>
-<h2>My mentor has trained me to use a Green lightsaber (Wisdom, Peace) :D</h2>
+<h3>My mentor has trained me to use a Green lightsaber (Wisdom, Peace) for good :D</h3>
 <br>
-<h2>If you think I am a very good IT user, just go thank Jimmy Gor (my mentor) & Alan Turin :D</h2>
-<h2>Professor Turin created what we use everyday :D</h2>
+<h3>If you think I am a very good IT user, just go thank Jimmy Gor (my mentor) & Alan Turin :D</h3>
+<h3>Besides, Professor Turin created what we use everyday :D</h3>
 <br>
-<h2>Besides, developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h2>
-<h2>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer :D</h2>
+<h3>Developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h3>
+<h3>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer :D</h3>
 <br>
-<h2>Yet, cuz I consider myself a good IT user, I only need to be good at switching my computers on ;)</h2>
+<h3>Yet, cuz I just consider myself a good IT user, I only need to be good at switching on my computers on ;)</h3>
 <br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
@@ -273,6 +273,7 @@
 <img src="./images/v-my-turn.gif" alt="my-turn" title="my-turn" width="720" height="405" />
 <br>
 <h1>If you have a Programming background</h1>
+<br>
 <h2>Get Containers (Docker/LXC/LXD) </h2>
 <img src="./images/containers.jpg" alt="Containers" title="Containers" width="500" height="270" />
 <br>
@@ -313,15 +314,18 @@
 <br>
 <h2>wireShark = Capstone to allow us further engineer our Fire-superiority & exceed our Cyber Arms' limitations everyday :D</h2>
 <br>
-<h2>All Traffic (TCP/IP + HTTP) interception</h2>
-<h2>wireShark comes in extremely handy upon our Man-in-the-middle attacks :D</h2>
-<h2>All of our spoofed/poisoned Victims' network connections are totally exposed to us as Black Hats :D</h2>
-<h2>We know what every victim is doing, browsing, websites + SMTP servers + SQL login by following their TCP/HTTP Streams :D</h2>
+<h1>If wireShark is used maliciously</h1>
+<h2>wireShark comes in extremely handy upon our Man-in-the-middle attacks (Bettercap/Ettercap) :D</h2>
+<h2>All of our ARP spoofed/poisoned Victims' network connections are totally exposed to us as Black Hats :D</h2>
+<h2>We know what every victim is doing, browsing, their insecure logins (without TLSv1.2) for websites + SMTP servers + SQL by following their TCP/HTTP Streams :D</h2>
 <h2>wireShark is just one of the best Cyber Arms ever :D</h2>
 <br>
-<h2>i. Backdoor Server + Backdoor Client connections => TCP/IP streams</h2>
-<h2>ii. Man-in-the-middle attacks detection</h2>
-<h2>iii. Arp Spoofing (Duplicated MAC Adddress) detection</h2>
+<h1>Using wireShark for good</h1>
+<h2>Good guys also use Ettercap to do man-in-the-middle for spoofing suspicious targets to allow tracing of bad guys ;)</h2>
+<h2>Arp poisoned suspicious targets => wireShark => choose a NIC => filter: ip.addr == pok guys' IP => follow TCP streams</h2>
+<h2>i. Tracing Backdoor Server + Backdoor Client connections</h2>
+<h2>ii. Arp spoofing attacks indicated by duplicated MAC address for the same IP in use</h2>
+<h2>iii. Broadcast Address attacks (Arp + DHCP spoofing) detections</h2>
 <h2>iv. ICMPv4 Flood detection</h2>
 <h2>v. TCP SYN ACK Flood detection</h2>
 <br>
@@ -353,6 +357,8 @@
 ![Fileless Hacking3](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
 ## PowerShell Fileless Attacks
 ## It allows you to put over a bunch of Malware using MC bypass leveraging memory execution without leaving any tracks behind on a Windows OS
+#
+## Bullseye to hack modern Windows based OS when combined with cmd.exe / .bat to leverage powershell.exe -windowStyle hidden -command "powerShellLine1; powerShellLine2;"
 ## 
 ## Intro - PowerShell Fileless Malware
 ## https://www.youtube.com/watch?v=RFGlilkI1Qg
@@ -373,14 +379,16 @@
 ## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
 ##
 ## *** Sneaky Combined Arms ***
-## SSH Tunnelling + ./advanced-Backdoor
-## No one on Earth (Intrusion Detection Systems) can trace the network traffic happen between Backdoor Server & Backdoor Client, especially traffic derived from downloading/uploading large numbers of files from/to Victims ;)
+## ./advanced-Backdoor launched in a SSH tunnel
+## No one on Earth (Intrusion Detection Systems) can trace the network traffic happen between your Backdoor Server & victims' Backdoor Client happens within a SSH tunnel, especially traffic derived from downloading/uploading large numbers of files from/to Victims are perceived as normal HTTPS traffic ;)
 ##
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
 ##
 # 5. Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
+##
+## Bullseye for hacking modern Linux based systems especially those web servers allowing users to upload files without regexp validations ;)
 ##
 ## Since 202x, Python3.4 to Python3.9 are inbuilt runtime for many Linux based OS e.g. CentOS stream9, Debian 12, RedHat Linux etc.
 ##
@@ -413,7 +421,8 @@
 ## Purpose of multiprocessing: Slightly enhance Python slow performance...Not so useful...
 ![Python Multi-processing](https://i.ytimg.com/vi/CRJOQtaRT_8/sddefault.jpg)
 ![Python Multi-processing](https://miro.medium.com/v2/resize:fit:1400/1*3UHj7DLOsHLIdt2YiOoZ3w.gif)
-## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes)
+## This serves as another Multiplexer to run your malicious scripts in parallel processes (asynchronous processes) to overcome Python very slow performance...
+##
 ## Multi-processing != Multi-threaded
 #
 # 8. Python multi-processing
