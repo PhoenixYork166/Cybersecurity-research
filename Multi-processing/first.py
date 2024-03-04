@@ -2,12 +2,17 @@
 import multiprocessing
 import os
 
+
 def print_cube(num):
+    print(f'os.getpid(): {os.getpid()}')
     print(f'Cube: {num * num * num}')
+
     
 def print_square(num):
+    print(f'os.getpid(): {os.getpid()}')
     print(f'Square: {num * num}')
     
+
 def main():
     my_cpu = multiprocessing.cpu_count()
 
