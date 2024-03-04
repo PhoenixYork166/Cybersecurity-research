@@ -15,6 +15,7 @@ def print_square(num):
     print(f'os.getpid(): {os.getpid()}')
     print(f'Square: {num * num}')
     
+
 def main():
     # Counting all useable CPU
     my_cpu = multiprocessing.cpu_count()
@@ -68,6 +69,7 @@ def main():
     for i, process in enumerate(processes):
         print(f'Process i is alive?\n{ p.is_alive()}')
         
+
 if __name__ == '__main__':
     main()
     
