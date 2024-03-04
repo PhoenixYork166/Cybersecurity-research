@@ -30,7 +30,7 @@
 <h3>Developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h3>
 <h3>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer :D</h3>
 <br>
-<h3>Yet, cuz I just consider myself a good IT user, I only need to be good at switching on my computers on ;)</h3>
+<h3>Yet, cuz I just consider myself a good IT user, I only need to be good at switching on my computers ;)</h3>
 <br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
