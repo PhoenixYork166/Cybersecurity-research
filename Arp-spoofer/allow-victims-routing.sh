@@ -16,5 +16,11 @@ then
 else
     echo "";
     echo "Done :D";
+    echo "Your victims won't know you're hacking them :D";
+    echo "";
+    echo "Cuz you allow their traffic to go through your machine :D";
+    echo "";
+    echo "Your victims will be allowed to use the network :D";
+    echo "";
     exit 0;
 fi
