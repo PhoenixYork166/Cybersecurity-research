@@ -583,7 +583,8 @@
 ## Reside the only .exe to your targets
 ## Gain persistency using Windows Registry keys in your python code
 
-<img src="./images/regedit.png" alt="regedit" width="660" height="400" />
+<img src="./images/malware-registry-path.png" alt="regedit" width="910" height="280" />
+<img src="./images/malware-registry-path-2.png" alt="regedit" width="920" height="860" />
 
 ##
 ## SSH Tunneling Hands-on Tutorial 1
