@@ -315,6 +315,8 @@
 <h2>wireShark = Capstone to allow us further engineer our Fire-superiority & exceed our Cyber Arms' limitations everyday :D</h2>
 <br>
 <h2>We can capture network traffic as .pcapng files & use USArmy Dshell to decode the captured traffic using a variety of dshell decoders :D</h2>
+<h2>US Army Dshell project:</h2>
+<h2>https://github.com/USArmyResearchLab/Dshell</h2>
 <br>
 <h2>See ./Dshell/Dshell guide.docx for user guide :D</h2>
 <br>
