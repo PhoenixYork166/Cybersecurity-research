@@ -322,6 +322,7 @@
 <br>
 <h2>Everyone can be Alan Turing :D</h2>
 <h2>Alan Turin</h2>
+<img src="./images/Alan-Turing.jpg" alt="Alan Turing" width="800" height="450" />
 <h2>https://www.youtube.com/watch?v=owSoB4s9el8</h2>
 <br>
 <h1>If wireShark is used maliciously</h1>
