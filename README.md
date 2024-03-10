@@ -1,4 +1,6 @@
 # Penetration Testing
+## Radio silence: This repo has been archived and no longer updates ;)
+
 # [Cyber Warfare & Defenses Research & Development]
 <br>
 <img src="./images/ethical-hacking.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="600" height="360" />
