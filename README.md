@@ -788,11 +788,11 @@
 <br>
 <h2>Layer 2 DDoS (ARP spoof Flood): failed</h2>
 <br>
-<h1>Official record of Maximum Sessions available for DDoS: 200 concurrent sessions</h1>
+<h1>Official record of Maximum Terminal Sessions available for DDoS: 1000 concurrent sessions of terminals</h1>
 <br>
 <h1>Official record of Maximum Concurrency for JMeter: 500k concurrency</h1>
 <br>
-<h1>Officially tested best SystemInfo for a DDoS Docker container/Kali VM: 8 CPU & 4GB RAM</h1>
+<h1>Officially tested best SystemInfo for a single unit of DDoS Kali Docker container/Kali VM: 8 CPU & 4GB RAM</h1>
 <br>
 <h1>Where are we heading to?</h1>
 
@@ -801,7 +801,7 @@
 # While Sneaky MSF venoms & Fileless hacking using By-pass are the most effective Social Engineering attacks against personnel
 #
 # Direction
-## No one knows, this PoC was initiated in a completely unknow state...but completed successfully ;)
+## No one knows, this PoC was initiated in a completely unknown state...but completed successfully ;)
 ##
 ## We might be developing Wireguard VPN + hosting a PoC only Backdoor Server somewhere safe to simulate Ransomware + Backdoor attacks & record the entire process?
 ##
@@ -813,15 +813,15 @@
 #
 ## Hacking ground:
 ## Previously: On-prem Bare Metal
-## Future: Unknown
+## Future: Unknown Cloud?🤔
 ##
 ## Network programming:
 ## Rapid Prototyping: Python Scapy
-## Future Implementation: Unknown programming language(s)
+## Future Implementation: Unknown programming language(s) Golang?🤔
 ##
 ## Virtualization:
 ## Previously: Kali VM + Docker-compose in ESXi
-## Future: Docker-compose + Terraform + Ansible?
+## Future: Docker-compose + Terraform + Ansible?🤔
 ##
 ## Target DDoS sessions: Unknown
 ## Target DDoS concurrency: Unknown
