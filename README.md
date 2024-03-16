@@ -21,6 +21,10 @@
 <br>
 <h1>Disclaimer</h1>
 <br>
+<h3>Learning Ethical Hacking does NOT necessarily mean that I have to become a Professional Ethical Hacker :D</h3>
+<h3>Knowledge is FREE, what you do define who you are :D</h3>
+<h3>If you do think you can stop me from learning hacking, let's see ;)</h3>
+<br>
 <h3>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h3>
 <h3>Yes, I do have a mentor, my forever mentor (sifu) is Jimmy Gor, who trained me to be a good IT user :D</h3>
 <br>
