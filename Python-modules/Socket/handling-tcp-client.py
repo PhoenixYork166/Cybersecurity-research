@@ -32,12 +32,15 @@ def main():
             # Printing decoded ASCII bytes in response
             print(f'Response:\n\n{response.decode()}')
 
+    # Handling socket gai error
     except socket.gaierror as e:
         print(f'Hostname could not be resolved:\n{e}')
 
+    # Handling socket error
     except socket.error as e:
         print(f'Socket error:\n{e}')
 
+    # Handling Exception error
     except Exception as e:
         print(f'An unknown error occurred:\n{e}')
     
