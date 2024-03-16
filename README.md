@@ -20,9 +20,14 @@
 <img src="./images/atomic-blonde-2.gif" alt="atomic blonde2" title="atomic blonde2" width="540" height="260" />
 <br>
 <h1>Disclaimer</h1>
+<h2>Best way to learn something as complex as Ethical Hacking</h2>
+<h2>Is to teach others how to hack ;)</h2>
 <br>
-<h3>Learning Ethical Hacking does NOT necessarily mean that I have to become a Professional Ethical Hacker :D</h3>
-<h3>Knowledge is FREE, what you do define who you are :D</h3>
+<h3>Learning Ethical Hacking does NOT necessarily mean that I have to become a Professional Ethical Hacker ;)</h3>
+<h3>Knowledge is FREE, we do NOT forgive, we do NOT forget</h3>
+<h3>WE ARE ANONYMOUS :D</h3>
+<br>
+<h3>What you do define Who you are ;)</h3>
 <h3>If you do think you can stop me from learning hacking, let's see ;)</h3>
 <br>
 <h3>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h3>
