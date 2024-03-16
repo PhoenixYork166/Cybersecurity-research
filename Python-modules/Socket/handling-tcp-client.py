@@ -32,7 +32,7 @@ def main():
             # Printing decoded ASCII bytes in response
             print(f'Response:\n\n{response.decode()}')
 
-    # Handling socket gai error
+    # Handling socket get address info (gai) error related to DNS resolution ;)
     except socket.gaierror as e:
         print(f'Hostname could not be resolved:\n{e}')
 
