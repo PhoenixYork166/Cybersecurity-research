@@ -27,8 +27,7 @@
 <br>
 <h3>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h3>
 <h3>Yes, I do have a mentor, my forever mentor (sifu) is Jimmy Gor, who trained me to be a good IT user :D</h3>
-<br>
-<h3>My mentor has trained me to use a Green lightsaber (Wisdom, Peace) for good :D</h3>
+<img src='./images/sifu.jpeg' alt='god-finger' width='600' height='340' />
 <br>
 <h3>If you think I am a very good IT user, just go thank Jimmy Gor (my mentor) & Alan Turin :D</h3>
 <h3>Besides, Professor Turin created what we use everyday :D</h3>
