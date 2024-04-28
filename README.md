@@ -37,8 +37,8 @@
 <h3>If you think I am a very good IT user, just go thank Jimmy Gor (my mentor) & Alan Turin :D</h3>
 <h3>Besides, Professor Turin created what we use everyday :D</h3>
 <br>
-<h3>Developers must NOT argue that you do NOT need to know Networking & OS as a cybersecurity developer</h3>
-<h3>You MUST be good at both Programming and Networking to be a "Decent" Cybersecurity Developer :D</h3>
+<h3>Developers must NOT argue that you do NOT need to know Networking & OS as a DevOps/Cybersecurity developer</h3>
+<h3>You MUST be good at both Programming and Networking to be a "Decent" DevOps/Cybersecurity Developer :D</h3>
 <br>
 <h3>Yet, cuz I just consider myself a good IT user, I only need to be good at switching on my computers ;)</h3>
 <br>
@@ -299,10 +299,9 @@
 <br>
 <h1>If you have both Networking & Programming background...</h1>
 <h2>OMG! You ARE GONNA go on a RAMPAGE!! :D</h2>
-<img src="./images/rouge-vader-2.gif" alt="Rogue One Vader-2" title="Rouge One Vader-2" width="720" height="300" />
-<img src="./images/rogue-vader-3.gif" alt="Rogue One Vader-3" title="Rogue One Vader-3" width="720" height="300" />
-<img src="./images/luke-hallway-0.gif" alt="Luke0" width="720" height="470" />
-<img src="./images/luke-hallway-1.gif" alt="Luke" width="720" height="400" />
+<img src="./images/luke-hallway-0.gif" alt="Luke gor" width="720" height="470" />
+<img src="./images/luke-hallway-1.gif" alt="Luke gor" width="720" height="400" />
+<img src="./images/luke-hallway-2.gif" alt="Luke gor" width="720" height="400" />
 
 <br>
 <h1>2. The Kings of DDoS (top 3)</h1>
