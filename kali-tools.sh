@@ -1,8 +1,6 @@
 #!/bin/bash
-
 # Ensure script runner = ROOT
 rootID='0';
-
 if [[ ${UID} -eq ${rootID} ]];
 then 
     # Checking internet access
@@ -15,7 +13,6 @@ then
         echo "Cannot confirm internet connectivity :(";
         echo "Will attempt to install tools, but likely to fail...";
     fi
-
     # Create /home/root
     user=$(whoami);
     mkdir /home/${user};
@@ -25,7 +22,6 @@ then
     else
         echo "Failed to create /home/${user}";
     fi
-
     # Create /home/root/Desktop
     mkdir /home/${user}/Desktop;
     if [[ ${?} -eq 0 ]];
@@ -34,7 +30,6 @@ then
     else
         echo "Failed to create /home/${user}/Desktop";
     fi
-
     # Create /home/root/Downloads
     mkdir /home/${user}/Downloads;
     if [[ ${?} -eq 0 ]];
@@ -43,7 +38,6 @@ then
     else
         echo "Failed to create /home/${user}/Downloads";
     fi
-
     echo "Changing Kernel settings to disable Restart pop-ip in /etc/needrestart/needrestart.conf";
     echo "To avoid Daemons Restart pop-up during Open-source attack tools installation";
     restartConf='/etc/needrestart/needrestart.conf';
@@ -63,16 +57,13 @@ then
         echo "You may need to manually TAB => OK during installation...";
         echo "";
     fi
-
     echo "Continuing to Install Open-source hacking tools :D!";
     echo "";
     echo "======================================";
     echo "======================================";
     echo "";
-
     # APT update
     apt-get update;
-
     # Start installing tones of customized hacking tools
     ## ifconfig must be added to sys variables
     # net-tools (ifconfig)
@@ -98,39 +89,11 @@ then
     # msfconsole
     tools=('net-tools'
             'netcat-traditional'
-            'iputils-ping'
             'inetutils-tools'
             'inetutils-ping'
             'tcpdump'
-            'kaboxer'
-            'xdg-utils'
             'vim'
-            'libc6'
-            'libgcc-s1'
-            'libstdc++6'
-            'aesfix'
-            'aeskeyfind'
-            'libafflib0v5'
-            'libc6'
-            'libexpat1'
-            'libfuse2'
-            'libgcc-s1'
-            'libssl3'
-            'libstdc++6'
-            'afflib-tools'
-            'libafflib0v5'
-            'libafflib-dev'
             'build-essential'
-            'clang'
-            'clang-14'
-            'libc6'
-            'libgcc-s1'
-            'libpython3.11'
-            'libstdc++6'
-            'procps'
-            'afl++'
-            'afl++-doc'
-            'graphviz'
             'python3'
             'aircrack-ng'
             'gawk'
@@ -142,7 +105,6 @@ then
             'xterm'
             'perl'
             'apktool'
-            'kali-defaults'
             'python3-selenium'
             'python3-scapy'
             'python3-jedi'
@@ -156,65 +118,17 @@ then
             'python3-prettytable'
             'python3-pycryptodome'
             'python3-requests'
-            'apple-bleee'
             'python3-dicttoxml'
             'python3-requests'
-            'arjun'
-            'openjdk-11-jre'
-            'libc6'
-            'libcap2'
-            'libpcap0.8'
-            'arp-scan'
-            'libnet1'
-            'libpcap0.8'
-            'libseccomp2'
             'arping'
             'adduser'
             'gawk'
-            'init-system-helpers'
-            'libc6'
-            'libpcap0.8'
-            'lsb-base'
-            'arpwatch'
-            'libpcap0.8'
-            'asleap'
-            'assetfinder'
-            'libreadline8'
             'nmap'
             'arp-scan'
-            'autopsy'
             'curl'
             'lsof'
-            'beef-xss'
-            'hostapd-mana'
-            'iproute2'
-            'iw'
-            'procps'
-            'libc6'
-            'libusb-1.0-0'
-            'libnetfilter-queue1'
-            'libpcap0.8'
-            'bettercap'
-            'bettercap-caplets'
-            'bettercap-ui'
             'wget'
-            'golang-github-antchfx-htmlquery-dev'
-            'golang-github-jawher-mow.cli-dev'
-            'golang-github-saintfish-chardet-dev'
-            'golang-google-appengine-dev'
-            'golang-github-antchfx-xmlquery-dev'
-            'golang-github-kennygrant-sanitize-dev'
-            'golang-github-temoto-robotstxt-dev'
-            'golang-github-gobwas-glob-dev'
-            'golang-github-puerkitobio-goquery-dev'
-            'golang-golang-x-net-dev'
-            'golang-github-gocolly-colly-dev'
             'unicorn-magic'
-            'libwireshark17'
-            'libwiretap-dev'
-            'libwsutil-dev'
-            'libwireshark-dev'
-            'bundler'
             'hping3'
             'httprobe'
             'httpx-toolkit'
@@ -229,9 +143,6 @@ then
             'unzip'
             'veil'
             'whatmask'
-            'ruby-interpreter'
-            'uby-addressable'
-            'ruby-ipaddress'
             'whatweb'
             'whois'
             'screen'
@@ -241,28 +152,11 @@ then
             'netmask'
             'netsed'
             'debconf'
-            'liblz4-1'
-            'libnl-genl-3-200'
-            'liblzo2-2'
-            'libpam0g'
-            'libcap-ng0'
-            'libnl-3-200'
-            'libpkcs11-helper1'
             'openvpn'
             'ettercap-graphical'
-            'libnfc6'
-            'libnfc-bin'
             'forensic-artifacts'
             'python3-artifacts'
             'rtpflood'
-            'ruby-multipart-post'
-            'ruby-awesome-print'
-            'ruby-iostruct'
-            'ruby-zhexdump'
-            'ruby-pedump'
-            'libdevmapper-event1.02.1'
-            'liblvm2cmd2.03'
-            'libdevmapper1.02.1'
             'dmeventd'
             'rainbowcrack'
             'iproute2'
@@ -333,7 +227,6 @@ then
             'ca-certificates' 
             'openssl' 
     );
-
     # Iterate through $tools[@] && Install each tool
     for tool in ${tools[@]};
     do
@@ -348,7 +241,6 @@ then
             echo "======================================";
             echo "======================================";
             echo "";
-
         else
             echo "======================================";
             echo "";
@@ -360,7 +252,6 @@ then
             echo "";
         fi
     done
-
     if [[ ${?} -eq 0 ]];
     then
         echo "Succeeded in installing all tools";
@@ -371,7 +262,6 @@ then
         echo "Exiting with 1...";
         exit 1;
     fi
-
 else
     echo "You aren't ROOT :(";
     echo "Exiting with 1...";
