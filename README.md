@@ -30,17 +30,7 @@
 <h3>What you do define Who you are ;)</h3>
 <h3>If you do think you can stop me from learning hacking, let's see ;)</h3>
 <br>
-<h3>As Dev & Infra & Cybersecurity teams always question whether I do have a mentor & where my knowledge comes from</h3>
-<h3>Yes, I do have a mentor, my forever mentor (sifu) is Jimmy Gor, who trained me to be a good IT user :D</h3>
-<img src='./images/sifu.jpeg' alt='god-finger' width='600' height='340' />
-<br>
-<h3>If you think I am a very good IT user, just go thank Jimmy Gor (my mentor) & Alan Turin :D</h3>
 <h3>Besides, Professor Turin created what we use everyday :D</h3>
-<br>
-<h3>Developers must NOT argue that you do NOT need to know Networking & OS as a DevOps/Cybersecurity developer</h3>
-<h3>You MUST be good at both Programming and Networking to be a "Decent" DevOps/Cybersecurity Developer :D</h3>
-<br>
-<h3>Yet, cuz I just consider myself a good IT user, I only need to be good at switching on my computers ;)</h3>
 <br>
 <h1>This repository does NOT cover OSCP syllabus at all</h1>
 <h1>Please do NOT compare our technical level against OSCP</h1>
@@ -54,34 +44,6 @@
 <h1>This repository is a medium of collaboratively public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
 <br>
 <h2>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h2>
-<br>
-<h1>Audience: Everyone who uses Computers</h1>
-<br>
-<h1>Mindset Pre-requisites</h1>
-<br>
-<h2>Respect every life-being (Corpo-dog included)</h2>
-<br>
-<h2>Challenge yourself!</h2>
-<br>
-<h2>Try Harder! OffSec says<h2>
-<br>
-<h2>Rules are built to break ;) they say</h2> 
-<br>
-<h2>Challenge Authoritativeness :D It will be fun they say</h2> 
-<br>
-<h2>Challenge Information Technology they say</h2>
-<br>
-<h2>Challenge all working Artifacts they say</h2>
-<br>
-<h2>Challenge every non-living thing :D they say</h2>
-<br>
-<h1>If you're from MNC / Enterprise, please get off from this repository ASAP</h1>
-<img src="./images/corpo-dog.jpg" alt="corpo-dog" title="corpo-dog" width="900" height="900" />
-<img src="./images/no-corpo-dog.gif" alt="no-corpo-dog" title="no-corpo-dog" width="500" height="280" />
-<br>
-<p>Your supervisors are gonna trace the websites you browsed through a proxy ;) I say</p>
-<p>80% of Enterprise so called Technical Managers have no wisdom in configuring their SIEMs well ;) (Splunk/Azure Sentinels) I say</p>
-<br>
 <h1>Recommended Networking Knowledge</h1>
 <br>
 <h1>1. Either TCP/IP Illustrated/CCNP</h1>
@@ -121,11 +83,7 @@
 <br>
 <h2>Contributors of 1st PoC:<h2>
 <img src="./images/IGS.png" alt="IGS" title="IGS" width="1000" height="600" />
-<h2>IGS Cybersecurity (& Network) team, , IGS DevSecOps team, IGS Infra team (OS + Network), IGS Blue Team, IGS Red Team, Anonymous Developers behind the scenes</h2>
-<br>
-<h3>I'm working as an IT user (Mr. Nobody) or Amateur Technical Writter of a Web Application Firewall PoC in my company</h3>
-<br>
-<h3>I hereby announce that I am only the Integrator who do NOT personally own OR have any knowledge in crafting the involved Open-Source tools in any kinds e.g. grasp of essense/assets/cyber arms forging</h3>
+<h2>IGS Cybersecurity ( & Network) team, IGS Fullstack Dev team, IGS SRE team, IGS DevSecOps team, IGS Infra team, IGS Network team, IGS Cybersecurity Blue Team, IGS Cybersecurity Red Team, Anonymous Developers behind the scenes</h2>
 <br>
 <h4>I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process</h4>
 <br>
