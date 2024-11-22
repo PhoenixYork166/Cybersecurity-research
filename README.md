@@ -1,72 +1,16 @@
-# Penetration Testing
-## Radio silence: This repo has been archived and no longer updates ;)
-
-# [Cyber Warfare & Defenses Research & Development]
+<
+<h1>Penetration testing project backup</h1>
 <br>
 <img src="./images/ethical-hacking.jpg" alt="Ethical Hacking" title="Ethical Hacking" width="600" height="360" />
 <br>
-<img src="./images/luke-skywalker.jpg" alt="hero" title="hero" width="600" height="480" />
-<br>
-<img src="./images/explosion.gif" alt="explosion" title="explosion" width="600" height="340" />
-<br>
-<img src="./images/explosion-2.gif" alt="explosion2" title="explosion2" width="720" height="405" />
-<br>
-<img src="./images/avada-kedavra.png" alt="avada-kedavra" title="avada-kedavra" width="464" height="303" />
-<br>
-<h1>Let's Rock ;)</h1>
-<br>
-<img src="./images/atomic-blonde-1.gif" alt="atomic blonde" title="atomic blonde" width="500" height="206" />
-<br>
-<img src="./images/atomic-blonde-2.gif" alt="atomic blonde2" title="atomic blonde2" width="540" height="260" />
 <br>
 <h1>Disclaimer</h1>
-<h2>Best way to learn something as complex as Ethical Hacking</h2>
-<h2>Is to teach others how to hack ;)</h2>
-<br>
-<h3>Learning Ethical Hacking does NOT necessarily mean that I have to become a Professional Ethical Hacker ;)</h3>
-<h3>Knowledge is FREE, we do NOT forgive, we do NOT forget</h3>
-<h3>WE ARE ANONYMOUS :D</h3>
-<br>
-<h3>What you do define Who you are ;)</h3>
-<h3>If you do think you can stop me from learning hacking, let's see ;)</h3>
-<br>
-<h3>Besides, Professor Turin created what we use everyday :D</h3>
-<br>
-<h1>This repository does NOT cover OSCP syllabus at all</h1>
-<h1>Please do NOT compare our technical level against OSCP</h1>
-<h1>OSCP = Civil class Penetration Testing</h1>
-<h1>This repo = National class Cyber Warfare</h1>
-<br>
-<h1>Best option to-date to protect ourselves from Cyber attacks = Do not use a computer/mobile phone ;)</h1>
 <br>
 <h1>This repository does NOT encourage any forms of Malicious Activities OR Unethical Hacking against any person(s)/Group(s)/Insitution(s) or Government(s)</h1>
 <br>
 <h1>This repository is a medium of collaboratively public Learning, Research & Development on how to protect ourselves from modern Cyber Warfare.</h1>
 <br>
 <h2>Most importantly, we still do NOT have any practical approaches against fileless hacking discussed & explained herewith.</h2>
-<h1>Recommended Networking Knowledge</h1>
-<br>
-<h1>1. Either TCP/IP Illustrated/CCNP</h1>
-<h2>TCP/IP Illustrated vol.1</h2>
-<img src="./images/tcp-ip-vol1.jpg" alt="TCP/IP Illustrated vol.1" title="TCP/IP Illustrated vol.1" width="1000" height="1000" />
-<h2>http://www.r-5.org/files/books/computers/internals/net/Richard_Stevens-TCP-IP_Illustrated-EN.pdf</h2>
-<br>
-<h1>TCP/IP Illustrated vol.2 - The Implementation</h1>
-<img src="./images/tcp-ip-vol2.jpg" alt="TCP/IP Illustrated Vol.2" title="TCP/IP Illustrated Vol.2" width="800" height="1000" />
-<h2>https://www.redbooks.ibm.com/redbooks/pdfs/sg247897.pdf</h2>
-<br>
-<h1>TCP/IP Illustrated vol.3 - Sockets, API & Protocol Suite</h1>
-<img src="./images/tcp-ip-vol3.jpg" title="TCP/IP Illustrated Vol.3" alt="TCP/IP Illustrated Vol.3" width="806" height="1000" />
-<h2>https://doc.lagout.org/network/TCP-IP%20Illustrated%20Vol.3.pdf</h2>
-<br>
-<h1>OR</h1>
-<br>
-<h1>CCNP (Costly & NOT mandatory)</h1>
-<img src="./images/CCNP.png" alt="CCNP" title="CCNP" width="600" height="600" />
-<h3>Do NOT go for the Cert, go for the knowledge in it is more than enough :D</h3>
-<br>
-<h1>2. Recommended Network programming:</h1>
-<h3>Some RFC concepts</h3>
 <br>
 <h3>Python Scapy for Rapid prototyping</h3>
 <br>
@@ -77,18 +21,13 @@
 <h1>FREE knowledge</h1>
 <h3>https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf
 </h3>
-<br>
 <h1>The Purposes of this repo</h1>
-<h2>To demonstrate IGS also has alternative Cybersecurity :D</h2>
 <br>
 <h2>Contributors of 1st PoC:<h2>
 <img src="./images/IGS.png" alt="IGS" title="IGS" width="1000" height="600" />
 <h2>IGS Cybersecurity ( & Network) team, IGS Fullstack Dev team, IGS SRE team, IGS DevSecOps team, IGS Infra team, IGS Network team, IGS Cybersecurity Blue Team, IGS Cybersecurity Red Team, Anonymous Developers behind the scenes</h2>
 <br>
 <h4>I have formal permissions and associated priviledges to launch these attacks on the Web Application Firewall products provided by other IT vendor company during a Proof of Concepts process</h4>
-<br>
-<h4>If you're also undertaking such obligations to test a Web App Firewall, please enjoy the learning process! :D</h4>
-<h4>Cuz this experience is invaluable :D</h4>
 <br>
 <h1>A Web Application Firewall looks like:</h1>
 <img src="./images/waf.png" alt="Web App Firewall" title="Web App Firewall" width="1460" height="660" />
@@ -139,60 +78,7 @@
 <h1>i. Ansible Tower</h1>
 <img src="./images/ansible-tower.jpg" alt="Ansible Tower" width="400" height="300" />
 <br>
-<h2>Purposes of Ansible Tower:</h2>
-<img src="./images/death-star.gif" alt="death star" width="500" height="220" />
-<img src="./images/death-star-2.gif" alt="death star" width="460" height="200" />
-<h2>Attack Tools configuration automation</h2>
-<h2>Attack Tools automated integration</h2>
-<h2>Leveraging Full Fire-power of individual Kali VM through Bash Scripts</h2>
-<h2>Ansible Tower = our Botnet Death Star</h2>
-<br>
-<h1>ii. Terraform</h1>
-<img src="./images/terraform.jpg" alt="terraform" width="474" height="266"/>
-<br>
-<h2>Purposes of Terraform</h2>
-<img src="./images/rumbling.gif" alt="Rumbling" title="Rumbling" width="960" height="540" />
-<h2>High speed Hacking playground formation in a private network</h2>
-<h2>National class of Cyber Warfare Fire-superiority through Automated deployments of large numbers (thousands) of Kali VM using ISO images :D</h2>
-<h2>Automated Kali VM Repository updates upon spawning :D</h2>
-<h2>Automated Clustering of Victims' Web Apps Systems :D</h2>
-<h2>Automated Load Balancing configuration of Victims' Systems :D</h2>
-<h2>Automated deployment of Core Infrastructure e.g. DHCP, DNS, SSL cert registration of our Hacking playground :D</h2>
-<br>
-<h1>iii. Kasm</h1>
-<img src="./images/kasm.png" alt="Kasm" title="Kasm" width="1400" height="764" />
-<h2>Purposes of Kasm:</h2>
-<h2>Reduces Disk usage, CPU, RAM constraints :D</h2>
-<h2>Each standalone Kali VM serves as a single Turret :D</h2>
-<h2>Each Kasm platform holds 5-6 Kali containers :D</h2>
-<h2>Container streaming Desktop as a Service</h2>
-<br>
-<h2>User guide</h2>
-<h2>https://www.youtube.com/watch?v=EJ5TYZLvJ70</h2>
-<h2>https://www.youtube.com/watch?v=U5-oNbNEJYI</h2>
-<br>
-<h2>This is our Tertiary DDoS platform to launch multiple Docker Kali Linux</h2>
-<br>
-<h1>iv. Docker Compose</h1>
-<h2>If you prefer writing your own .yml :D</h2>
-<br>
-<img src="./images/docker-compose.png" alt="docker-compose" title="docker-compose" width="1000" height="691" />
-<br>
-<h2>With Ansible + Terraform + Kasm + Docker-compose, we have our absolute Fire-superiority :D</h2> 
-<br>
-<img src="./images/explosion.gif" alt="explosion" title="explosion" width="600" height="340" />
-<br>
-<h2>Usage</h2>
-<h2>I'm a lazy guy, I use bypass...</h2>
-<h2>I do NOT wanna write any .yml ;)</h2>
-<img src="./images/lazy.gif" alt="lazy" title="lazy" width="440" height="250" />
-<br>
-<h2>Fixing Kasm official open-source bugs...</h2>
-<h2>Kasm official download .tar.gz has an official bug in ./install.sh</h2>
-<h2>You MUST use ./Kasm/install-kasm.sh to get Kasm installed properly...</h2>
-<br>
-<br>
-<h1>Part 2 - Introducing the components of our powerful Cyber Arms :D</h1>
+<h1>Part 2 - Introducing the components of our powerful Cybersecurity tools</h1>
 <br>
 <h1>1. Kali Linux</h1> 
 <h2>https://www.kali.org/</h2>
@@ -200,7 +86,7 @@
 <br>
 <h2>Purpose of Kali Linux:</h2>
 <h2>Offensive Security Open-source software</h2>
-<h2>Recon, Cracking, SSL Stripping, Network Sniffing, Hacking IoT, Hacking everything with connections, Hacking the entire UDP + TCP/IP stacks etc.)</h2>
+<h2>Recon, Man-in-the-middle, Cracking, SSL Stripping, Network Sniffing</h2>
 <br>
 <br>
 <h2>Upon fresh installation of an ISO image on VMware</h2>
@@ -223,10 +109,6 @@
 <br>
 <h2>To automate Kali repository & Install Attack tools</h2>
 <h2>https://github.com/berlinlee-phoenix/Kali-Rebuild-Auto</h2>
-<br>
-<h2> There're NO boundaries between Networking & Development :D</h2>
-<br>
-<h2>We're gonnna be good at both ;)</h2>
 <br>
 <h1>If you have a Networking background</h1>
 <h2>Download => Virtual Machines</h2>
@@ -260,18 +142,7 @@
 <img src="./images/luke-hallway-0.gif" alt="Luke gor" width="720" height="470" />
 <img src="./images/luke-hallway-1.gif" alt="Luke gor" width="720" height="400" />
 <img src="./images/luke-hallway-2.gif" alt="Luke gor" width="720" height="400" />
-
-<br>
-<h1>2. The Kings of DDoS (top 3)</h1>
-<h1>i. JMeter (dockerized)</h1>
-<h2>https://github.com/alpine-docker/jmeter</h2>
-<h2>https://github.com/justb4/docker-jmeter</h2>
-<br>
-<h1>ii. HPing3 (dockerized)</h1>
-<h2>https://github.com/utkudarilmaz/docker-hping3</h2>
-<br>
-<h1>iii. Hydra</h1>
-<br>
+<br/>
 <h1>3. wireShark</h1>
 <img src="./images/wireShark.gif" alt="wireShark" width="720" height="540" />
 <img src="./images/wireShark.png" alt="wireShark2" width="720" height="462" />
@@ -317,59 +188,14 @@
 <br>
 <h2>For instance, we wanna do some Brute-forcing</h2>
 
-## 
-## Use Bash scripts in ./Brute-force
-## Install apt dependencies
-## chmod +x ./install.sh && bash install.sh;
-##
-# 4. Powershell Fileless hacking techniques
-## Purpose of PowerShell: 19 Microsoft Defender bypass, all layers Firewall bypass, Memory Dump, Windows Registry Dump
-## Purpose of PowerShell: PowerShell Execution Policy bypass, PS-Remoting bypass
-## Purpose of PowerShell: Ansible Artifactory code-screening bypass, , Building Botnets ;)
-## Purpose of PowerShell: SSH tunnelling through remote port forwarding, Malicious VPN connection, bring havoc on all Windows Users :D
-## Purpose of PowerShell: Automated SSH Tunnelling through remote port forwarding to bypass firewall & Opening closed ports on victims machines ;)
-## Purpose of PowerShell: Powerful Combined Arms with Metasploit & Bash for Cross-platform hacking ;)
-## Purpose of PowerShell Empire: Post exploitations for gaining a foothold on your victims
-##
-## Launching all these crazy stuff using PowerShell Fileless hacking techniques remotely on your victims :D
-![PS Fileless Malware](https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt9f8b6737244527b8/62c1881dc35371509809003d/get-clipboard-get-malware.gif)
-![PS Fileless Hacking1](https://www.trellix.com/en-us/img/security-awareness/fileless-attack-kill-chain.png)
-![PS Fileless Hacking2](https://miro.medium.com/v2/resize:fit:972/1*vYbmZjMmESabioz7qIrwhQ.png)
-![Fileless Hacking3](https://oversitesentry.com/wp-content/uploads/2022/05/filelessmalwareoversitesentry.png)
-## PowerShell Fileless Attacks
-## It allows you to put over a bunch of Malware using MC bypass leveraging memory execution without leaving any tracks behind on a Windows OS
-#
-## Bullseye to hack modern Windows based OS when combined with cmd.exe / .bat to leverage powershell.exe -windowStyle hidden -command "powerShellLine1; powerShellLine2;"
-## 
-## Intro - PowerShell Fileless Malware
-## https://www.youtube.com/watch?v=RFGlilkI1Qg
-##
-## Intro - PowerShell + VBA Fileless Malware
-## https://www.youtube.com/watch?v=-hhgiTP_fXQ
-## 
-## Short talks - PowerShell Fileless Malware
-## https://www.youtube.com/watch?v=BO0bVFZJmpg
-## 
-## https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT32ZiEWb2f9eMbpVjCX9Wd-uvMSWyK-snHWn1pQbKsyZiV-JiGn-dmnc73BpXqlJ0v3C0&usqp=CAU
-## https://www.youtube.com/watch?v=BFVzmZXIbQk
-## 
-## Long Tutorial - PowerShell Fileless Malware
-## https://www.youtube.com/watch?v=ChokX9P5tjM
-##
-## Fileless hacking through encrypted SSH Tunnels to encrypt all traffic happened in port 22 as if normal port 443 HTTPS traffic
-## Sending all payloads via encrypted SSH tunnels using similar techniques as PowerShell
-##
-## *** Sneaky Combined Arms ***
-## ./advanced-Backdoor launched in a SSH tunnel
-## No one on Earth (Intrusion Detection Systems) can trace the network traffic happen between your Backdoor Server & victims' Backdoor Client happens within a SSH tunnel, especially traffic derived from downloading/uploading large numbers of files from/to Victims are perceived as normal HTTPS traffic ;)
-##
+
 ![SSH Tunneling](https://toic.org/media/filer_public/2c/ce/2ccea4dc-0a3b-4d0e-b36e-8484ad6e6262/reverese-ssh4.png)
 ##
 # 5. Python
 ![Python](https://img-c.udemycdn.com/course/750x422/2722434_fd59_6.jpg)
 ![Malware](https://miro.medium.com/v2/resize:fit:1024/1*4JNE_7d_4fhj9ef9N07OEg.png)
 ##
-## Bullseye for hacking modern Linux based systems especially those web servers allowing users to upload files without regexp validations ;)
+## Bullseye for pentesting modern Linux based systems especially those web servers allowing users to upload files without regexp validations ;)
 ##
 ## Since 202x, Python3.4 to Python3.9 are inbuilt runtime for many Linux based OS e.g. CentOS stream9, Debian 12, RedHat Linux etc.
 ##
@@ -484,29 +310,7 @@
 ## 
 ## https://github.com/topics/php-webshell-backdoor
 ##
-# 13. Tons of Mr. Victim gors
-![暴打渣男檸檬茶](https://i.ytimg.com/vi/dMO8AY2tTiQ/maxresdefault.jpg)
-##
-## i. 19 Win10 gor Download
-## https://www.microsoft.com/en-hk/software-download/windows10
-##
-## ii. CentOS stream 9 gor Download
-## https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/
-##
-## iii. Debian 12 gor Download
-## https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.5.0-amd64-netinst.iso
-##
-##
-# Part 2 - Internet Attack on Titans
-![BGP](https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3184/images/yTC6GxXZS5CBS2JKntUj_Blog_Thumbnails.001.jpeg)
 
-<img src="./images/BGP-ddos.png" alt="BGP-ddos" width="640" height="360" >
-
-## See ./BGP-DoS/destroying the Internet.docx
-## Watch the youtube tutorial & understand all concepts
-## 
-# Part 3 - Private Network based attacks OSI Layer 2-4
-## We'll be using Python Scapy module for Network sniffing, packets manipulations, spoofing and so on ;)
 ![Python Scapy](https://scapy.readthedocs.io/en/latest/_images/animation-scapy-asyncsniffer.svg)
 # i. Network sniffing
 ## python3 ./Port-scanner/Python/port-scanner.py
